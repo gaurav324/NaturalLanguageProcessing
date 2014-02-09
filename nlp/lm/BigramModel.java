@@ -304,6 +304,27 @@ public class BigramModel {
         return sentenceLogProb;
     }
 
+    public List<Double> sentenceLogProbList (List<String> sentence) {
+        List<Double> probList = new ArrayList<Double>();
+
+        String prevToken = "<S>";
+        for (String token : sentence) {
+            DoubleValue unigramVal = unigramMap.get(token);
+            if (unigramVal == null) {
+                token = "<UNK>";
+                unigramVal = unigramMap.get(token);
+            }
+            String bigram = bigram(prevToken, token);
+            DoubleValue bigramVal = bigramMap.get(bigram);
+            double prob = interpolatedProb(unigramVal, bigramVal);
+            probList.add(prob);
+
+            prevToken = token;
+        }
+        return probList;
+    }
+
+
     /** Returns vector of probabilities of predicting each token in the sentence
      *  including the end of sentence */
     public double[] sentenceTokenProbs (List<String> sentence) {
@@ -402,12 +423,12 @@ public class BigramModel {
         model.train(trainSentences);
         
         // Test on training data using test and test2
-        model.test(trainSentences);
+        //model.test(trainSentences);
         model.test2(trainSentences);
         System.out.println("Testing...");
         
         // Test on test data using test and test2
-        model.test(testSentences);
+        //model.test(testSentences);
         model.test2(testSentences);
     }
 
