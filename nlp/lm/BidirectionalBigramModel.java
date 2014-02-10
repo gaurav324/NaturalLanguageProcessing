@@ -66,6 +66,7 @@ public class BidirectionalBigramModel {
         //List<Double> bigramProbs = bigramModel.sentenceLogProbList(sentence);
         //List<Double> backwardBigramProbs = backwardBigramModel.sentenceLogProbList(sentence);
 
+        //print("Sentence: " + sentence);
         double[] bigramProbs = bigramModel.sentenceTokenProbs(sentence);
 
         Collections.reverse(sentence);
@@ -74,7 +75,11 @@ public class BidirectionalBigramModel {
 
         double sentenceLogProb = 0;
         for (int i=0; i < bigramProbs.length; ++i) {
-            double interpolatedProb = Math.log(forwardRatio * bigramProbs[i] + backwardRatio * backwardBigramProbs[i]);
+            //print("Word: " + sentence.get(i));
+            //print("Forward Probability: " + bigramProbs[i]);
+            //print("Backward Probability: " + backwardBigramProbs[bigramProbs.length - i - 1]);
+            //print("Middle Probability: " + (forwardRatio * bigramProbs[i] + backwardRatio * backwardBigramProbs[bigramProbs.length - i - 1]));
+            double interpolatedProb = Math.log(forwardRatio * bigramProbs[i] + backwardRatio * backwardBigramProbs[bigramProbs.length - i - 1]);
             sentenceLogProb += interpolatedProb;
             //print(forwardRatio * bigramProbs.get(i) + backwardRatio * backwardBigramProbs.get(i));
             //double interPolatedProb = Math.log(forwardRatio * bigramProbs.get(i) + backwardRatio * backwardBigramProbs.get(i));

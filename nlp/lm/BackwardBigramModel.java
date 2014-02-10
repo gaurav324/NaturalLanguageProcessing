@@ -311,27 +311,6 @@ public class BackwardBigramModel {
         return sentenceLogProb;
     }
 
-    public List<Double> sentenceLogProbList (List<String> sentence) {
-        List<Double> probList = new ArrayList<Double>();
-
-        String prevToken = "</S>";
-        for (String token : sentence) {
-            DoubleValue unigramVal = unigramMap.get(token);
-            if (unigramVal == null) {
-                token = "<UNK>";
-                unigramVal = unigramMap.get(token);
-            }
-            String bigram = bigram(prevToken, token);
-            DoubleValue bigramVal = bigramMap.get(bigram);
-            double prob = interpolatedProb(unigramVal, bigramVal);
-            probList.add(prob);
-
-            prevToken = token;
-        }
-        // Reverse the list so that a forward can be directly compared.
-        Collections.reverse(probList);
-        return probList;
-    }
 
     /** Returns vector of probabilities of predicting each token in the sentence
      *  excluding beg the end of sentence */
@@ -349,8 +328,8 @@ public class BackwardBigramModel {
         for (String token : sentence) {
             DoubleValue unigramVal = unigramMap.get(token);
             if (unigramVal == null) {
-            token = "<UNK>";
-            unigramVal = unigramMap.get(token);
+                token = "<UNK>";
+                unigramVal = unigramMap.get(token);
             }
             String bigram = bigram(prevToken, token);
             DoubleValue bigramVal = bigramMap.get(bigram);
