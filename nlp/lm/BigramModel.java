@@ -326,13 +326,13 @@ public class BigramModel {
 
 
     /** Returns vector of probabilities of predicting each token in the sentence
-     *  including the end of sentence */
+     *  excluding the end of sentence */
     public double[] sentenceTokenProbs (List<String> sentence) {
         // Set start-sentence as initial token
         String prevToken = "<S>";
         
         // Vector for storing token prediction probs
-        double[] tokenProbs = new double[sentence.size() + 1];
+        double[] tokenProbs = new double[sentence.size()];
         
         // Token counter
         int i = 0;
@@ -353,12 +353,12 @@ public class BigramModel {
         }
 
         // Check prediction of end of sentence
-        DoubleValue unigramVal = unigramMap.get("</S>");
-        String bigram = bigram(prevToken, "</S>");
-        DoubleValue bigramVal = bigramMap.get(bigram);
+        //DoubleValue unigramVal = unigramMap.get("</S>");
+        //String bigram = bigram(prevToken, "</S>");
+        //DoubleValue bigramVal = bigramMap.get(bigram);
 
         // Store end of sentence prediction prob
-        tokenProbs[i] = interpolatedProb(unigramVal, bigramVal);
+        //tokenProbs[i] = interpolatedProb(unigramVal, bigramVal);
         return tokenProbs;
     }
 

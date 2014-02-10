@@ -67,7 +67,10 @@ public class BidirectionalBigramModel {
         //List<Double> backwardBigramProbs = backwardBigramModel.sentenceLogProbList(sentence);
 
         double[] bigramProbs = bigramModel.sentenceTokenProbs(sentence);
+
+        Collections.reverse(sentence);
         double[] backwardBigramProbs = backwardBigramModel.sentenceTokenProbs(sentence);
+        Collections.reverse(sentence);
 
         double sentenceLogProb = 0;
         for (int i=0; i < bigramProbs.length; ++i) {
