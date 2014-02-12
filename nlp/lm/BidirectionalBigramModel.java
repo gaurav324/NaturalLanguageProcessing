@@ -46,8 +46,7 @@ public class BidirectionalBigramModel {
 
         // Accumulate log prob of all test sentences
         for (List<String> sentence : sentences) {
-            // Num of tokens in sentence plus 1 for predicting </S>
-            totalNumTokens += sentence.size() + 1;
+            totalNumTokens += sentence.size();
             
             // Compute log prob of sentence.
             //
@@ -59,7 +58,7 @@ public class BidirectionalBigramModel {
         }
         // Given log prob compute perplexity
         double perplexity = Math.exp(-totalLogProb / totalNumTokens);
-        System.out.println("Perplexity = " + perplexity ); 
+        System.out.println("Word Perplexity = " + perplexity ); 
     }
 
     public double sentenceLogProb (List<String> sentence) {
@@ -67,12 +66,13 @@ public class BidirectionalBigramModel {
         //List<Double> backwardBigramProbs = backwardBigramModel.sentenceLogProbList(sentence);
 
         //print("Sentence: " + sentence);
+        
         double[] bigramProbs = bigramModel.sentenceTokenProbs(sentence);
 
         Collections.reverse(sentence);
         double[] backwardBigramProbs = backwardBigramModel.sentenceTokenProbs(sentence);
         Collections.reverse(sentence);
-
+        
         double sentenceLogProb = 0;
         for (int i=0; i < bigramProbs.length; ++i) {
             //print("Word: " + sentence.get(i));

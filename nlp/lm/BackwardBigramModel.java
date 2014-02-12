@@ -266,13 +266,13 @@ public class BackwardBigramModel {
             prevToken = token;
         }
         // Check prediction of end of sentence token
-        DoubleValue unigramVal = unigramMap.get("<S>");
-        String bigram = bigram(prevToken, "<S>");
-        DoubleValue bigramVal = bigramMap.get(bigram);
-        double logProb = Math.log(interpolatedProb(unigramVal, bigramVal));
+        //DoubleValue unigramVal = unigramMap.get("<S>");
+        //String bigram = bigram(prevToken, "<S>");
+        //DoubleValue bigramVal = bigramMap.get(bigram);
+        //double logProb = Math.log(interpolatedProb(unigramVal, bigramVal));
 
         // Update sentence log prob based on prediction of </S>
-        sentenceLogProb += logProb;
+        //sentenceLogProb += logProb;
         return sentenceLogProb;
     }
 
