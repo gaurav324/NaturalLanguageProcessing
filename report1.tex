@@ -28,9 +28,11 @@
 \begin{document}
 \problemset{1}{February 16}
 
-\section{Forward Bigram vs Backgram Bigram Model}
+\section{Backgram Bigram Model}
 
-\subsection{Backward Training Approaches}
+\subsection{Implementation}
+
+{\bfseries \underline{Backward Training Approaches}}
 
  There are two approaches that could have been used to train the Backgram Bigram Model.
 
@@ -42,11 +44,13 @@ Intuitively, both of these approaches should yield the same result. However, the
 
 I ran some tests and found that difference in word perplexity calculated by these two approaches in very less ($<$0.5\%). {\bfseries {Therefore, I just decided to go with the simpler, first approach.}}
 
-\subsection{Implementation and Results - Word Perplexity}
+{\bfseries \underline{Probability Calculation}}
 
-To compute word perplexity in the backward model, we simply reverse each sentence and calculate the sentence log probability using similar scheme as forward model. 
+To compute probabilities in the backward model, we simply reverse each sentence and calculate the sentence log probability using similar scheme to the forward model. 
 
-While interpolating, we are using 10\% unigram and 90\% bigram contributions for both forward and backward models.
+\subsection{Results - Word Perplexity}
+
+While interpolating, we are using 10\% unigram and 90\% bigram contributions for both forward and backward models. For backward model, I have only printed "Word perplexity" (in trace files and report both) because that is the fairest way to compare these two models and also reduces noise information.
 
 \begin{center}	
     \begin{table}[ht]
@@ -62,12 +66,12 @@ While interpolating, we are using 10\% unigram and 90\% bigram contributions for
     \end{table}%
 \end{center}
 
-\subsection{Analysis:}
+\subsection{Analysis}
 Our results show that Backward model is slightly better for WSJ and Brown datasets. However, forward model is slightly better for ATIS dataset.
 
-These results were contrary to my expectations. I read this\cite{Bangla} paper, which talks about Bangla language giving better results with the backward model, because of the language structure. This led me thinking that English is syntactically ordered from left to right, therefore forward model should be atleast as good as the backward model.
+These results were contrary to my expectations. I read this\cite{Bangla} paper, which talks about Bangla language giving better results with the backward model, because of the language structure. This led me thinking that English is syntactically ordered from left to right, therefore forward model should be atleast as good as the backward model. (Though, I am not sure that this statement is always correct.)
 
-Investigating furhter, I calculated the count of unique tokens in the beginning and end of each sentence for all three datasets and found very interesting results.
+Investigating furhter, I calculated the count of unique tokens in the beginning ($<S>$ Token) and end (Token $</S>$) of each sentence for all three datasets and found very interesting results.
 
 \begin{center}	
     \begin{table}[ht]
@@ -82,9 +86,9 @@ Investigating furhter, I calculated the count of unique tokens in the beginning 
     \end{table}%
 \end{center}
 
-{\bfseries Hypothesis:} Datasets where number of unique termination tokens are lesser than starting unique tokens, Backward bigram model seems to perform better than Forward Backward model and vice-versa.
+{\bfseries Hypothesis:} Datasets where count of unique termination tokens is lesser than unique starting tokens, Backward model seems to perform better than Forward Bigram model and vice-versa.
 
-We also observe that for {\bfseries Brown} corpus, all the sentence ending tokens seem to be one among some 8 tokens. Here is table of those tokens with their associated bigram probabilities $p(W|</S>)$:
+We also observe that for {\bfseries Brown} corpus, all the sentence ending tokens seem to be one among some 8 tokens (Code that I have submitted still calculates number of termination tokens, however I don't print them to ensure cleaner trace files). Here is table of those tokens with their associated bigram probabilities $p(W|</S>)$:
 
 \begin{center}	
     \begin{table}[ht]
@@ -140,7 +144,7 @@ To test my hypothesis, I removed dots from the training and test data and result
 
 For ATIS dataset, results are unchanged because there are no dots present at the end of sentences. However, for BROWN  and WSJ corpus, there is drastic change in numbers. Now, the number of unique termination tokens have increased to a large extent. Therefore, the word perplexity of the backward model is higher (performance is worse) in comparison to forward model. These results support our initial hypothesis.
 
-\subsection{Code Execution:}
+\subsection{Code Execution}
 
 I have added another option to the code to remove dots "." from sentences. 
 
@@ -155,7 +159,7 @@ I have added another option to the code to remove dots "." from sentences.
 \newline
 {\bfseries java nlp.lm.BackwardBigramModel ./pos/atis/ 0.1 true}
 
-\subsection{Conclusion: }
+\subsection{Conclusion}
 
 If we want to treat tokens like ".", "?", "!" etc as separate tokens, backward model seem to be behaving little better than the forward model. However, if we remove the sentence termination tokens, then forward model seems to be little better than the backward bigram model.
 
@@ -167,9 +171,9 @@ Overall, performance difference in forward and backward models is not huge.
 
 This is implemented using already existing Forward and Backward Bigram models. Initially, both forward and backward models are trained individually. While testing, for each sentence we compute the bigram probabilities of every token using both forward and backward model. Then we find the final bigram probabilities by using forward and backward numbers in a fixed ratio.
 
-We have to little careful in this implementation because array of probabilities returned by Backward Bigram model is in the reverse order. Therefore, we have to properly handle array indices to ensure that we are picking up the corresponding numbers from two arrays.
+We have to be little careful in this implementation because array of probabilities returned by Backward Bigram model is in the reverse order. Therefore, we have to properly handle array indices to ensure that we are picking up the corresponding numbers from two arrays.
 
-\subsection{Results:}
+\subsection{Results - Word Perplexity}
 
 In the basic approach, we have taken contribution of both forward and backward model to be same 50%.
 
@@ -242,7 +246,7 @@ B) If we do remove Dots from the model, we expect the optimal number to little b
     \end{table}%
 \end{center}
 
-\subsection{Code Execution:}
+\subsection{Code Execution}
 
 I have added another option to the code to remove dots "." from sentences and an option to give ratio of forward to backward model. 
 
@@ -257,10 +261,14 @@ I have added another option to the code to remove dots "." from sentences and an
 \newline
 {\bfseries java nlp.lm.BidirectionalBigramModel ./pos/atis/ 0.1 true 0.52}
 
+\subsection{Conclusion}
+
+Bidirectional model performs better than forward or backward model. We get optimal results when the contribution of both of the models is nearly same or slightly skewed towards the one having lower "Word perplexity".
+
 \begin{thebibliography}{100} % 100 is a random guess of the total number of 
 %references 
 
-\bibitem{Bangla} http://www.bracuniversity.net/research/crblp/papers/BAN04.pdf)
+\bibitem{Bangla} Naira Khan, Md\. Tarek Habib. "History (Forward N-Gram) or Future (Backward N-Gram)? Which model to consider for N-gram Analysis in Bangla?" http://www.bracuniversity.net/research/crblp/papers/BAN04.pdf 
 
 \end{thebibliography} 
 \end{document}
