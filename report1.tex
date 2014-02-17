@@ -242,6 +242,21 @@ B) If we do remove Dots from the model, we expect the optimal number to little b
     \end{table}%
 \end{center}
 
+\subsection{Code Execution:}
+
+I have added another option to the code to remove dots "." from sentences and an option to give ratio of forward to backward model. 
+
+{\bfseries Sample Execution:}
+
+// If you do not want to remove dots and want to give 0.48 probability to forward model
+\newline
+{\bfseries java nlp.lm.BidirectionalBigramModel ./pos/atis/ 0.1 false 0.48}
+
+
+// If you want to remove "." (dots) and want to give 0.52 probability to forward model
+\newline
+{\bfseries java nlp.lm.BidirectionalBigramModel ./pos/atis/ 0.1 true 0.52}
+
 \begin{thebibliography}{100} % 100 is a random guess of the total number of 
 %references 
 
