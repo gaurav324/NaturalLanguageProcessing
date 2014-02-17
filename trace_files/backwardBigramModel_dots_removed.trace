@@ -1,0 +1,21 @@
+angry-goat$ java nlp.lm.BackwardBigramModel ./pos/atis 0.1 true
+# Train Sentences = 519 (# words = 3922) 
+# Test Sentences = 58 (# words = 431)
+Training...
+Word Perplexity = 11.636203016013203
+Testing...
+Word Perplexity = 27.16138806179997
+angry-goat$ java nlp.lm.BackwardBigramModel ./pos/wsj/ 0.1 true
+# Train Sentences = 43820 (# words = 995626) 
+# Test Sentences = 4869 (# words = 111718)
+Training...
+Word Perplexity = 104.01743077126008
+Testing...
+Word Perplexity = 331.80650057046984
+angry-goat$ java nlp.lm.BackwardBigramModel ./pos/brown 0.1 true
+# Train Sentences = 47207 (# words = 1079440) 
+# Test Sentences = 5245 (# words = 93530)
+Training...
+Word Perplexity = 134.75474675349327
+Testing...
+Word Perplexity = 396.7874140562205
