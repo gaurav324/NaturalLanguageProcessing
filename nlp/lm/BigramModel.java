@@ -27,17 +27,22 @@ public class BigramModel {
 
     /** Interpolation weight for bigram model */
     public double lambda2 = 0.9;
+    
+    /** Whether we want to remove dots from each sentence */
+    public boolean removeDots = false;
 
     /** Initialize model with empty hashmaps with initial
      *  unigram entries for setence start (<S>), sentence end (</S>)
      *  and unknown tokens 
      */
-    public BigramModel() {
+    public BigramModel(boolean removeDots) {
         unigramMap = new HashMap<String, DoubleValue>();
         bigramMap = new HashMap<String, DoubleValue>();
         unigramMap.put("<S>", new DoubleValue());
         unigramMap.put("</S>", new DoubleValue());
         unigramMap.put("<UNK>", new DoubleValue());
+
+        this.removeDots = removeDots;
     }
 
     /** Train the model on a List of sentences represented as
@@ -48,6 +53,9 @@ public class BigramModel {
         
         // Compure final unigram and bigram probs from counts
         calculateProbs();
+
+        // XXX
+        //printSumofProb();
     }
 
     /** Accumulate unigram and bigram counts for these sentences */
@@ -65,9 +73,16 @@ public class BigramModel {
         unigramValue.increment();
         tokenCount++;
 
+        if (removeDots) {
+            sentence.remove(".");
+        }
+
         // For each token in sentence, accumulate a unigram and bigram count
         for (String token : sentence) {
             unigramValue = unigramMap.get(token);
+            //if (token.equals(".")) {
+            //    continue;
+            //}
 
             // If this is the first time token is seen then count it
             // as an unkown token (<UNK>) to handle out-of-vocabulary 
@@ -117,6 +132,8 @@ public class BigramModel {
     /** Compute unigram and bigram probabilities from unigram and bigram counts */
     public void calculateProbs() {
         // Set bigram values to conditional probability of second token given first
+        int int_count = 0;
+        int back_count = 0;
         for (Map.Entry<String, DoubleValue> entry : bigramMap.entrySet()) {
             // An entry in the HashMap maps a token to a DoubleValue
             String bigram = entry.getKey();
@@ -131,8 +148,19 @@ public class BigramModel {
             
             // Set map value to conditional probability 
             value.setValue(condProb);
-        }
 
+            if (bigram.startsWith("<S>")) {
+                int_count += 1;
+                //System.out.println(bigram + " : " + condProb);
+            }
+            if (bigram.endsWith("</S>")) {
+                back_count += 1;
+                //System.out.println(bigram + " : " + condProb);
+            }
+        }
+        //System.out.println("Unique sentence start tokens: " + int_count);
+        //System.out.println("Unique sentence termination tokens: " + back_count);
+        
         // Store unigrams with zero count to remove from map
         List<String> zeroTokens = new ArrayList<String>();
         
@@ -158,6 +186,24 @@ public class BigramModel {
         for (String token : zeroTokens) {
             unigramMap.remove(token);
         }
+    }
+    public void printSumofProb() {
+        double totalSum = 0.0;
+        for (Map.Entry<String, DoubleValue> entry : bigramMap.entrySet()) {
+            String bigram = entry.getKey();
+            DoubleValue value = entry.getValue();
+
+            String token1 = bigramToken1(bigram); // Get first token of bigram
+            totalSum += value.getValue() * unigramMap.get(token1).getValue();
+
+        }
+        System.out.println("Total Sum:" + totalSum);
+
+        double unigramCount = 0;
+        for (Map.Entry<String, DoubleValue> entry : unigramMap.entrySet()) {
+            unigramCount += entry.getValue().getValue();
+        }
+        System.out.println("Total Unigram Prob:" + unigramCount);
     }
 
     /** Return bigram string as two tokens separated by a newline */
@@ -276,6 +322,9 @@ public class BigramModel {
         double totalLogProb = 0;
         double totalNumTokens = 0;
         for (List<String> sentence : sentences) {
+            if (removeDots) {
+                sentence.remove("."); 
+            }
             totalNumTokens += sentence.size();
             double sentenceLogProb = sentenceLogProb2(sentence);
             //      System.out.println(sentenceLogProb + " : " + sentence);
@@ -362,22 +411,29 @@ public class BigramModel {
     }
 
     /** Train and test a bigram model.
-     *  Command format: "nlp.lm.BigramModel [DIR]* [TestFrac]" where DIR 
+     *  Command format: "nlp.lm.BigramModel [DIR]* [TestFrac] [removeDots]" where DIR 
      *  is the name of a file or directory whose LDC POS Tagged files should be 
      *  used for input data; and TestFrac is the fraction of the sentences
      *  in this data that should be used for testing, the rest for training.
      *  0 < TestFrac < 1
-     *  Uses the last fraction of the data for testing and the first part
+     *  Uses the second last fraction of the data for testing and the first part
      *  for training.
+     *
+     *  removeDots {true, false}
+     *  Uses last argument to control whether we want to remove "."
+     *  from each sentence.
      */
     public static void main(String[] args) throws IOException {
-        // All but last arg is a file/directory of LDC tagged input data
-        File[] files = new File[args.length - 1];
+        // All but last two args is a file/directory of LDC tagged input data
+        File[] files = new File[args.length - 2];
         for (int i = 0; i < files.length; i++) 
             files[i] = new File(args[i]);
 
-        // Last arg is the TestFrac
-        double testFraction = Double.valueOf(args[args.length -1]);
+        // Second Last arg is the TestFrac
+        double testFraction = Double.valueOf(args[args.length - 2]);
+
+        // Last arg to control whether to remove "." from each sentence.
+        boolean removeDots = Boolean.valueOf(args[args.length - 1]);
         
         // Get list of sentences from the LDC POS tagged input files
         List<List<String>> sentences =  POSTaggedFile.convertToTokenLists(files);
@@ -397,17 +453,17 @@ public class BigramModel {
                    " (# words = " + wordCount(testSentences) + ")");
         
         // Create a bigram model and train it.
-        BigramModel model = new BigramModel();
+        BigramModel model = new BigramModel(removeDots);
         System.out.println("Training...");
         model.train(trainSentences);
         
         // Test on training data using test and test2
-        //model.test(trainSentences);
+        model.test(trainSentences);
         model.test2(trainSentences);
         System.out.println("Testing...");
         
         // Test on test data using test and test2
-        //model.test(testSentences);
+        model.test(testSentences);
         model.test2(testSentences);
     }
 

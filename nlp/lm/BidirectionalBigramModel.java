@@ -18,9 +18,15 @@ public class BidirectionalBigramModel {
     public double forwardRatio = 0.5;
     public double backwardRatio = 0.5;
 
-    public BidirectionalBigramModel() {
-        bigramModel = new BigramModel();
-        backwardBigramModel = new BackwardBigramModel();
+    public boolean removeDots = false;
+
+    public BidirectionalBigramModel(boolean removeDots, double forwardRatio) {
+        bigramModel = new BigramModel(removeDots);
+        backwardBigramModel = new BackwardBigramModel(removeDots);
+
+        this.removeDots = removeDots;
+        this.forwardRatio = forwardRatio;
+        this.backwardRatio = 1 - forwardRatio;
     }
 
     public static void print(Object printIt) {
@@ -46,6 +52,10 @@ public class BidirectionalBigramModel {
 
         // Accumulate log prob of all test sentences
         for (List<String> sentence : sentences) {
+            if (removeDots) {
+                sentence.remove(".");
+            }
+
             totalNumTokens += sentence.size();
             
             // Compute log prob of sentence.
@@ -62,10 +72,6 @@ public class BidirectionalBigramModel {
     }
 
     public double sentenceLogProb (List<String> sentence) {
-        //List<Double> bigramProbs = bigramModel.sentenceLogProbList(sentence);
-        //List<Double> backwardBigramProbs = backwardBigramModel.sentenceLogProbList(sentence);
-
-        //print("Sentence: " + sentence);
         
         double[] bigramProbs = bigramModel.sentenceTokenProbs(sentence);
 
@@ -75,29 +81,40 @@ public class BidirectionalBigramModel {
         
         double sentenceLogProb = 0;
         for (int i=0; i < bigramProbs.length; ++i) {
-            //print("Word: " + sentence.get(i));
-            //print("Forward Probability: " + bigramProbs[i]);
-            //print("Backward Probability: " + backwardBigramProbs[bigramProbs.length - i - 1]);
-            //print("Middle Probability: " + (forwardRatio * bigramProbs[i] + backwardRatio * backwardBigramProbs[bigramProbs.length - i - 1]));
             double interpolatedProb = Math.log(forwardRatio * bigramProbs[i] + backwardRatio * backwardBigramProbs[bigramProbs.length - i - 1]);
             sentenceLogProb += interpolatedProb;
-            //print(forwardRatio * bigramProbs.get(i) + backwardRatio * backwardBigramProbs.get(i));
-            //double interPolatedProb = Math.log(forwardRatio * bigramProbs.get(i) + backwardRatio * backwardBigramProbs.get(i));
-            //print(interPolatedProb);
-            //sentenceLogProb += interPolatedProb;
         }
 
         return sentenceLogProb;
     }
 
+    /** Train and test a bidirectional model.
+     *  Command Format "nlp.lm.BidirectionalModel [DIR]* [TestFrac] [removeDots] [forwardProb].
+     * 0 < TestFrac < 1
+     *  Uses the second last fraction of the data for testing and the first part
+     *  for training.
+     *
+     *  removeDots {true, false}
+     *  Uses last argument to control whether we want to remove "."
+     *  from each sentence.
+     *
+     *  forwardProb {0 < forwardProb < 1}
+     *  How much contribution of forward model would be there.
+     */
     public static void main(String[] args) {
         // All but last arg is a file/directory of LDC tagged input data
-        File[] files = new File[args.length - 1];
+        File[] files = new File[args.length - 3];
         for (int i = 0; i < files.length; i++) 
             files[i] = new File(args[i]);
 
-        // Last arg is the TestFrac
-        double testFraction = Double.valueOf(args[args.length -1]);
+        // Third last arg is the TestFrac
+        double testFraction = Double.valueOf(args[args.length - 3]);
+
+        // Second Last arg to control whether to remove "." from each sentence.
+        boolean removeDots = Boolean.valueOf(args[args.length - 2]);
+
+        // Last arg determines how much would forward model contribute.
+        double forwardRatio = Double.valueOf(args[args.length - 1]);
         
         // Get list of sentences from the LDC POS tagged input files
         List<List<String>> sentences =  POSTaggedFile.convertToTokenLists(files);
@@ -117,13 +134,14 @@ public class BidirectionalBigramModel {
                    " (# words = " + BigramModel.wordCount(testSentences) + ")");
         
         // Create a bigram model and train it.
-        BidirectionalBigramModel model = new BidirectionalBigramModel();
+        BidirectionalBigramModel model = new BidirectionalBigramModel(removeDots, forwardRatio);
         System.out.println("Training...");
         model.train(trainSentences); 
 
         // Test on the train data.
         model.test(trainSentences);
-
+    
+        System.out.println("Testing...");
         // Test on test data using test and test2
         model.test(testSentences);
     }
