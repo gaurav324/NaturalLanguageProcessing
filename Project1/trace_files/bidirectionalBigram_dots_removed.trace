@@ -1,0 +1,27 @@
+[angry-goat]~/nlp/repo$ java nlp.lm.BidirectionalBigramModel ./pos/atis/ 0.1 true 0.5
+# Train Sentences = 519 (# words = 3922) 
+# Test Sentences = 58 (# words = 431)
+Training...
+Training bi-gram model.
+Training Backward bi-gram model.
+Word Perplexity = 7.235173934082009
+Testing...
+Word Perplexity = 12.700210156018738
+[angry-goat]~/nlp/repo$ java nlp.lm.BidirectionalBigramModel ./pos/wsj/ 0.1 true 0.5
+# Train Sentences = 43820 (# words = 995626) 
+# Test Sentences = 4869 (# words = 111718)
+Training...
+Training bi-gram model.
+Training Backward bi-gram model.
+Word Perplexity = 53.17224435558443
+Testing...
+Word Perplexity = 149.47257013788158
+[angry-goat]~/nlp/repo$ java nlp.lm.BidirectionalBigramModel ./pos/brown/ 0.1 true 0.5
+# Train Sentences = 47207 (# words = 1079440) 
+# Test Sentences = 5245 (# words = 93530)
+Training...
+Training bi-gram model.
+Training Backward bi-gram model.
+Word Perplexity = 71.23203988079445
+Testing...
+Word Perplexity = 209.91565606324266
