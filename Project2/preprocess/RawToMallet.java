@@ -33,7 +33,7 @@ public class RawToMallet {
 				for (String tWord : taggedWords) {
 					output.append(tWord.substring(0, tWord.indexOf("/")));
 					output.append(" ");
-;;					output.append(tWord.substring(tWord.indexOf("/") + 1));
+					output.append(tWord.substring(tWord.indexOf("/") + 1));
 					output.append(eol);
 				}
 			}
@@ -43,7 +43,8 @@ public class RawToMallet {
 			String[] taggedWords = line.split("\\s+");
 			for (String tWord : taggedWords) {
 				output.append(tWord.substring(0, tWord.indexOf("/")));
-				output.append(tWord.substring(tWord.indexOf("/")));
+				output.append(" ");
+				output.append(tWord.substring(tWord.indexOf("/") + 1));
 				output.append(eol);
 			}
 		}
