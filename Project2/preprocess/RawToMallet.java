@@ -100,7 +100,7 @@ public class RawToMallet {
 			outputFile = args[1];
 		}
 		try {
-			pw = new PrintWriter(new BufferedWriter(new FileWriter(outputFile)));
+			pw = new PrintWriter(new FileWriter(outputFile));
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
