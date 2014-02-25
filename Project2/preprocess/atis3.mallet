@@ -6,16 +6,16 @@
 
 
 List/VB
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
 Seattle/NNP
-that/WDT
-stop/VBP
+that WDT
+stop VBP
 in/IN
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -24,10 +24,10 @@ Minneapolis/NNP
 
 
 Does/VBZ
-this/DT
-flight/NN
+this DT
+flight NN
 serve/VB
-dinner/NN
+dinner NN
 
 
 
@@ -35,20 +35,20 @@ dinner/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 to/TO
 Seattle/NNP
 leaving/VBG
 from/IN
-Baltimore/NNP
+Baltimore NNP
 making/VBG
-a/DT
-stop/NN
+a DT
+stop NN
 in/IN
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -56,11 +56,11 @@ Minneapolis/NNP
 
 
 
-I/PRP
+I PRP
 need/VBP
 to/TO
 have/VB
-dinner/NN
+dinner NN
 served/VBN
 
 
@@ -68,36 +68,36 @@ served/VBN
 
 
 
-I/PRP
+I PRP
 have/VBP
-two/CD
-friends/NNS
+two CD
+friends NNS
 
-that/WDT
+that WDT
 would/MD
 like/VB
 to/TO
 visit/VB
-me/PRP
+me PRP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 here/RB
 in/IN
-Washington/NNP
-D/NNP
-C/NNP
-one/CD
+Washington NNP
+D NNP
+C NNP
+one CD
 of/IN
-them/PRP
+them PRP
 lives/VBZ
 in/IN
-Denver/NNP
+Denver NNP
 and/CC
-the/DT
-other/JJ
-lives/VBZ
+the DT
+other JJ
+lives VBZ
 in/IN
-Miami/NNP
+Miami NNP
 
 
 
@@ -105,25 +105,25 @@ Miami/NNP
 
 
 
-I/PRP
+I PRP
 have/VBP
-a/DT
-friend/NN
+a DT
+friend NN
 living/VBG
 in/IN
-Denver/NNP
+Denver NNP
 
-that/WDT
+that WDT
 would/MD
 like/VB
 to/TO
 visit/VB
-me/PRP
+me PRP
 here/RB
 in/IN
-Washington/NNP
-D/NNP
-C/NNP
+Washington NNP
+D NNP
+C NNP
 
 
 
@@ -131,18 +131,18 @@ C/NNP
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Indianapolis/NNP
+Indianapolis NNP
 to/TO
-Houston/NNP
+Houston NNP
 on/IN
-T/NNP
-W/NNP
-A/NNP
+T NNP
+W NNP
+A NNP
 
 
 
@@ -150,13 +150,13 @@ A/NNP
 
 
 
-The/DT
-flight/NN
+The DT
+flight NN
 should/MD
 be/VB
-eleven/CD
+eleven CD
 a.m/RB
-tomorrow/NN
+tomorrow NN
 
 
 
@@ -164,14 +164,14 @@ tomorrow/NN
 
 
 
-The/DT
-flight/NN
+The DT
+flight NN
 should/MD
 arrive/VB
 at/IN
-eleven/CD
+eleven CD
 a.m/RB
-tomorrow/NN
+tomorrow NN
 
 
 
@@ -179,15 +179,15 @@ tomorrow/NN
 
 
 
-The/DT
-flight/NN
+The DT
+flight NN
 should/MD
 arrive/VB
 at/IN
 around/RB
-eleven/CD
+eleven CD
 a.m/RB
-tomorrow/NN
+tomorrow NN
 
 
 
@@ -195,18 +195,18 @@ tomorrow/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Atlanta/NNP
+Atlanta NNP
 to/TO
-Charlotte/NNP
-North/NNP
-Carolina/NNP
+Charlotte NNP
+North NNP
+Carolina NNP
 next/JJ
-Monday/NNP
+Monday NNP
 
 
 
@@ -214,15 +214,15 @@ Monday/NNP
 
 
 
-I/PRP
+I PRP
 need/VBP
 to/TO
 arrive/VB
 at/IN
-Charlotte/NNP
+Charlotte NNP
 at/IN
 around/RB
-five/CD
+five CD
 p.m/RB
 
 
@@ -230,12 +230,12 @@ p.m/RB
 
 
 
-I/PRP
+I PRP
 need/VBP
 to/TO
 return/VB
 on/IN
-Tuesday/NNP
+Tuesday NNP
 
 
 
@@ -243,14 +243,14 @@ Tuesday/NNP
 
 
 
-The/DT
-return/NN
-flight/NN
+The DT
+return NN
+flight NN
 should/MD
 leave/VB
 at/IN
 around/RB
-seven/CD
+seven CD
 p.m/RB
 
 
@@ -262,11 +262,11 @@ How/WRB
 much/RB
 extra/JJ
 would/MD
-a/DT
-first/JJ
-class/NN
-fare/NN
-cost/VB
+a DT
+first JJ
+class NN
+fare NN
+cost VB
 
 
 
@@ -277,10 +277,10 @@ cost/VB
 How/WRB
 much/RB
 would/MD
-the/DT
-coach/NN
-fare/NN
-cost/VB
+the DT
+coach NN
+fare NN
+cost VB
 
 
 
@@ -288,41 +288,41 @@ cost/VB
 
 
 
-I/PRP
+I PRP
 would/MD
 like/VB
 to/TO
 find/VB
-a/DT
-flight/NN
+a DT
+flight NN
 
-that/WDT
+that WDT
 goes/VBZ
 from/IN
-Boston/NNP
+Boston NNP
 to/TO
-Orlando/NNP
-I/PRP
+Orlando NNP
+I PRP
 would/MD
 like/VB
-it/PRP
+it PRP
 to/TO
 have/VB
-a/DT
-stop/NN
+a DT
+stop NN
 in/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 and/CC
-I/PRP
+I PRP
 would/MD
 like/VB
-a/DT
-flight/NN
+a DT
+flight NN
 
-that/WDT
+that WDT
 serves/VBZ
-breakfast/NN
+breakfast NN
 
 
 
@@ -330,40 +330,40 @@ breakfast/NN
 
 
 
-I/PRP
+I PRP
 would/MD
 like/VB
 to/TO
 find/VB
-a/DT
-flight/NN
+a DT
+flight NN
 
-that/WDT
+that WDT
 goes/VBZ
 from/IN
-La/NNP
-Guardia/NNP
-airport/NN
+La NNP
+Guardia NNP
+airport NN
 to/TO
-San/NNP
-Jose/NNP
-I/PRP
+San NNP
+Jose NNP
+I PRP
 would/MD
 like/VB
-the/DT
-flight/NN
+the DT
+flight NN
 to/TO
 be/VB
 on/IN
-United/NNP
-Airlines/NNP
+United NNP
+Airlines NNP
 and/CC
 arrive/VB
 in/IN
-San/NNP
-Jose/NNP
+San NNP
+Jose NNP
 around/IN
-ten/CD
+ten CD
 p.m/RB
 
 
@@ -371,27 +371,27 @@ p.m/RB
 
 
 
-I/PRP
+I PRP
 would/MD
 like/VB
 to/TO
 find/VB
 out/RP
-the/DT
-flight/NN
-number/NN
+the DT
+flight NN
+number NN
 for/IN
-the/DT
-United/NNP
-flight/NN
+the DT
+United NNP
+flight NN
 
-that/WDT
+that WDT
 arrives/VBZ
 in/IN
-San/NNP
-Jose/NNP
+San NNP
+Jose NNP
 around/IN
-ten/CD
+ten CD
 p.m/RB
 
 
@@ -400,13 +400,13 @@ p.m/RB
 
 
 Show/VB
-me/PRP
+me PRP
 
-all/PDT
-the/DT
-flights/NNS
+all PDT
+the DT
+flights NNS
 leaving/VBG
-Baltimore/NNP
+Baltimore NNP
 
 
 
@@ -415,18 +415,18 @@ Baltimore/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-all/PDT
-the/DT
-flights/NNS
+all PDT
+the DT
+flights NNS
 
-that/WDT
+that WDT
 go/VB
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Seattle/NNP
+Seattle NNP
 
 
 
@@ -435,14 +435,14 @@ Seattle/NNP
 
 
 Of/IN
-those/DT
-flights/NNS
+those DT
+flights NNS
 
-which/WDT
-ones/NNS
+which WDT
+ones NNS
 stop/VBP
 in/IN
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -451,10 +451,10 @@ Minneapolis/NNP
 
 
 Does/VBZ
-that/DT
-flight/NN
+that DT
+flight NN
 serve/VB
-dinner/NN
+dinner NN
 
 
 
@@ -462,14 +462,14 @@ dinner/NN
 
 
 
-What/WP
+What WP
 are/VBP
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Milwaukee/NNP
+Milwaukee NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -477,12 +477,12 @@ Tampa/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 stop/VBP
 in/IN
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -490,11 +490,11 @@ Nashville/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -503,15 +503,15 @@ dinner/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 
 
 
@@ -520,19 +520,19 @@ Angeles/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Newark/NNP
-New/NNP
-Jersey/NNP
+Newark NNP
+New NNP
+Jersey NNP
 to/TO
-Ontario/NNP
+Ontario NNP
 International/NNP
 next/JJ
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -540,16 +540,16 @@ Saturday/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 leave/VBP
 after/IN
-noon/NN
+noon NN
 and/CC
-stop/VBP
+stop VBP
 in/IN
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -558,14 +558,14 @@ Phoenix/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Montreal/NNP
+Montreal NNP
 to/TO
-Chicago/NNP
+Chicago NNP
 
 
 
@@ -574,14 +574,14 @@ Chicago/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Chicago/NNP
+Chicago NNP
 to/TO
-Indianapolis/NNP
+Indianapolis NNP
 
 
 
@@ -590,14 +590,14 @@ Indianapolis/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Indianapolis/NNP
+Indianapolis NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -606,14 +606,14 @@ Montreal/NNP
 
 
 Tell/VB
-me/PRP
+me PRP
 about/IN
-the/DT
-ground/NN
-ground/NN
-transportation/NN
+the DT
+ground NN
+ground NN
+transportation NN
 in/IN
-Chicago/NNP
+Chicago NNP
 
 
 
@@ -621,10 +621,10 @@ Chicago/NNP
 
 
 
-What/WP
+What WP
 about/IN
 in/IN
-Indianapolis/NNP
+Indianapolis NNP
 
 
 
@@ -632,15 +632,15 @@ Indianapolis/NNP
 
 
 
-What/WDT
+What WDT
 flights/NNS
 do/VBP
-you/PRP
+you PRP
 have/VB
 from/IN
-Milwaukee/NNP
+Milwaukee NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -648,11 +648,11 @@ Tampa/NNP
 
 
 
-Which/WDT
-ones/NNS
+Which WDT
+ones NNS
 stop/VBP
 in/IN
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -660,10 +660,10 @@ Nashville/NNP
 
 
 
-What/WDT
-airline/NN
+What WDT
+airline NN
 is/VBZ
-this/DT
+this DT
 
 
 
@@ -672,12 +672,12 @@ this/DT
 
 
 Thank/VB
-you/PRP
+you PRP
 
-what/WDT
-time/NN
+what WDT
+time NN
 is/VBZ
-it/PRP
+it PRP
 
 
 
@@ -686,14 +686,14 @@ it/PRP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Seattle/NNP
+Seattle NNP
 
 
 
@@ -701,17 +701,17 @@ Seattle/NNP
 
 
 
-Which/WDT
+Which WDT
 are/VBP
-the/DT
-flights/NNS
+the DT
+flights NNS
 
-that/WDT
+that WDT
 make/VBP
-a/DT
-stop/NN
+a DT
+stop NN
 in/IN
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -720,10 +720,10 @@ Minneapolis/NNP
 
 
 Does/VBZ
-that/DT
-flight/NN
+that DT
+flight NN
 serve/VB
-dinner/NN
+dinner NN
 
 
 
@@ -731,26 +731,26 @@ dinner/NN
 
 
 
-Book/VB
+Book VB
 
-that/DT
-flight/NN
-
-
+that DT
+flight NN
 
 
 
 
 
-I/PRP
+
+
+I PRP
 would/MD
 like/VB
 to/TO
 travel/VB
 from/IN
-Indianapolis/NNP
+Indianapolis NNP
 to/TO
-Houston/NNP
+Houston NNP
 
 
 
@@ -758,14 +758,14 @@ Houston/NNP
 
 
 
-The/DT
-flight/NN
+The DT
+flight NN
 should/MD
 arrive/VB
 around/IN
-ten/CD
+ten CD
 or/CC
-eleven/CD
+eleven CD
 a.m/RB
 
 
@@ -775,11 +775,11 @@ a.m/RB
 
 Are/VBP
 there/EX
-any/DT
-flights/NNS
+any DT
+flights NNS
 arriving/VBG
 after/IN
-eleven/CD
+eleven CD
 a.m/RB
 
 
@@ -788,13 +788,13 @@ a.m/RB
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-T/NNP
-W/NNP
-A/NNP
-flight/NN
+the DT
+T NNP
+W NNP
+A NNP
+flight NN
 
 
 
@@ -803,26 +803,26 @@ flight/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-first/JJ
-one/NN
-
-
+the DT
+first JJ
+one NN
 
 
 
 
 
-Which/WDT
+
+
+Which WDT
 is/VBZ
-the/DT
-aircraft/NN
+the DT
+aircraft NN
 used/VBN
 by/IN
-this/DT
-flight/NN
+this DT
+flight NN
 
 
 
@@ -830,36 +830,36 @@ flight/NN
 
 
 
-I/PRP
+I PRP
 am/VBP
 interested/JJ
 in/IN
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Cincinnati/NNP
+Cincinnati NNP
 to/TO
 Burbank/NNP
-the/DT
-flight/NN
+the DT
+flight NN
 should/MD
 be/VB
-American/NNP
+American NNP
 and/CC
 leave/VB
 in/IN
-the/DT
-afternoon/NN
+the DT
+afternoon NN
 
-I/PRP
+I PRP
 need/VBP
 to/TO
 know/VB
-the/DT
-aircraft/NN
+the DT
+aircraft NN
 and/CC
-flight/NN
-number/NN
+flight NN
+number NN
 
 
 
@@ -867,16 +867,16 @@ number/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 to/TO
-Charlotte/NNP
-today/NN
+Charlotte NNP
+today NN
 
 
 
@@ -884,17 +884,17 @@ today/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Charlotte/NNP
+Charlotte NNP
 to/TO
-Newark/NNP
-leaving/VBG
-today/NN
-evening/NN
+Newark NNP
+leaving VBG
+today NN
+evening NN
 
 
 
@@ -902,18 +902,18 @@ evening/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Los/NNP
-Angeles/NNP
-leaving/VBG
-tomorrow/NN
-evening/NN
+Los NNP
+Angeles NNP
+leaving VBG
+tomorrow NN
+evening NN
 
 
 
@@ -921,13 +921,13 @@ evening/NN
 
 
 
-What/WDT
+What WDT
 flights/NNS
 do/VBP
-you/PRP
+you PRP
 have/VB
 from/IN
-Ontario/NNP
+Ontario NNP
 
 
 
@@ -935,13 +935,13 @@ Ontario/NNP
 
 
 
-I/PRP
+I PRP
 would/MD
 like/VB
 to/TO
 travel/VB
 to/TO
-Westchester/NNP
+Westchester NNP
 
 
 
@@ -950,11 +950,11 @@ Westchester/NNP
 
 
 Do/VBP
-any/DT
-flights/NNS
+any DT
+flights NNS
 stop/VB
 in/IN
-Chicago/NNP
+Chicago NNP
 
 
 
@@ -962,13 +962,13 @@ Chicago/NNP
 
 
 
-What/WDT
-meals/NNS
+What WDT
+meals NNS
 are/VBP
 served/VBN
 on/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 
 
 
@@ -976,17 +976,17 @@ flights/NNS
 
 
 
-What/WDT
+What WDT
 flights/NNS
 do/VBP
-you/PRP
+you PRP
 have/VB
 from/IN
-Burbank/NNP
+Burbank NNP
 to/TO
 to/TO
-Tacoma/NNP
-Washington/NNP
+Tacoma NNP
+Washington NNP
 
 
 
@@ -994,16 +994,16 @@ Washington/NNP
 
 
 
-I/PRP
+I PRP
 would/MD
 like/VB
 to/TO
 fly/VB
 on/IN
-the/DT
-ninth/JJ
+the DT
+ninth JJ
 of/IN
-July/NNP
+July NNP
 
 
 
@@ -1013,8 +1013,8 @@ July/NNP
 
 Where/WRB
 do/VBP
-these/DT
-flights/NNS
+these DT
+flights NNS
 stop/VB
 
 
@@ -1025,15 +1025,15 @@ stop/VB
 How/WRB
 much/RB
 is/VBZ
-the/DT
-cost/NN
+the DT
+cost NN
 of/IN
-the/DT
-round/JJ
-trip/NN
-flight/NN
+the DT
+round JJ
+trip NN
+flight NN
 on/IN
-Alaska/NNP
+Alaska NNP
 
 
 
@@ -1044,16 +1044,16 @@ Alaska/NNP
 How/WRB
 much/RB
 is/VBZ
-the/DT
-cost/NN
+the DT
+cost NN
 of/IN
-the/DT
-round/JJ
-trip/NN
-flight/NN
+the DT
+round JJ
+trip NN
+flight NN
 on/IN
-United/NNP
-Airlines/NNP
+United NNP
+Airlines NNP
 
 
 
@@ -1062,17 +1062,17 @@ Airlines/NNP
 
 
 Please/UH
-list/VB
+list VB
 
-all/DT
-details/NNS
+all DT
+details NNS
 of/IN
-the/DT
-A/NNP
-P/NNP
-fifty/CD
-seven/CD
-flight/NN
+the DT
+A NNP
+P NNP
+fifty CD
+seven CD
+flight NN
 
 
 
@@ -1082,9 +1082,9 @@ flight/NN
 
 Where/WRB
 does/VBZ
-this/DT
-flight/NN
-stop/VB
+this DT
+flight NN
+stop VB
 
 
 
@@ -1092,16 +1092,16 @@ stop/VB
 
 
 
-List/VB
-American/NNP
-Airlines/NNP
-flights/NNS
+List VB
+American NNP
+Airlines NNP
+flights NNS
 from/IN
-New/NNP
-York/NNP
-Newark/NNP
+New NNP
+York NNP
+Newark NNP
 to/TO
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -1110,12 +1110,12 @@ Nashville/NNP
 
 
 List/VB
-all/DT
-flights/NNS
+all DT
+flights NNS
 between/IN
-five/CD
+five CD
 and/CC
-seven/CD
+seven CD
 p.m/RB
 
 
@@ -1123,15 +1123,15 @@ p.m/RB
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-aircraft/NN
-type/NN
+the DT
+aircraft NN
+type NN
 for/IN
-the/DT
-American/NNP
-flight/NN
+the DT
+American NNP
+flight NN
 
 
 
@@ -1139,23 +1139,23 @@ flight/NN
 
 
 
-Okay/UH
-I/PRP
+Okay UH
+I PRP
 'd/MD
 like/VB
 to/TO
 make/VB
-a/DT
-reservation/NN
+a DT
+reservation NN
 on/IN
-flight/NN
-six/CD
+flight NN
+six CD
 
-oh/CD
+oh CD
 
-six/CD
+six CD
 on/IN
-Delta/NNP
+Delta NNP
 
 
 
@@ -1163,15 +1163,15 @@ Delta/NNP
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
 to/TO
 fly/VB
-the/DT
-coach/NN
-discount/NN
-class/NN
+the DT
+coach NN
+discount NN
+class NN
 
 
 
@@ -1179,10 +1179,10 @@ class/NN
 
 
 
-The/DT
-eighth/JJ
+The DT
+eighth JJ
 of/IN
-July/NNP
+July NNP
 
 
 
@@ -1191,21 +1191,21 @@ July/NNP
 
 
 Do/VBP
-I/PRP
+I PRP
 have/VB
-a/DT
-reservation/NN
+a DT
+reservation NN
 on/IN
-flight/NN
-six/CD
+flight NN
+six CD
 
-oh/CD
+oh CD
 
-six/CD
+six CD
 from/IN
-Tampa/NNP
+Tampa NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -1213,8 +1213,8 @@ Montreal/NNP
 
 
 
-July/NNP
-sixteenth/JJ
+July NNP
+sixteenth JJ
 please/UH
 
 
@@ -1222,17 +1222,17 @@ please/UH
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
-a/DT
-flight/NN
-tomorrow/NN
+a DT
+flight NN
+tomorrow NN
 from/IN
-San/NNP
-Diego/NNP
+San NNP
+Diego NNP
 to/TO
-Toronto/NNP
+Toronto NNP
 
 
 
@@ -1240,17 +1240,17 @@ Toronto/NNP
 
 
 
-What/WDT
-type/NN
+What WDT
+type NN
 of/IN
-aircraft/NN
+aircraft NN
 is/VBZ
-Alaska/NNP
-'s/POS
-flight/NN
-two/CD
-eighty/CD
-two/CD
+Alaska NNP
+'s POS
+flight NN
+two CD
+eighty CD
+two CD
 
 
 
@@ -1258,7 +1258,7 @@ two/CD
 
 
 
-Thanks/UH
+Thanks UH
 
 
 
@@ -1266,21 +1266,21 @@ Thanks/UH
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
-a/DT
-flight/NN
-tomorrow/NN
+a DT
+flight NN
+tomorrow NN
 from/IN
-Columbus/NNP
+Columbus NNP
 to/TO
-Houston/NNP
+Houston NNP
 with/IN
-a/DT
-stopover/NN
+a DT
+stopover NN
 in/IN
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -1288,16 +1288,16 @@ Nashville/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 have/VBP
-the/DT
-longest/JJS
-layover/NN
+the DT
+longest JJS
+layover NN
 in/IN
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -1306,10 +1306,10 @@ Nashville/NNP
 
 
 Does/VBZ
-this/DT
-flight/NN
+this DT
+flight NN
 serve/VB
-dinner/NN
+dinner NN
 
 
 
@@ -1318,16 +1318,16 @@ dinner/NN
 
 
 Is/VBZ
-dinner/NN
+dinner NN
 served/VBN
 on/IN
-the/DT
-first/JJ
-leg/NN
+the DT
+first JJ
+leg NN
 or/CC
-the/DT
-second/JJ
-leg/NN
+the DT
+second JJ
+leg NN
 
 
 
@@ -1336,10 +1336,10 @@ leg/NN
 
 
 Is/VBZ
-this/DT
-flight/NN
+this DT
+flight NN
 for/IN
-tomorrow/NN
+tomorrow NN
 
 
 
@@ -1349,15 +1349,15 @@ tomorrow/NN
 
 Is/VBZ
 there/EX
-a/DT
-flight/NN
-tomorrow/NN
-morning/NN
+a DT
+flight NN
+tomorrow NN
+morning NN
 from/IN
-Columbus/NNP
+Columbus NNP
 to/TO
 to/TO
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -1367,16 +1367,16 @@ Nashville/NNP
 
 Is/VBZ
 there/EX
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Houston/NNP
+Houston NNP
 in/IN
-the/DT
-evening/NN
-tomorrow/NN
+the DT
+evening NN
+tomorrow NN
 
 
 
@@ -1384,15 +1384,15 @@ tomorrow/NN
 
 
 
-Does/VBZ
-American/NNP
-'s/POS
-flight/NN
-eighteen/CD
-twenty/CD
-five/CD
+Does VBZ
+American NNP
+'s POS
+flight NN
+eighteen CD
+twenty CD
+five CD
 serve/VB
-dinner/NN
+dinner NN
 
 
 
@@ -1401,10 +1401,10 @@ dinner/NN
 
 
 Does/VBZ
-the/DT
-other/JJ
-American/NNP
-flight/NN
+the DT
+other JJ
+American NNP
+flight NN
 
 
 
@@ -1412,20 +1412,20 @@ flight/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Houston/NNP
-tomorrow/NN
-evening/NN
+Houston NNP
+tomorrow NN
+evening NN
 
-that/WDT
+that WDT
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -1433,7 +1433,7 @@ dinner/NN
 
 
 
-Thanks/UH
+Thanks UH
 
 
 
@@ -1441,20 +1441,20 @@ Thanks/UH
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
 Newark/NNP
 on/IN
-the/DT
-first/JJ
+the DT
+first JJ
 of/IN
-July/NNP
+July NNP
 
 
 
@@ -1462,11 +1462,11 @@ July/NNP
 
 
 
-I/PRP
+I PRP
 prefer/VBP
-a/DT
-morning/NN
-flight/NN
+a DT
+morning NN
+flight NN
 
 
 
@@ -1474,18 +1474,18 @@ flight/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 
-the/DT
-next/JJ
-day/NN
+the DT
+next JJ
+day NN
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Orlando/NNP
+Orlando NNP
 
 
 
@@ -1493,11 +1493,11 @@ Orlando/NNP
 
 
 
-Which/WDT
+Which WDT
 are/VBP
-the/DT
-morning/NN
-flights/NNS
+the DT
+morning NN
+flights NNS
 
 
 
@@ -1505,33 +1505,33 @@ flights/NNS
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
 to/TO
 fly/VB
 back/RB
 to/TO
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 
-the/DT
-next/JJ
-day/NN
-
-
+the DT
+next JJ
+day NN
 
 
 
 
 
-Which/WDT
+
+
+Which WDT
 is/VBZ
-the/DT
-latest/JJS
-flight/NN
+the DT
+latest JJS
+flight NN
 that/WDT
-Continental/NNP
+Continental NNP
 has/VBZ
 
 
@@ -1539,7 +1539,7 @@ has/VBZ
 
 
 
-Thanks/UH
+Thanks UH
 
 
 
@@ -1547,15 +1547,15 @@ Thanks/UH
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
 to/TO
 fly/VB
 from/IN
-Tampa/NNP
+Tampa NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -1563,13 +1563,13 @@ Montreal/NNP
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
 to/TO
 fly/VB
-next/JJ
-Friday/NNP
+next JJ
+Friday NNP
 
 
 
@@ -1577,12 +1577,12 @@ Friday/NNP
 
 
 
-Which/WDT
-ones/NNS
+Which WDT
+ones NNS
 go/VBP
 through/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 
 
 
@@ -1591,12 +1591,12 @@ York/NNP
 
 
 Does/VBZ
-the/DT
-twelve/CD
-fourteen/CD
-flight/NN
+the DT
+twelve CD
+fourteen CD
+flight NN
 serve/VB
-lunch/NN
+lunch NN
 
 
 
@@ -1605,13 +1605,13 @@ lunch/NN
 
 
 Does/VBZ
-the/DT
-ten/CD
-thirty/CD
-five/CD
-flight/NN
+the DT
+ten CD
+thirty CD
+five CD
+flight NN
 serve/VB
-lunch/NN
+lunch NN
 
 
 
@@ -1621,15 +1621,15 @@ lunch/NN
 
 How/WRB
 about/IN
-the/DT
-one/NN
+the DT
+one NN
 
-that/WDT
+that WDT
 leaves/VBZ
 at/IN
-ten/CD
-thirty/CD
-five/CD
+ten CD
+thirty CD
+five CD
 
 
 
@@ -1637,11 +1637,11 @@ five/CD
 
 
 
-I/PRP
+I PRP
 meant/VBD
-ten/CD
-thirty/CD
-five/CD
+ten CD
+thirty CD
+five CD
 a.m/RB
 
 
@@ -1649,21 +1649,21 @@ a.m/RB
 
 
 
-I/PRP
+I PRP
 'm/VBP
 in/IN
-Miami/NNP
+Miami NNP
 and/CC
-I/PRP
+I PRP
 'd/MD
 like/VB
 to/TO
 travel/VB
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -1672,18 +1672,18 @@ Sunday/NNP
 
 
 On/IN
-Monday/NNP
-I/PRP
+Monday NNP
+I PRP
 'd/MD
 like/VB
 to/TO
 travel/VB
 from/IN
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 to/TO
-Detroit/NNP
-Michigan/NNP
+Detroit NNP
+Michigan NNP
 
 
 
@@ -1692,12 +1692,12 @@ Michigan/NNP
 
 
 Can/MD
-you/PRP
+you PRP
 list/VB
-the/DT
-nonstop/JJ
-afternoon/NN
-flights/NNS
+the DT
+nonstop JJ
+afternoon NN
+flights NNS
 
 
 
@@ -1706,17 +1706,17 @@ flights/NNS
 
 
 On/IN
-Tuesday/NNP
-I/PRP
+Tuesday NNP
+I PRP
 'd/MD
 like/VB
 to/TO
 fly/VB
 from/IN
-Detroit/NNP
+Detroit NNP
 to/TO
-Saint/NNP
-Petersburg/NNP
+Saint NNP
+Petersburg NNP
 
 
 
@@ -1724,9 +1724,9 @@ Petersburg/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-those/DT
+those DT
 are/VBP
 nonstop/JJ
 
@@ -1736,19 +1736,19 @@ nonstop/JJ
 
 
 On/IN
-Thursday/NNP
-I/PRP
+Thursday NNP
+I PRP
 'd/MD
 like/VB
 to/TO
 return/VB
-home/RB
+home RB
 to/TO
-Miami/NNP
+Miami NNP
 as/RB
 early/RB
 as/IN
-possible/JJ
+possible JJ
 
 
 
@@ -1756,17 +1756,17 @@ possible/JJ
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
 to/TO
 fly/VB
 from/IN
-Columbus/NNP
+Columbus NNP
 to/TO
-Nashville/NNP
-tomorrow/NN
-morning/NN
+Nashville NNP
+tomorrow NN
+morning NN
 
 
 
@@ -1775,20 +1775,20 @@ morning/NN
 
 
 Can/MD
-you/PRP
+you PRP
 show/VB
-me/PRP
+me PRP
 
-evening/NN
-flights/NNS
+evening NN
+flights NNS
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Houston/NNP
+Houston NNP
 
-that/WDT
+that WDT
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -1796,26 +1796,26 @@ dinner/NN
 
 
 
-Flight/NN
+Flight NN
 from/IN
-Saint/NNP
-Petersburg/NNP
+Saint NNP
+Petersburg NNP
 to/TO
-Milwaukee/NNP
+Milwaukee NNP
 and/CC
 also/RB
-flight/NN
+flight NN
 from/IN
-Milwaukee/NNP
+Milwaukee NNP
 to/TO
-Tacoma/NNP
-stay/NN
+Tacoma NNP
+stay NN
 in/IN
-Milwaukee/NNP
-direct/JJ
-flight/NN
-same/JJ
-airline/NN
+Milwaukee NNP
+direct JJ
+flight NN
+same JJ
+airline NN
 
 
 
@@ -1823,14 +1823,14 @@ airline/NN
 
 
 
-Airline/NN
+Airline NN
 and/CC
-flight/NN
-number/NN
+flight NN
+number NN
 from/IN
-Columbus/NNP
+Columbus NNP
 to/TO
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -1838,7 +1838,7 @@ Minneapolis/NNP
 
 
 
-Tomorrow/NN
+Tomorrow NN
 
 
 
@@ -1846,13 +1846,13 @@ Tomorrow/NN
 
 
 
-Flight/NN
-numbers/NNS
+Flight NN
+numbers NNS
 from/IN
-Columbus/NNP
+Columbus NNP
 to/TO
-Minneapolis/NNP
-tomorrow/NN
+Minneapolis NNP
+tomorrow NN
 
 
 
@@ -1860,17 +1860,17 @@ tomorrow/NN
 
 
 
-Flight/NN
-numbers/NNS
+Flight NN
+numbers NNS
 from/IN
-Minneapolis/NNP
+Minneapolis NNP
 to/TO
-Long/NNP
-Beach/NNP
+Long NNP
+Beach NNP
 on/IN
-June/NNP
-twenty/CD
-six/CD
+June NNP
+twenty CD
+six CD
 
 
 
@@ -1878,15 +1878,15 @@ six/CD
 
 
 
-Flight/NN
+Flight NN
 from/IN
-Long/NNP
-Beach/NNP
+Long NNP
+Beach NNP
 to/TO
-Columbus/NNP
+Columbus NNP
 on/IN
-twenty/CD
-seventh/JJ
+twenty CD
+seventh JJ
 
 
 
@@ -1894,14 +1894,14 @@ seventh/JJ
 
 
 
-I/PRP
+I PRP
 want/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Ontario/NNP
+Ontario NNP
 to/TO
-Chicago/NNP
+Chicago NNP
 
 
 
@@ -1909,22 +1909,22 @@ Chicago/NNP
 
 
 
-I/PRP
+I PRP
 actually/RB
 want/VBP
 to/TO
 go/VB
 from/IN
-Ontario/NNP
+Ontario NNP
 to/TO
-Chicago/NNP
-I/PRP
+Chicago NNP
+I PRP
 mean/VBP
-Ontario/NNP
+Ontario NNP
 to/TO
-Westchester/NNP
+Westchester NNP
 via/IN
-Chicago/NNP
+Chicago NNP
 
 
 
@@ -1932,12 +1932,12 @@ Chicago/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 serves/VBZ
-dinner/NN
+dinner NN
 
 
 
@@ -1945,17 +1945,17 @@ dinner/NN
 
 
 
-I/PRP
+I PRP
 'd/MD
 like/VB
-a/DT
-flight/NN
+a DT
+flight NN
 on/IN
-American/NNP
+American NNP
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -1963,19 +1963,19 @@ Nashville/NNP
 
 
 
-I/PRP
+I PRP
 plan/VBP
 to/TO
 leave/VB
 on/IN
-July/NNP
-first/JJ
+July NNP
+first JJ
 around/IN
-six/CD
-thirty/CD
+six CD
+thirty CD
 in/IN
-the/DT
-evening/NN
+the DT
+evening NN
 
 
 
@@ -1983,16 +1983,16 @@ evening/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-nonstop/JJ
-flight/NN
+a DT
+nonstop JJ
+flight NN
 from/IN
-San/NNP
-Diego/NNP
+San NNP
+Diego NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -2000,12 +2000,12 @@ Phoenix/NNP
 
 
 
-I/PRP
+I PRP
 want/VBP
 to/TO
 leave/VB
-Monday/NNP
-morning/NN
+Monday NNP
+morning NN
 
 
 
@@ -2014,16 +2014,16 @@ morning/NN
 
 
 Now/RB
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 on/IN
-Tuesday/NNP
+Tuesday NNP
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
-Detroit/NNP
+Detroit NNP
 
 
 
@@ -2031,12 +2031,12 @@ Detroit/NNP
 
 
 
-Which/WDT
-ones/NNS
+Which WDT
+ones NNS
 leave/VBP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -2044,13 +2044,13 @@ morning/NN
 
 
 
-Which/WDT
-ones/NNS
+Which WDT
+ones NNS
 arrive/VBP
 early/RB
 in/IN
-the/DT
-day/NN
+the DT
+day NN
 
 
 
@@ -2058,17 +2058,17 @@ day/NN
 
 
 
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
-Detroit/NNP
+Detroit NNP
 leaving/VBG
-Monday/NNP
-evening/NN
+Monday NNP
+evening NN
 
 
 
@@ -2076,10 +2076,10 @@ evening/NN
 
 
 
-What/WP
+What WP
 about/IN
-Monday/NNP
-afternoon/NN
+Monday NNP
+afternoon NN
 
 
 
@@ -2088,18 +2088,18 @@ afternoon/NN
 
 
 Now/RB
-I/PRP
+I PRP
 need/VBP
-a/DT
-flight/NN
+a DT
+flight NN
 from/IN
-Detroit/NNP
+Detroit NNP
 to/TO
-San/NNP
-Diego/NNP
+San NNP
+Diego NNP
 leaving/VBG
-Tuesday/NNP
-evening/NN
+Tuesday NNP
+evening NN
 
 
 
@@ -2108,14 +2108,14 @@ evening/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2123,12 +2123,12 @@ Oakland/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 have/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -2137,14 +2137,14 @@ dinner/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-these/DT
-flights/NNS
+these DT
+flights NNS
 
-that/WDT
+that WDT
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -2152,11 +2152,11 @@ dinner/NN
 
 
 
-Which/WDT
+Which WDT
 is/VBZ
-the/DT
-latest/JJS
-flight/NN
+the DT
+latest JJS
+flight NN
 
 
 
@@ -2165,14 +2165,14 @@ flight/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2180,12 +2180,12 @@ Oakland/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -2193,12 +2193,12 @@ dinner/NN
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 depart/VBP
-latest/RBS
+latest RBS
 
 
 
@@ -2206,13 +2206,13 @@ latest/RBS
 
 
 
-Which/WDT
+Which WDT
 of/IN
-the/DT
-dinner/NN
-flights/NNS
+the DT
+dinner NN
+flights NNS
 depart/VBP
-last/RB
+last RB
 
 
 
@@ -2221,15 +2221,15 @@ last/RB
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-dinner/NN
-flights/NNS
+the DT
+dinner NN
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2237,9 +2237,9 @@ Oakland/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 is/VBZ
 last/JJ
 
@@ -2249,15 +2249,15 @@ last/JJ
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-dinner/NN
-flights/NNS
+the DT
+dinner NN
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2265,9 +2265,9 @@ Oakland/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 is/VBZ
 last/JJ
 
@@ -2276,10 +2276,10 @@ last/JJ
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 is/VBZ
 last/JJ
 
@@ -2289,14 +2289,14 @@ last/JJ
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2304,11 +2304,11 @@ Oakland/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -2316,7 +2316,7 @@ dinner/NN
 
 
 
-Which/WDT
+Which WDT
 is/VBZ
 last/JJ
 
@@ -2326,14 +2326,14 @@ last/JJ
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2341,12 +2341,12 @@ Oakland/NNP
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 are/VBP
-dinner/NN
-flights/NNS
+dinner NN
+flights NNS
 
 
 
@@ -2354,12 +2354,12 @@ flights/NNS
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
+these DT
 are/VBP
-dinner/NN
-flights/NNS
+dinner NN
+flights NNS
 
 
 
@@ -2367,12 +2367,12 @@ flights/NNS
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -2380,12 +2380,12 @@ dinner/NN
 
 
 
-Which/WDT
+Which WDT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 leave/VBP
-latest/RBS
+latest RBS
 
 
 
@@ -2394,16 +2394,16 @@ latest/RBS
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-latest/JJS
-dinner/NN
-flight/NN
+the DT
+latest JJS
+dinner NN
+flight NN
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 
 
 
@@ -2412,14 +2412,14 @@ Oakland/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Oakland/NNP
+Oakland NNP
 please/UH
 
 
@@ -2427,9 +2427,9 @@ please/UH
 
 
 
-Which/WDT
+Which WDT
 serve/VBP
-dinner/NN
+dinner NN
 
 
 
@@ -2437,9 +2437,9 @@ dinner/NN
 
 
 
-Which/WDT
+Which WDT
 leaves/VBZ
-latest/RBS
+latest RBS
 
 
 
@@ -2448,19 +2448,19 @@ latest/RBS
 
 
 Show/VB
-me/PRP
+me PRP
 
-all/PDT
-the/DT
-fares/NNS
+all PDT
+the DT
+fares NNS
 from/IN
-one/CD
-way/NN
-fares/NNS
+one CD
+way NN
+fares NNS
 from/IN
-Tacoma/NNP
+Tacoma NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -2469,15 +2469,15 @@ Montreal/NNP
 
 
 Are/VBP
-there/EX
+there EX
 
-any/DT
-other/JJ
-fares/NNS
+any DT
+other JJ
+fares NNS
 from/IN
-Tacoma/NNP
+Tacoma NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -2486,16 +2486,16 @@ Montreal/NNP
 
 
 How/WRB
-many/JJ
-fares/NNS
+many JJ
+fares NNS
 are/VBP
 there/EX
-one/CD
-way/NN
+one CD
+way NN
 from/IN
-Tacoma/NNP
+Tacoma NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -2504,16 +2504,16 @@ Montreal/NNP
 
 
 How/WRB
-many/JJ
-fares/NNS
+many JJ
+fares NNS
 are/VBP
 there/EX
-one/CD
-way/NN
+one CD
+way NN
 from/IN
-Tacoma/NNP
+Tacoma NNP
 to/TO
-Montreal/NNP
+Montreal NNP
 
 
 
@@ -2521,10 +2521,10 @@ Montreal/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-that/DT
-fare/NN
+that DT
+fare NN
 
 
 
@@ -2533,7 +2533,7 @@ fare/NN
 
 
 Thank/VB
-you/PRP
+you PRP
 
 
 
@@ -2542,16 +2542,16 @@ you/PRP
 
 
 Please/UH
-list/VB
+list VB
 
-the/DT
-earliest/JJS
-lunch/NN
-flight/NN
+the DT
+earliest JJS
+lunch NN
+flight NN
 from/IN
-Columbus/NNP
+Columbus NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -2560,19 +2560,19 @@ Phoenix/NNP
 
 
 Please/UH
-list/VB
+list VB
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Charlotte/NNP
+Charlotte NNP
 to/TO
-Long/NNP
-Beach/NNP
+Long NNP
+Beach NNP
 arriving/VBG
 after/IN
-lunch/NN
-time/NN
+lunch NN
+time NN
 
 
 
@@ -2580,12 +2580,12 @@ time/NN
 
 
 
-What/WDT
-type/NN
+What WDT
+type NN
 of/IN
-aircraft/NN
+aircraft NN
 is/VBZ
-it/PRP
+it PRP
 
 
 
@@ -2593,13 +2593,13 @@ it/PRP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Dallas/NNP
+Dallas NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -2607,10 +2607,10 @@ Tampa/NNP
 
 
 
-Which/WDT
-flights/NNS
+Which WDT
+flights NNS
 serve/VBP
-breakfast/NN
+breakfast NN
 
 
 
@@ -2618,10 +2618,10 @@ breakfast/NN
 
 
 
-Which/WDT
+Which WDT
 is/VBZ
-the/DT
-latest/JJS
+the DT
+latest JJS
 
 
 
@@ -2629,15 +2629,15 @@ latest/JJS
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Seattle/NNP
+Seattle NNP
 to/TO
-Boston/NNP
+Boston NNP
 via/IN
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -2645,8 +2645,8 @@ Minneapolis/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
 
@@ -2655,16 +2655,16 @@ from/IN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Philadelphia/NNP
+Philadelphia NNP
 to/TO
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 via/IN
-Dallas/NNP
+Dallas NNP
 
 
 
@@ -2672,12 +2672,12 @@ Dallas/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-abbreviation/NN
-D/SYM
-ten/CD
+the DT
+abbreviation NN
+D SYM
+ten CD
 
 
 
@@ -2685,14 +2685,14 @@ ten/CD
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Denver/NNP
+Denver NNP
 to/TO
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 
 
 
@@ -2700,7 +2700,7 @@ Francisco/NNP
 
 
 
-Which/WDT
+Which WDT
 are/VBP
 nonstop/JJ
 
@@ -2709,12 +2709,12 @@ nonstop/JJ
 
 
 
-Which/WDT
+Which WDT
 make/VBP
 at/IN
-least/JJS
-one/CD
-stop/NN
+least JJS
+one CD
+stop NN
 
 
 
@@ -2722,20 +2722,20 @@ stop/NN
 
 
 
-I/PRP
+I PRP
 want/VBP
 to/TO
 fly/VB
 from/IN
-Denver/NNP
+Denver NNP
 to/TO
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 with/IN
 at/IN
-least/JJS
-one/CD
-stop/NN
+least JJS
+one CD
+stop NN
 
 
 
@@ -2743,17 +2743,17 @@ stop/NN
 
 
 
-What/WDT
-airline/NN
+What WDT
+airline NN
 provides/VBZ
 only/RB
 connecting/VBG
-flights/NNS
+flights NNS
 between/IN
-Denver/NNP
+Denver NNP
 and/CC
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 
 
 
@@ -2761,15 +2761,15 @@ Francisco/NNP
 
 
 
-What/WDT
-type/NN
+What WDT
+type NN
 of/IN
-aircraft/NN
+aircraft NN
 is/VBZ
 used/VBN
 on/IN
-those/DT
-flights/NNS
+those DT
+flights NNS
 
 
 
@@ -2778,21 +2778,21 @@ flights/NNS
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-earliest/JJS
-flight/NN
+the DT
+earliest JJS
+flight NN
 from/IN
-San/NNP
-Jose/NNP
+San NNP
+Jose NNP
 to/TO
-Pittsburgh/NNP
+Pittsburgh NNP
 
-that/WDT
+that WDT
 serves/VBZ
-a/DT
-snack/NN
+a DT
+snack NN
 
 
 
@@ -2801,18 +2801,18 @@ snack/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-first/JJ
-flight/NN
+the DT
+first JJ
+flight NN
 
-that/WDT
+that WDT
 arrives/VBZ
 in/IN
-Toronto/NNP
+Toronto NNP
 from/IN
-Cincinnati/NNP
+Cincinnati NNP
 
 
 
@@ -2821,15 +2821,15 @@ Cincinnati/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-all/PDT
-the/DT
-flights/NNS
+all PDT
+the DT
+flights NNS
 from/IN
-Cincinnati/NNP
+Cincinnati NNP
 to/TO
-Toronto/NNP
+Toronto NNP
 
 
 
@@ -2838,14 +2838,14 @@ Toronto/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Toronto/NNP
+Toronto NNP
 to/TO
-Cincinnati/NNP
+Cincinnati NNP
 
 
 
@@ -2853,16 +2853,16 @@ Cincinnati/NNP
 
 
 
-List/VB
-nonstop/JJ
-flights/NNS
+List VB
+nonstop JJ
+flights NNS
 from/IN
-Burbank/NNP
+Burbank NNP
 to/TO
-Denver/NNP
+Denver NNP
 arriving/VBG
 by/IN
-six/CD
+six CD
 p.m/RB
 
 
@@ -2870,13 +2870,13 @@ p.m/RB
 
 
 
-What/WDT
-airlines/NNS
+What WDT
+airlines NNS
 fly/VBP
 from/IN
-Burbank/NNP
+Burbank NNP
 to/TO
-Denver/NNP
+Denver NNP
 
 
 
@@ -2884,18 +2884,18 @@ Denver/NNP
 
 
 
-Which/WDT
-flights/NNS
+Which WDT
+flights NNS
 depart/VBP
-Burbank/NNP
+Burbank NNP
 after/IN
-noon/NN
+noon NN
 and/CC
 arrive/VBP
 in/IN
-Denver/NNP
+Denver NNP
 by/IN
-six/CD
+six CD
 p.m/RB
 
 
@@ -2903,15 +2903,15 @@ p.m/RB
 
 
 
-Which/WDT
-flights/NNS
+Which WDT
+flights NNS
 depart/VBP
-Burbank/NNP
+Burbank NNP
 between/IN
-twelve/CD
-noon/NN
+twelve CD
+noon NN
 and/CC
-six/CD
+six CD
 p.m/RB
 
 
@@ -2920,12 +2920,12 @@ p.m/RB
 
 
 List/VB
-all/DT
-flights/NNS
+all DT
+flights NNS
 from/IN
-Burbank/NNP
+Burbank NNP
 to/TO
-Denver/NNP
+Denver NNP
 
 
 
@@ -2933,17 +2933,17 @@ Denver/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-lowest/JJS
-fare/NN
+the DT
+lowest JJS
+fare NN
 for/IN
-United/NNP
-Airlines/NNP
+United NNP
+Airlines NNP
 flight/NN
-four/CD
-thirty/CD
+four CD
+thirty CD
 
 
 
@@ -2952,10 +2952,10 @@ thirty/CD
 
 
 Is/VBZ
-this/DT
+this DT
 is/VBZ
-this/DT
-flight/NN
+this DT
+flight NN
 nonstop/JJ
 
 
@@ -2964,15 +2964,15 @@ nonstop/JJ
 
 
 Is/VBZ
-United/NNP
-Airlines/NNP
+United NNP
+Airlines NNP
 flight/NN
-four/CD
-thirty/CD
+four CD
+thirty CD
 
-a/DT
-nonstop/JJ
-flight/NN
+a DT
+nonstop JJ
+flight NN
 
 
 
@@ -2981,18 +2981,18 @@ flight/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-round/JJ
-trip/NN
-flights/NNS
+the DT
+round JJ
+trip NN
+flights NNS
 between/IN
-Phoenix/NNP
+Phoenix NNP
 and/CC
-Salt/NNP
-Lake/NNP
-City/NNP
+Salt NNP
+Lake NNP
+City NNP
 
 
 
@@ -3001,11 +3001,11 @@ City/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-earliest/JJS
-flight/NN
+the DT
+earliest JJS
+flight NN
 
 
 
@@ -3014,17 +3014,17 @@ flight/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-latest/JJS
-flight/NN
+the DT
+latest JJS
+flight NN
 from/IN
-Salt/NNP
-Lake/NNP
-City/NNP
+Salt NNP
+Lake NNP
+City NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -3033,11 +3033,11 @@ Phoenix/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-ground/NN
-transportation/NN
+the DT
+ground NN
+transportation NN
 available/JJ
 
 
@@ -3046,8 +3046,8 @@ available/JJ
 
 
 How/WRB
-many/JJ
-stops/NNS
+many JJ
+stops NNS
 are/VBP
 there/EX
 
@@ -3057,16 +3057,16 @@ there/EX
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
-Salt/NNP
-Lake/NNP
-City/NNP
+Salt NNP
+Lake NNP
+City NNP
 
 
 
@@ -3076,14 +3076,14 @@ City/NNP
 
 Are/VBP
 there/EX
-any/DT
-stopovers/NNS
+any DT
+stopovers NNS
 for/IN
-Delta/NNP
-one/CD
-seven/CD
-three/CD
-nine/CD
+Delta NNP
+one CD
+seven CD
+three CD
+nine CD
 
 
 
@@ -3092,16 +3092,16 @@ nine/CD
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 from/IN
-Salt/NNP
-Lake/NNP
-City/NNP
+Salt NNP
+Lake NNP
+City NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -3109,13 +3109,13 @@ Phoenix/NNP
 
 
 
-Any/DT
-stopovers/NNS
+Any DT
+stopovers NNS
 for/IN
-Delta/NNP
-seven/CD
-fifty/CD
-one/CD
+Delta NNP
+seven CD
+fifty CD
+one CD
 
 
 
@@ -3124,17 +3124,17 @@ one/CD
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-nonstop/JJ
-nonstop/JJ
-flights/NNS
+the DT
+nonstop JJ
+nonstop JJ
+flights NNS
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Saint/NNP
-Louis/NNP
+Saint NNP
+Louis NNP
 
 
 
@@ -3143,18 +3143,18 @@ Louis/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 leaving/VBG
 after/IN
-noon/NN
+noon NN
 and/CC
 arriving/VBG
 before/IN
-six/CD
-thirty/CD
+six CD
+thirty CD
 
 
 
@@ -3163,12 +3163,12 @@ thirty/CD
 
 
 Do/VBP
-any/DT
+any DT
 of/IN
-these/DT
-flights/NNS
+these DT
+flights NNS
 have/VB
-stops/NNS
+stops NNS
 
 
 
@@ -3177,9 +3177,9 @@ stops/NNS
 
 
 Are/VBP
-these/DT
-nonstop/JJ
-flights/NNS
+these DT
+nonstop JJ
+flights NNS
 
 
 
@@ -3188,10 +3188,10 @@ flights/NNS
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flights/NNS
+the DT
+flights NNS
 
 
 
@@ -3200,27 +3200,27 @@ flights/NNS
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-fares/NNS
-
-
+the DT
+fares NNS
 
 
 
 
 
-What/WDT
-flights/NNS
+
+
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Milwaukee/NNP
+Milwaukee NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 on/IN
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -3228,11 +3228,11 @@ Saturday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-M/SYM
-I/SYM
-A/SYM
+M SYM
+I SYM
+A SYM
 
 
 
@@ -3240,8 +3240,8 @@ A/SYM
 
 
 
-Show/VB
-flights/NNS
+Show VB
+flights NNS
 
 
 
@@ -3249,16 +3249,16 @@ flights/NNS
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Milwaukee/NNP
+Milwaukee NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 on/IN
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -3266,14 +3266,14 @@ Saturday/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
-Milwaukee/NNP
+Milwaukee NNP
 
 
 
@@ -3281,14 +3281,14 @@ Milwaukee/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 arrive/VBP
 in/IN
-Milwaukee/NNP
+Milwaukee NNP
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -3296,13 +3296,13 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
-Phoenix/NNP
+Phoenix NNP
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -3310,12 +3310,12 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
-Phoenix/NNP
+Phoenix NNP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 
 
 
@@ -3323,14 +3323,14 @@ Wednesday/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
-Phoenix/NNP
+Phoenix NNP
 on/IN
-Tuesday/NNP
+Tuesday NNP
 after/IN
-nine/CD
+nine CD
 p.m/RB
 
 
@@ -3338,11 +3338,11 @@ p.m/RB
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
 from/IN
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -3350,11 +3350,11 @@ Phoenix/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
 from/IN
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -3362,11 +3362,11 @@ Phoenix/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
 anywhere/RB
 
@@ -3375,11 +3375,11 @@ anywhere/RB
 
 
 
-What/WP
+What WP
 is/VBZ
-B/SYM
-N/SYM
-A/SYM
+B SYM
+N SYM
+A SYM
 
 
 
@@ -3387,8 +3387,8 @@ A/SYM
 
 
 
-Show/VB
-flights/NNS
+Show VB
+flights NNS
 
 
 
@@ -3396,13 +3396,13 @@ flights/NNS
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Phoenix/NNP
+Phoenix NNP
 
 
 
@@ -3410,13 +3410,13 @@ Phoenix/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Milwaukee/NNP
+Milwaukee NNP
 
 
 
@@ -3424,16 +3424,16 @@ Milwaukee/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 leave/VBP
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
-Nashville/NNP
+Nashville NNP
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -3441,15 +3441,15 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 to/TO
-Pittsburgh/NNP
+Pittsburgh NNP
 
 
 
@@ -3457,15 +3457,15 @@ Pittsburgh/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Pittsburgh/NNP
+Pittsburgh NNP
 to/TO
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 
 
 
@@ -3473,14 +3473,14 @@ Angeles/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Dallas/NNP
+Dallas NNP
 to/TO
-Houston/NNP
+Houston NNP
 
 
 
@@ -3489,32 +3489,32 @@ Houston/NNP
 
 
 Is/VBZ
-flight/NN
-W/NNP
-N/NNP
-two/CD
-zero/CD
-one/CD
+flight NN
+W NNP
+N NNP
+two CD
+zero CD
+one CD
 
-a/DT
-round/JJ
-trip/NN
-flight/NN
-
-
+a DT
+round JJ
+trip NN
+flight NN
 
 
 
 
 
-What/WDT
-flights/NNS
+
+
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Houston/NNP
+Houston NNP
 to/TO
-Dallas/NNP
+Dallas NNP
 
 
 
@@ -3522,14 +3522,14 @@ Dallas/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -3537,14 +3537,14 @@ Tampa/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Tampa/NNP
+Tampa NNP
 to/TO
-Charlotte/NNP
+Charlotte NNP
 
 
 
@@ -3552,14 +3552,14 @@ Charlotte/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Charlotte/NNP
+Charlotte NNP
 to/TO
-Baltimore/NNP
+Baltimore NNP
 
 
 
@@ -3567,14 +3567,14 @@ Baltimore/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Newark/NNP
+Newark NNP
 
 
 
@@ -3582,14 +3582,14 @@ Newark/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Indianapolis/NNP
+Indianapolis NNP
 to/TO
-Orlando/NNP
+Orlando NNP
 
 
 
@@ -3600,8 +3600,8 @@ Orlando/NNP
 How/WRB
 much/RB
 do/VBP
-these/DT
-flights/NNS
+these DT
+flights NNS
 cost/VB
 
 
@@ -3609,16 +3609,16 @@ cost/VB
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3626,17 +3626,17 @@ Vegas/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3644,17 +3644,17 @@ Vegas/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3662,15 +3662,15 @@ Vegas/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-Memphis/NNP
+Memphis NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3678,14 +3678,14 @@ Vegas/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 from/IN
-Memphis/NNP
+Memphis NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3693,33 +3693,15 @@ Vegas/NNP
 
 
 
-What/WDT
-flights/NNS
-are/VBP
-there/EX
-from/IN
-Memphis/NNP
-to/TO
-Las/NNP
-Vegas/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 are/VBP
 there/EX
 from/IN
-New/NNP
-York/NNP
-City/NNP
+Memphis NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3727,13 +3709,17 @@ Vegas/NNP
 
 
 
-Show/VB
-flights/NNS
+What WDT
+flights NNS
+are/VBP
+there/EX
 from/IN
-Memphis/NNP
+New NNP
+York NNP
+City NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3741,15 +3727,13 @@ Vegas/NNP
 
 
 
-Show/VB
-flights/NNS
+Show VB
+flights NNS
 from/IN
-New/NNP
-York/NNP
-City/NNP
+Memphis NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3757,15 +3741,15 @@ Vegas/NNP
 
 
 
-Show/VB
-flights/NNS
+Show VB
+flights NNS
 from/IN
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -3773,11 +3757,27 @@ Vegas/NNP
 
 
 
-Flights/NNS
+Show VB
+flights NNS
 from/IN
-Miami/NNP
+New NNP
+York NNP
+City NNP
 to/TO
-Cleveland/NNP
+Las NNP
+Vegas NNP
+
+
+
+
+
+
+
+Flights NNS
+from/IN
+Miami NNP
+to/TO
+Cleveland NNP
 
 
 
@@ -3786,10 +3786,10 @@ Cleveland/NNP
 
 
 Leaving/VBG
-Sunday/NNP
+Sunday NNP
 after/IN
-twelve/CD
-noon/NN
+twelve CD
+noon NN
 
 
 
@@ -3797,8 +3797,8 @@ noon/NN
 
 
 
-Show/VB
-costs/NNS
+Show VB
+costs NNS
 
 
 
@@ -3806,11 +3806,11 @@ costs/NNS
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Miami/NNP
+Miami NNP
 
 
 
@@ -3819,21 +3819,21 @@ Miami/NNP
 
 
 Show/VB
-cost/NN
+cost NN
 of/IN
-U/NNP
-S/NNP
-Air/NNP
-fifteen/CD
-twenty/CD
-three/CD
+U NNP
+S NNP
+Air NNP
+fifteen CD
+twenty CD
+three CD
 and/CC
-U/NNP
-S/NNP
-Air/NNP
-seven/CD
-eight/CD
-one/CD
+U NNP
+S NNP
+Air NNP
+seven CD
+eight CD
+one CD
 
 
 
@@ -3841,11 +3841,11 @@ one/CD
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Miami/NNP
+Miami NNP
 
 
 
@@ -3855,7 +3855,7 @@ Miami/NNP
 
 Arriving/VBG
 before/IN
-four/CD
+four CD
 p.m/RB
 
 
@@ -3863,7 +3863,7 @@ p.m/RB
 
 
 
-Cost/NN
+Cost NN
 
 
 
@@ -3871,12 +3871,12 @@ Cost/NN
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 to/TO
-Pittsburgh/NNP
+Pittsburgh NNP
 
 
 
@@ -3885,10 +3885,10 @@ Pittsburgh/NNP
 
 
 On/IN
-Tuesday/NNP
+Tuesday NNP
 arriving/VBG
 before/IN
-five/CD
+five CD
 p.m/RB
 
 
@@ -3896,17 +3896,17 @@ p.m/RB
 
 
 
-Last/JJ
-nonstop/JJ
-flight/NN
+Last JJ
+nonstop JJ
+flight NN
 from/IN
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 to/TO
-Pittsburgh/NNP
+Pittsburgh NNP
 on/IN
-Monday/NNP
-night/NN
+Monday NNP
+night NN
 
 
 
@@ -3914,14 +3914,14 @@ night/NN
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Pittsburgh/NNP
+Pittsburgh NNP
 to/TO
-Los/NNP
-Angeles/NNP
-Thursday/NNP
-evening/NN
+Los NNP
+Angeles NNP
+Thursday NNP
+evening NN
 
 
 
@@ -3929,13 +3929,13 @@ evening/NN
 
 
 
-Flights/NNS
+Flights NNS
 on/IN
-Friday/NNP
+Friday NNP
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -3943,13 +3943,13 @@ Tampa/NNP
 
 
 
-Flights/NNS
+Flights NNS
 on/IN
-Sunday/NNP
+Sunday NNP
 from/IN
-Tampa/NNP
+Tampa NNP
 to/TO
-Charlotte/NNP
+Charlotte NNP
 
 
 
@@ -3957,11 +3957,11 @@ Charlotte/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Charlotte/NNP
+Charlotte NNP
 to/TO
-Baltimore/NNP
+Baltimore NNP
 
 
 
@@ -3969,11 +3969,11 @@ Baltimore/NNP
 
 
 
-Wednesday/NNP
+Wednesday NNP
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Newark/NNP
+Newark NNP
 
 
 
@@ -3981,17 +3981,17 @@ Newark/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 on/IN
-Friday/NNP
+Friday NNP
 on/IN
-U/NNP
-S/NNP
-Air/NNP
+U NNP
+S NNP
+Air NNP
 
 
 
@@ -3999,14 +3999,14 @@ Air/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Dallas/NNP
+Dallas NNP
 to/TO
-Houston/NNP
+Houston NNP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4014,8 +4014,8 @@ morning/NN
 
 
 
-Earliest/JJS
-nonstop/NN
+Earliest JJS
+nonstop NN
 
 
 
@@ -4023,8 +4023,8 @@ nonstop/NN
 
 
 
-Last/JJ
-nonstop/NN
+Last JJ
+nonstop NN
 returning/VBG
 
 
@@ -4032,14 +4032,14 @@ returning/VBG
 
 
 
-Which/WDT
-airlines/NNS
+Which WDT
+airlines NNS
 fly/VBP
 between/IN
-Baltimore/NNP
+Baltimore NNP
 and/CC
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 
 
 
@@ -4047,19 +4047,19 @@ Francisco/NNP
 
 
 
-Which/WDT
-flights/NNS
+Which WDT
+flights NNS
 arrive/VBP
 in/IN
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 at/IN
 or/CC
 before/IN
-eight/CD
+eight CD
 p.m/RB
 on/IN
-Friday/NNP
+Friday NNP
 
 
 
@@ -4068,17 +4068,17 @@ Friday/NNP
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 from/IN
-Dallas/NNP
+Dallas NNP
 to/TO
-Houston/NNP
+Houston NNP
 and/CC
 from/IN
-Houston/NNP
+Houston NNP
 to/TO
-Dallas/NNP
+Dallas NNP
 
 
 
@@ -4087,14 +4087,14 @@ Dallas/NNP
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 
-that/WDT
+that WDT
 leave/VBP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4103,14 +4103,14 @@ morning/NN
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 
-that/WDT
+that WDT
 leave/VBP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4119,14 +4119,14 @@ morning/NN
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-flight/NN
+the DT
+flight NN
 
-that/WDT
+that WDT
 leaves/VBZ
-first/RB
+first RB
 
 
 
@@ -4135,12 +4135,12 @@ first/RB
 
 
 Show/VB
-afternoon/NN
-flights/NNS
+afternoon NN
+flights NNS
 from/IN
-Houston/NNP
+Houston NNP
 to/TO
-Dallas/NNP
+Dallas NNP
 
 
 
@@ -4149,11 +4149,11 @@ Dallas/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-the/DT
-last/JJ
-flight/NN
+the DT
+last JJ
+flight NN
 to/TO
 leave/VB
 
@@ -4163,15 +4163,15 @@ leave/VB
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 between/IN
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 and/CC
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -4180,17 +4180,17 @@ Vegas/NNP
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 between/IN
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 and/CC
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -4199,14 +4199,14 @@ Sunday/NNP
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 between/IN
-Memphis/NNP
-Tennessee/NNP
+Memphis NNP
+Tennessee NNP
 and/CC
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 
 
 
@@ -4215,15 +4215,15 @@ Vegas/NNP
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 between/IN
-Memphis/NNP
+Memphis NNP
 and/CC
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -4231,26 +4231,26 @@ Sunday/NNP
 
 
 
-Show/VB
-flights/NNS
+Show VB
+flights NNS
 arriving/VBG
 in/IN
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 from/IN
-Memphis/NNP
+Memphis NNP
 and/CC
 from/IN
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 
-that/WDT
+that WDT
 are/VBP
 less/RBR
 than/IN
-thirty/CD
-minutes/NNS
+thirty CD
+minutes NNS
 apart/RB
 
 
@@ -4258,19 +4258,19 @@ apart/RB
 
 
 
-Flights/NNS
+Flights NNS
 arriving/VBG
 in/IN
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 from/IN
-Memphis/NNP
+Memphis NNP
 and/CC
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -4278,13 +4278,13 @@ Sunday/NNP
 
 
 
-Change/VB
-Newark/NNP
-City/NNP
+Change VB
+Newark NNP
+City NNP
 to/TO
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 
 
 
@@ -4293,21 +4293,21 @@ City/NNP
 
 
 Give/VB
-me/PRP
+me PRP
 
-Sunday/NNP
-'s/POS
-flights/NNS
+Sunday NNP
+'s POS
+flights NNS
 arriving/VBG
 in/IN
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 from/IN
-Memphis/NNP
+Memphis NNP
 and/CC
-New/NNP
-York/NNP
-City/NNP
+New NNP
+York NNP
+City NNP
 
 
 
@@ -4316,15 +4316,15 @@ City/NNP
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 arriving/VBG
 within/IN
-thirty/CD
-minutes/NNS
+thirty CD
+minutes NNS
 of/IN
-each/DT
-other/JJ
+each DT
+other JJ
 
 
 
@@ -4334,9 +4334,9 @@ other/JJ
 
 Only/RB
 show/VB
-me/PRP
-nonstop/JJ
-flights/NNS
+me PRP
+nonstop JJ
+flights NNS
 
 
 
@@ -4345,18 +4345,18 @@ flights/NNS
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 arriving/VBG
 from/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 and/CC
-Memphis/NNP
+Memphis NNP
 less/RBR
 than/IN
-thirty/CD
-minutes/NNS
+thirty CD
+minutes NNS
 apart/RB
 
 
@@ -4365,18 +4365,18 @@ apart/RB
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 arriving/VBG
 from/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 and/CC
-Memphis/NNP
+Memphis NNP
 less/RBR
 than/IN
-thirty/CD
-minutes/NNS
+thirty CD
+minutes NNS
 apart/RB
 
 
@@ -4385,21 +4385,21 @@ apart/RB
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 arriving/VBG
 at/IN
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 from/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 and/CC
-Memphis/NNP
+Memphis NNP
 less/RBR
 than/IN
-thirty/CD
-minutes/NNS
+thirty CD
+minutes NNS
 apart/RB
 
 
@@ -4407,18 +4407,18 @@ apart/RB
 
 
 
-Flights/NNS
+Flights NNS
 arriving/VBG
 at/IN
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 from/IN
-New/NNP
-York/NNP
+New NNP
+York NNP
 and/CC
-Memphis/NNP
+Memphis NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -4428,8 +4428,8 @@ Sunday/NNP
 
 Only/RB
 display/VB
-nonstop/JJ
-flights/NNS
+nonstop JJ
+flights NNS
 
 
 
@@ -4437,15 +4437,15 @@ flights/NNS
 
 
 
-Display/VB
-flights/NNS
+Display VB
+flights NNS
 arriving/VBG
 within/IN
-thirty/CD
-minutes/NNS
+thirty CD
+minutes NNS
 of/IN
-each/DT
-other/JJ
+each DT
+other JJ
 
 
 
@@ -4454,16 +4454,16 @@ other/JJ
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 from/IN
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 to/TO
-Pittsburgh/NNP
+Pittsburgh NNP
 on/IN
-Monday/NNP
-evening/NN
+Monday NNP
+evening NN
 
 
 
@@ -4471,8 +4471,8 @@ evening/NN
 
 
 
-Anytime/RB
-Monday/NNP
+Anytime RB
+Monday NNP
 
 
 
@@ -4480,9 +4480,9 @@ Monday/NNP
 
 
 
-Monday/NNP
+Monday NNP
 around/IN
-noon/NN
+noon NN
 
 
 
@@ -4490,9 +4490,9 @@ noon/NN
 
 
 
-Monday/NNP
+Monday NNP
 around/IN
-noon/NN
+noon NN
 
 
 
@@ -4501,15 +4501,15 @@ noon/NN
 
 
 Show/VB
-me/PRP
-flights/NNS
+me PRP
+flights NNS
 from/IN
-Pittsburgh/NNP
+Pittsburgh NNP
 to/TO
-Los/NNP
-Angeles/NNP
-Thursday/NNP
-evening/NN
+Los NNP
+Angeles NNP
+Thursday NNP
+evening NN
 
 
 
@@ -4517,8 +4517,8 @@ evening/NN
 
 
 
-Thursday/NNP
-afternoon/NN
+Thursday NNP
+afternoon NN
 
 
 
@@ -4526,11 +4526,11 @@ afternoon/NN
 
 
 
-Thursday/NNP
+Thursday NNP
 after/IN
-seventeen/CD
-hundred/CD
-hours/NNS
+seventeen CD
+hundred CD
+hours NNS
 
 
 
@@ -4538,15 +4538,15 @@ hours/NNS
 
 
 
-U/NNP
-S/NNP
-Air/NNP
+U NNP
+S NNP
+Air NNP
 next/JJ
-Wednesday/NNP
+Wednesday NNP
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Miami/NNP
+Miami NNP
 
 
 
@@ -4555,22 +4555,10 @@ Miami/NNP
 
 
 Show/VB
-me/PRP
+me PRP
 
-first/JJ
-class/NN
-
-
-
-
-
-
-
-Show/VB
-me/PRP
-
-the/DT
-fare/NN
+first JJ
+class NN
 
 
 
@@ -4579,8 +4567,10 @@ fare/NN
 
 
 Show/VB
-all/DT
-fares/NNS
+me PRP
+
+the DT
+fare NN
 
 
 
@@ -4588,17 +4578,27 @@ fares/NNS
 
 
 
-Next/JJ
-Sunday/NNP
-flights/NNS
+Show/VB
+all DT
+fares NNS
+
+
+
+
+
+
+
+Next JJ
+Sunday NNP
+flights NNS
 from/IN
-Miami/NNP
+Miami NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 after/IN
-twelve/CD
-hundred/CD
-hours/NNS
+twelve CD
+hundred CD
+hours NNS
 
 
 
@@ -4606,11 +4606,11 @@ hours/NNS
 
 
 
-Flights/NNS
+Flights NNS
 after/IN
-twelve/CD
-hundred/CD
-hours/NNS
+twelve CD
+hundred CD
+hours NNS
 
 
 
@@ -4619,8 +4619,8 @@ hours/NNS
 
 
 Show/VB
-the/DT
-fares/NNS
+the DT
+fares NNS
 
 
 
@@ -4628,14 +4628,14 @@ fares/NNS
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 depart/VBP
-Newark/NNP
+Newark NNP
 for/IN
-Tampa/NNP
+Tampa NNP
 on/IN
-Friday/NNP
+Friday NNP
 
 
 
@@ -4643,15 +4643,15 @@ Friday/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Tampa/NNP
+Tampa NNP
 to/TO
-Charlotte/NNP
+Charlotte NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -4659,16 +4659,16 @@ Sunday/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Charlotte/NNP
+Charlotte NNP
 to/TO
-Baltimore/NNP
+Baltimore NNP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4676,7 +4676,7 @@ morning/NN
 
 
 
-Tuesday/NNP
+Tuesday NNP
 
 
 
@@ -4684,15 +4684,15 @@ Tuesday/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 go/VBP
 from/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-Newark/NNP
-Wednesday/NNP
-morning/NN
+Newark NNP
+Wednesday NNP
+morning NN
 
 
 
@@ -4700,15 +4700,15 @@ morning/NN
 
 
 
-What/WP
+What WP
 's/VBZ
-the/DT
-earliest/JJS
-flight/NN
+the DT
+earliest JJS
+flight NN
 from/IN
-Dallas/NNP
+Dallas NNP
 to/TO
-Houston/NNP
+Houston NNP
 
 
 
@@ -4716,15 +4716,15 @@ Houston/NNP
 
 
 
-What/WP
+What WP
 's/VBZ
-the/DT
-latest/JJS
-flight/NN
+the DT
+latest JJS
+flight NN
 from/IN
-Houston/NNP
+Houston NNP
 to/TO
-Dallas/NNP
+Dallas NNP
 
 
 
@@ -4733,10 +4733,10 @@ Dallas/NNP
 
 
 From/IN
-Baltimore/NNP
+Baltimore NNP
 to/TO
-San/NNP
-Francisco/NNP
+San NNP
+Francisco NNP
 
 
 
@@ -4744,8 +4744,8 @@ Francisco/NNP
 
 
 
-Friday/NNP
-night/NN
+Friday NNP
+night NN
 
 
 
@@ -4753,8 +4753,8 @@ night/NN
 
 
 
-Friday/NNP
-afternoon/NN
+Friday NNP
+afternoon NN
 
 
 
@@ -4762,13 +4762,13 @@ afternoon/NN
 
 
 
-Early/JJ
-morning/NN
-flights/NNS
+Early JJ
+morning NN
+flights NNS
 between/IN
-Cincinnati/NNP
+Cincinnati NNP
 and/CC
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -4776,8 +4776,8 @@ Tampa/NNP
 
 
 
-Morning/NN
-flights/NNS
+Morning NN
+flights NNS
 
 
 
@@ -4785,13 +4785,13 @@ flights/NNS
 
 
 
-Shortest/JJS
-morning/NN
-flights/NNS
+Shortest JJS
+morning NN
+flights NNS
 from/IN
-Cincinnati/NNP
+Cincinnati NNP
 to/TO
-Tampa/NNP
+Tampa NNP
 
 
 
@@ -4799,13 +4799,13 @@ Tampa/NNP
 
 
 
-Shortest/JJS
-evening/NN
-flight/NN
+Shortest JJS
+evening NN
+flight NN
 from/IN
-Tampa/NNP
+Tampa NNP
 to/TO
-Cincinnati/NNP
+Cincinnati NNP
 
 
 
@@ -4814,9 +4814,9 @@ Cincinnati/NNP
 
 
 From/IN
-Philadelphia/NNP
+Philadelphia NNP
 to/TO
-Toronto/NNP
+Toronto NNP
 
 
 
@@ -4825,12 +4825,12 @@ Toronto/NNP
 
 
 From/IN
-Toronto/NNP
+Toronto NNP
 to/TO
-Atlanta/NNP
+Atlanta NNP
 in/IN
-the/DT
-afternoon/NN
+the DT
+afternoon NN
 
 
 
@@ -4839,12 +4839,12 @@ afternoon/NN
 
 
 From/IN
-Toronto/NNP
+Toronto NNP
 to/TO
-Atlanta/NNP
+Atlanta NNP
 in/IN
-the/DT
-afternoon/NN
+the DT
+afternoon NN
 
 
 
@@ -4853,9 +4853,9 @@ afternoon/NN
 
 
 From/IN
-Philadelphia/NNP
+Philadelphia NNP
 to/TO
-Toronto/NNP
+Toronto NNP
 
 
 
@@ -4864,11 +4864,11 @@ Toronto/NNP
 
 
 From/IN
-Atlanta/NNP
+Atlanta NNP
 to/TO
-Washington/NNP
-D/NNP
-C/NNP
+Washington NNP
+D NNP
+C NNP
 
 
 
@@ -4877,11 +4877,11 @@ C/NNP
 
 
 Leaving/VBG
-next/JJ
-day/NN
+next JJ
+day NN
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4890,15 +4890,15 @@ morning/NN
 
 
 From/IN
-Washington/NNP
-D/NNP
-C/NNP
+Washington NNP
+D NNP
+C NNP
 to/TO
-Philadelphia/NNP
+Philadelphia NNP
 departing/VBG
 in/IN
-the/DT
-afternoon/NN
+the DT
+afternoon NN
 
 
 
@@ -4906,15 +4906,15 @@ afternoon/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Chicago/NNP
+Chicago NNP
 to/TO
-Denver/NNP
+Denver NNP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4922,16 +4922,16 @@ morning/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Chicago/NNP
+Chicago NNP
 to/TO
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4939,20 +4939,20 @@ morning/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Denver/NNP
+Denver NNP
 after/IN
-eight/CD
-forty/CD
-five/CD
+eight CD
+forty CD
+five CD
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4960,20 +4960,20 @@ morning/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Denver/NNP
+Denver NNP
 after/IN
-eight/CD
-forty/CD
-five/CD
+eight CD
+forty CD
+five CD
 in/IN
-the/DT
-morning/NN
+the DT
+morning NN
 
 
 
@@ -4981,13 +4981,179 @@ morning/NN
 
 
 
-What/WDT
+What WDT
+flights NNS
+from/IN
+Kansas NNP
+City NNP
+to/TO
+Denver NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Denver NNP
+to/TO
+Salt NNP
+Lake NNP
+City NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Salt NNP
+Lake NNP
+City NNP
+to/TO
+Las NNP
+Vegas NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Las NNP
+Vegas NNP
+to/TO
+San NNP
+Diego NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Chicago NNP
+to/TO
+Kansas NNP
+City NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Philadelphia NNP
+to/TO
+Atlanta NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Atlanta NNP
+to/TO
+Toronto NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Atlanta NNP
+to/TO
+Toronto NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Atlanta NNP
+to/TO
+Washington NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Washington NNP
+to/TO
+Toronto NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Washington NNP
+D NNP
+C NNP
+to/TO
+Toronto NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Atlanta NNP
+to/TO
+Washington NNP
+
+
+
+
+
+
+
+What WDT
 flights/NNS
 from/IN
-Kansas/NNP
-City/NNP
+Toronto NNP
 to/TO
-Denver/NNP
+Philadelphia NNP
 
 
 
@@ -4995,183 +5161,17 @@ Denver/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Denver/NNP
+Houston NNP
 to/TO
-Salt/NNP
-Lake/NNP
-City/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Salt/NNP
-Lake/NNP
-City/NNP
-to/TO
-Las/NNP
-Vegas/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Las/NNP
-Vegas/NNP
-to/TO
-San/NNP
-Diego/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Chicago/NNP
-to/TO
-Kansas/NNP
-City/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Philadelphia/NNP
-to/TO
-Atlanta/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Atlanta/NNP
-to/TO
-Toronto/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Atlanta/NNP
-to/TO
-Toronto/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Atlanta/NNP
-to/TO
-Washington/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Washington/NNP
-to/TO
-Toronto/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Washington/NNP
-D/NNP
-C/NNP
-to/TO
-Toronto/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Atlanta/NNP
-to/TO
-Washington/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Toronto/NNP
-to/TO
-Philadelphia/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Houston/NNP
-to/TO
-Milwaukee/NNP
+Milwaukee NNP
 on/IN
-Friday/NNP
+Friday NNP
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -5179,17 +5179,17 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Houston/NNP
+Houston NNP
 to/TO
-Milwaukee/NNP
+Milwaukee NNP
 on/IN
-Friday/NNP
+Friday NNP
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -5197,20 +5197,20 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Houston/NNP
+Houston NNP
 to/TO
-Milwaukee/NNP
+Milwaukee NNP
 on/IN
-Friday/NNP
+Friday NNP
 in/IN
-the/DT
-evening/NN
+the DT
+evening NN
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -5218,17 +5218,36 @@ Airlines/NNP
 
 
 
-What/WDT
+What WDT
+flights NNS
+from/IN
+Houston NNP
+to/TO
+Milwaukee NNP
+on/IN
+Friday NNP
+on/IN
+American NNP
+Airlines NNP
+
+
+
+
+
+
+
+What WDT
 flights/NNS
 from/IN
-Houston/NNP
+Milwaukee NNP
 to/TO
-Milwaukee/NNP
+San NNP
+Jose NNP
 on/IN
-Friday/NNP
+Wednesday NNP
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -5236,18 +5255,16 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Milwaukee/NNP
+San NNP
+Jose NNP
 to/TO
-San/NNP
-Jose/NNP
+Dallas NNP
 on/IN
-Wednesday/NNP
-on/IN
-American/NNP
-Airlines/NNP
+Friday NNP
+afternoon NN
 
 
 
@@ -5255,31 +5272,14 @@ Airlines/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-San/NNP
-Jose/NNP
+Dallas NNP
 to/TO
-Dallas/NNP
+Houston NNP
 on/IN
-Friday/NNP
-afternoon/NN
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Dallas/NNP
-to/TO
-Houston/NNP
-on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -5288,12 +5288,12 @@ Sunday/NNP
 
 
 Are/VBP
-any/DT
+any DT
 of/IN
-those/DT
+those DT
 on/IN
-American/NNP
-Airlines/NNP
+American NNP
+Airlines NNP
 
 
 
@@ -5301,16 +5301,16 @@ Airlines/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 of/IN
-flights/NNS
+flights NNS
 from/IN
-Indianapolis/NNP
+Indianapolis NNP
 to/TO
-Memphis/NNP
+Memphis NNP
 
 
 
@@ -5318,12 +5318,12 @@ Memphis/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Indianapolis/NNP
+Indianapolis NNP
 to/TO
-Memphis/NNP
+Memphis NNP
 
 
 
@@ -5331,10 +5331,10 @@ Memphis/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5342,14 +5342,14 @@ price/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Memphis/NNP
+Memphis NNP
 to/TO
-Miami/NNP
+Miami NNP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 
 
 
@@ -5357,10 +5357,10 @@ Wednesday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5368,12 +5368,12 @@ price/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Miami/NNP
+Miami NNP
 to/TO
-Indianapolis/NNP
+Indianapolis NNP
 
 
 
@@ -5381,10 +5381,10 @@ Indianapolis/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5392,14 +5392,14 @@ price/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Miami/NNP
+Miami NNP
 to/TO
-Indianapolis/NNP
+Indianapolis NNP
 on/IN
-Sunday/NNP
+Sunday NNP
 
 
 
@@ -5407,10 +5407,10 @@ Sunday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5418,15 +5418,15 @@ price/NN
 
 
 
-What/WDT
+What WDT
 flights/NNS
 from/IN
-Montreal/NNP
+Montreal NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 on/IN
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -5434,15 +5434,15 @@ Saturday/NNP
 
 
 
-What/WDT
+What WDT
 flights/NNS
 from/IN
-Phoenix/NNP
+Phoenix NNP
 to/TO
-Las/NNP
-Vegas/NNP
+Las NNP
+Vegas NNP
 on/IN
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -5450,15 +5450,46 @@ Saturday/NNP
 
 
 
-What/WDT
+What WDT
+flights NNS
+from/IN
+Las NNP
+Vegas NNP
+to/TO
+Montreal NNP
+on/IN
+Saturday NNP
+
+
+
+
+
+
+
+What WDT
+flights NNS
+from/IN
+Las NNP
+Vegas NNP
+to/TO
+Phoenix NNP
+on/IN
+Saturday NNP
+
+
+
+
+
+
+
+What WDT
 flights/NNS
 from/IN
-Las/NNP
-Vegas/NNP
+Tacoma NNP
 to/TO
-Montreal/NNP
+Orlando NNP
 on/IN
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -5466,41 +5497,10 @@ Saturday/NNP
 
 
 
-What/WDT
-flights/NNS
-from/IN
-Las/NNP
-Vegas/NNP
-to/TO
-Phoenix/NNP
-on/IN
-Saturday/NNP
-
-
-
-
-
-
-
-What/WDT
-flights/NNS
-from/IN
-Tacoma/NNP
-to/TO
-Orlando/NNP
-on/IN
-Saturday/NNP
-
-
-
-
-
-
-
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5508,14 +5508,14 @@ price/NN
 
 
 
-What/WDT
+What WDT
 flights/NNS
 from/IN
-Orlando/NNP
+Orlando NNP
 to/TO
-Tacoma/NNP
+Tacoma NNP
 on/IN
-Saturday/NNP
+Saturday NNP
 
 
 
@@ -5523,10 +5523,10 @@ Saturday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5534,14 +5534,14 @@ price/NN
 
 
 
-What/WDT
-airlines/NNS
+What WDT
+airlines NNS
 from/IN
-Washington/NNP
-D/NNP
-C/NNP
+Washington NNP
+D NNP
+C NNP
 to/TO
-Columbus/NNP
+Columbus NNP
 
 
 
@@ -5549,10 +5549,10 @@ Columbus/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 have/VBP
-meals/NNS
+meals NNS
 
 
 
@@ -5560,10 +5560,10 @@ meals/NNS
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5571,13 +5571,13 @@ price/NN
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Detroit/NNP
+Detroit NNP
 to/TO
-Saint/NNP
-Petersburg/NNP
+Saint NNP
+Petersburg NNP
 
 
 
@@ -5585,10 +5585,10 @@ Petersburg/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5596,12 +5596,12 @@ price/NN
 
 
 
-What/WDT
-restrictions/NNS
+What WDT
+restrictions NNS
 on/IN
-fare/NN
-code/NN
-H/SYM
+fare NN
+code NN
+H SYM
 
 
 
@@ -5609,14 +5609,14 @@ H/SYM
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Pittsburgh/NNP
+Pittsburgh NNP
 to/TO
 Newark/NNP
 on/IN
-Monday/NNP
+Monday NNP
 
 
 
@@ -5624,10 +5624,10 @@ Monday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5635,15 +5635,15 @@ price/NN
 
 
 
-What/WDT
+What WDT
 flights/NNS
 from/IN
-Newark/NNP
+Newark NNP
 to/TO
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 
 
 
@@ -5651,16 +5651,16 @@ Wednesday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 of/IN
-flight/NN
-U/NNP
-A/NNP
-nine/CD
-seven/CD
+flight NN
+U NNP
+A NNP
+nine CD
+seven CD
 
 
 
@@ -5668,16 +5668,16 @@ seven/CD
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 of/IN
-United/NNP
-Airlines/NNP
+United NNP
+Airlines NNP
 flight/NN
-nine/CD
-seven/CD
+nine CD
+seven CD
 
 
 
@@ -5685,13 +5685,13 @@ seven/CD
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Los/NNP
-Angeles/NNP
+Los NNP
+Angeles NNP
 to/TO
-Minneapolis/NNP
+Minneapolis NNP
 
 
 
@@ -5700,7 +5700,7 @@ Minneapolis/NNP
 
 
 On/IN
-Thursday/NNP
+Thursday NNP
 
 
 
@@ -5708,12 +5708,12 @@ Thursday/NNP
 
 
 
-What/WDT
-flights/NNS
+What WDT
+flights NNS
 from/IN
-Minneapolis/NNP
+Minneapolis NNP
 to/TO
-Pittsburgh/NNP
+Pittsburgh NNP
 
 
 
@@ -5722,7 +5722,7 @@ Pittsburgh/NNP
 
 
 On/IN
-Friday/NNP
+Friday NNP
 
 
 
@@ -5730,10 +5730,10 @@ Friday/NNP
 
 
 
-What/WP
+What WP
 is/VBZ
-the/DT
-price/NN
+the DT
+price NN
 
 
 
@@ -5741,12 +5741,25 @@ price/NN
 
 
 
-What/WDT
+What WDT
+flights NNS
+from/IN
+Cincinnati NNP
+to/TO
+Tampa NNP
+
+
+
+
+
+
+
+What WDT
 flights/NNS
 from/IN
-Cincinnati/NNP
+Tampa NNP
 to/TO
-Tampa/NNP
+Cincinnati NNP
 
 
 
@@ -5754,12 +5767,14 @@ Tampa/NNP
 
 
 
-What/WDT
+What WDT
 flights/NNS
 from/IN
-Tampa/NNP
+Seattle NNP
 to/TO
-Cincinnati/NNP
+Salt NNP
+Lake NNP
+City NNP
 
 
 
@@ -5767,26 +5782,11 @@ Cincinnati/NNP
 
 
 
-What/WDT
-flights/NNS
-from/IN
-Seattle/NNP
-to/TO
-Salt/NNP
-Lake/NNP
-City/NNP
-
-
-
-
-
-
-
-What/WP
+What WP
 is/VBZ
-the/DT
-seating/NN
-capacity/NN
+the DT
+seating NN
+capacity NN
 
 
 
@@ -5794,10 +5794,10 @@ capacity/NN
 
 
 
-What/WP
+What WP
 're/VBP
-the/DT
-flights/NNS
+the DT
+flights NNS
 
 
 
@@ -5805,12 +5805,12 @@ flights/NNS
 
 
 
-What/WDT
-kind/NN
+What WDT
+kind NN
 of/IN
-airplane/NN
+airplane NN
 do/VBP
-they/PRP
+they PRP
 use/VB
 
 
@@ -5818,12 +5818,12 @@ use/VB
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 
 
 
@@ -5831,14 +5831,14 @@ City/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 on/IN
-Monday/NNP
+Monday NNP
 
 
 
@@ -5846,14 +5846,14 @@ Monday/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 
 
 
@@ -5861,16 +5861,16 @@ Wednesday/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 before/IN
-five/CD
+five CD
 p.m/RB
 
 
@@ -5878,17 +5878,17 @@ p.m/RB
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 on/IN
-Wednesday/NNP
+Wednesday NNP
 arriving/VBG
 before/IN
-five/CD
+five CD
 p.m/RB
 
 
@@ -5896,15 +5896,15 @@ p.m/RB
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 departing/VBG
 after/IN
-noon/NN
+noon NN
 
 
 
@@ -5912,12 +5912,12 @@ noon/NN
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 
 
 
@@ -5925,16 +5925,16 @@ Cleveland/NNP
 
 
 
-Price/NN
+Price NN
 of/IN
-round/JJ
-trip/NN
-flight/NN
+round JJ
+trip NN
+flight NN
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 
 
 
@@ -5942,14 +5942,14 @@ City/NNP
 
 
 
-Price/NN
+Price NN
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Kansas/NNP
-City/NNP
-round/JJ
-trip/NN
+Kansas NNP
+City NNP
+round JJ
+trip NN
 
 
 
@@ -5957,15 +5957,15 @@ trip/NN
 
 
 
-Price/NN
+Price NN
 of/IN
-flight/NN
-W/NNP
-N/NNP
-one/CD
-four/CD
-five/CD
-five/CD
+flight NN
+W NNP
+N NNP
+one CD
+four CD
+five CD
+five CD
 
 
 
@@ -5973,14 +5973,14 @@ five/CD
 
 
 
-Price/NN
+Price NN
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Kansas/NNP
-City/NNP
-round/JJ
-trip/NN
+Kansas NNP
+City NNP
+round JJ
+trip NN
 
 
 
@@ -5988,12 +5988,12 @@ trip/NN
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 
 
 
@@ -6001,14 +6001,14 @@ Cleveland/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Kansas/NNP
-City/NNP
+Kansas NNP
+City NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 and/CC
-price/NN
+price NN
 
 
 
@@ -6016,11 +6016,11 @@ price/NN
 
 
 
-Flight/NN
+Flight NN
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -6028,11 +6028,11 @@ Nashville/NNP
 
 
 
-Flight/NN
+Flight NN
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 
 
 
@@ -6040,16 +6040,16 @@ Cleveland/NNP
 
 
 
-Price/NN
+Price NN
 of/IN
-flight/NN
-A/NNP
-A/NNP
-one/CD
-thousand/CD
-three/CD
-hundred/CD
-nineteen/CD
+flight NN
+A NNP
+A NNP
+one CD
+thousand CD
+three CD
+hundred CD
+nineteen CD
 
 
 
@@ -6057,15 +6057,15 @@ nineteen/CD
 
 
 
-Price/NN
+Price NN
 of/IN
-flight/NN
-A/NNP
-A/NNP
-one/CD
-three/CD
-one/CD
-nine/CD
+flight NN
+A NNP
+A NNP
+one CD
+three CD
+one CD
+nine CD
 
 
 
@@ -6073,13 +6073,13 @@ nine/CD
 
 
 
-Price/NN
+Price NN
 of/IN
-flight/NN
+flight NN
 from/IN
-Cleveland/NNP
+Cleveland NNP
 to/TO
-Nashville/NNP
+Nashville NNP
 
 
 
@@ -6087,13 +6087,13 @@ Nashville/NNP
 
 
 
-Price/NN
+Price NN
 of/IN
-flight/NN
+flight NN
 from/IN
-Nashville/NNP
+Nashville NNP
 to/TO
-Cleveland/NNP
+Cleveland NNP
 
 
 
@@ -6101,14 +6101,14 @@ Cleveland/NNP
 
 
 
-Shortest/JJS
-flight/NN
+Shortest JJS
+flight NN
 from/IN
-Ontario/NNP
-California/NNP
+Ontario NNP
+California NNP
 to/TO
-Orlando/NNP
-Florida/NNP
+Orlando NNP
+Florida NNP
 
 
 
@@ -6116,11 +6116,11 @@ Florida/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Ontario/NNP
+Ontario NNP
 to/TO
-Florida/NNP
+Florida NNP
 
 
 
@@ -6128,11 +6128,11 @@ Florida/NNP
 
 
 
-Flights/NNS
+Flights NNS
 from/IN
-Ontario/NNP
+Ontario NNP
 to/TO
-Orlando/NNP
+Orlando NNP
 
 
 
@@ -6140,6 +6140,6 @@ Orlando/NNP
 
 
 
-Flight/NN
+Flight NN
 from/IN
-Ontario/NNP
+Ontario NNP
