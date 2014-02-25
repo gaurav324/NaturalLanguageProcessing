@@ -66,6 +66,7 @@ public class RawToMallet {
 			while ((currentLine = br.readLine()) != null) {
 				String result = parseLine(currentLine);
 				pw.print(result);
+                pw.flush();
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
