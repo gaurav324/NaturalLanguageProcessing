@@ -30,7 +30,7 @@ public class InstanceAccuracyEvaluator extends TransducerEvaluator {
 
 	private HashMap<String,Double> accuracy = new HashMap<String,Double>();
   
-  public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description, int iteration)
+  public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description, int iteration, boolean is_training)
   {
     int correct = 0;
     for (int i = 0; i < data.size(); i++) {

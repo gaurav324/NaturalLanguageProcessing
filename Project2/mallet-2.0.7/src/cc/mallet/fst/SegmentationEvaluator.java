@@ -58,7 +58,7 @@ public class SegmentationEvaluator extends TransducerEvaluator
 	public SegmentationEvaluator setSegmentStartTag (Object o) { this.segmentStartTag = o; return this; }
 	public SegmentationEvaluator setSegmentEndTag (Object o) { this.segmentEndTag = o; return this; }
 
-  public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description, int iteration)
+  public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description, int iteration, boolean is_training)
   {
   	Transducer model = tt.getTransducer();
 		int numCorrectTokens, totalTokens;

@@ -53,7 +53,7 @@ public class ViterbiWriter extends TransducerEvaluator {
 
 	@SuppressWarnings("unchecked")
   @Override
-	public void evaluateInstanceList(TransducerTrainer transducerTrainer,	InstanceList instances, String description, int iteration) {
+	public void evaluateInstanceList(TransducerTrainer transducerTrainer,	InstanceList instances, String description, int iteration_t, boolean is_training) {
 		int iteration = transducerTrainer.getIteration();
     String viterbiFilename = filenamePrefix + description + iteration + ".viterbi";
     PrintStream viterbiOutputStream;

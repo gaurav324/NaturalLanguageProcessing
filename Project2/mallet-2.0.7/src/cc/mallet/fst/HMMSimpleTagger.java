@@ -354,7 +354,7 @@ public class HMMSimpleTagger
   public static void test(TransducerTrainer tt, TransducerEvaluator eval,
       InstanceList testing)
   {
-    eval.evaluateInstanceList(tt, testing, "Testing");
+    eval.evaluateInstanceList(tt, testing, "Testing", -1, false);
   }
 
   /**
