@@ -344,9 +344,9 @@ public class SimpleTagger
       	for (int i = 1; i <= iterations; i++) {
       		converged = crft.train (training, 1);
       		if (i % 1 == 0 && eval != null) // Change the 1 to higher integer to evaluate less often
-      			eval.evaluate(crft);
+      			eval.evaluate(crft, i);
       		if (viterbiOutputOption.value && i % 10 == 0)
-      			new ViterbiWriter("", new InstanceList[] {training, testing}, new String[] {"training", "testing"}).evaluate(crft);
+      			new ViterbiWriter("", new InstanceList[] {training, testing}, new String[] {"training", "testing"}).evaluate(crft, i);
       		if (converged)
       			break;
       	}
@@ -380,9 +380,9 @@ public class SimpleTagger
       	for (int i = 1; i <= iterations; i++) {
       		converged = crft.train (training, 1);
       		if (i % 1 == 0 && eval != null) // Change the 1 to higher integer to evaluate less often
-      			eval.evaluate(crft);
+      			eval.evaluate(crft, i);
       		if (viterbiOutputOption.value && i % 10 == 0)
-      			new ViterbiWriter("", new InstanceList[] {training, testing}, new String[] {"training", "testing"}).evaluate(crft);
+      			new ViterbiWriter("", new InstanceList[] {training, testing}, new String[] {"training", "testing"}).evaluate(crft, i);
       		if (converged)
       			break;
       	}
@@ -405,7 +405,7 @@ public class SimpleTagger
   public static void test(TransducerTrainer tt, TransducerEvaluator eval,
       InstanceList testing)
   {
-    eval.evaluateInstanceList(tt, testing, "Testing");
+    eval.evaluateInstanceList(tt, testing, "Testing", 100);
   }
 
   /**

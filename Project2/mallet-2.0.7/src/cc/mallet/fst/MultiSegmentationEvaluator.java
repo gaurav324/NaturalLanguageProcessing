@@ -80,7 +80,7 @@ public class MultiSegmentationEvaluator extends TransducerEvaluator
 				segmentStartTags, segmentContinueTags);
 	}
 
-	public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description)
+	public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description, int iteration)
   {
   	Transducer model = tt.getTransducer();
     int numCorrectTokens, totalTokens;

@@ -37,7 +37,7 @@ public class PerClassAccuracyEvaluator extends TransducerEvaluator {
   	this (new InstanceList[] {i1, i2}, new String[] {d1, d2});
   }
 
-  public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description)
+  public void evaluateInstanceList (TransducerTrainer tt, InstanceList data, String description, int iteration)
   {
   	Transducer model = tt.getTransducer();
     Alphabet dict = model.getInputPipe().getTargetAlphabet();

@@ -50,5 +50,5 @@ public class CRFWriter extends TransducerEvaluator {
 	}
 
 	@Override
-	public void evaluateInstanceList(TransducerTrainer transducer, InstanceList instances, String description) { }
+	public void evaluateInstanceList(TransducerTrainer transducer, InstanceList instances, String description, int iteration) { }
 }

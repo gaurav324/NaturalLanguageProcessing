@@ -30,8 +30,10 @@ import cc.mallet.util.MalletLogger;
 public class TokenAccuracyEvaluator extends TransducerEvaluator
 {
 	private static Logger logger = MalletLogger.getLogger(TokenAccuracyEvaluator.class.getName());
+	private HashMap<String, Boolean> allWords = new HashMap<String, Boolean>();
 
 	private HashMap<String,Double> accuracy = new HashMap<String,Double>();
+	private HashMap<String,Double> oovAccuracy = new HashMap<String,Double>();
 
 	public TokenAccuracyEvaluator (InstanceList[] instanceLists, String[] descriptions) {
 		super (instanceLists, descriptions);
@@ -52,13 +54,16 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 		this (new InstanceList[] {instanceList1, instanceList2, instanceList3}, new String[] {description1, description2, description3});
 	}
 
-	public void evaluateInstanceList (TransducerTrainer trainer, InstanceList instances, String description) 
+	public void evaluateInstanceList (TransducerTrainer trainer, InstanceList instances, String description, int iteration, boolean is_training) 
   {
 		int numCorrectTokens;
 		int totalTokens;
 
+		int numCorrectOOV;
+		int totalOOV;
+		
 		Transducer transducer = trainer.getTransducer();
-		totalTokens = numCorrectTokens = 0;
+		totalTokens = numCorrectTokens = totalOOV = numCorrectOOV = 0;
 		for (int i = 0; i < instances.size(); i++) {
 			Instance instance = instances.get(i);
 			Sequence input = (Sequence) instance.getData();
@@ -69,6 +74,15 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 			assert (predOutput.size() == trueOutput.size());
 
 			for (int j = 0; j < trueOutput.size(); j++) {
+				if (iteration == 1 && is_training) {
+					allWords.put(input.get(j).toString(), true);
+				} else {
+					if (!is_training && allWords.get(input.get(j).toString()) != null) {
+						++totalOOV;
+						if (trueOutput.get(j).equals(predOutput.get(j)))
+							++numCorrectOOV;
+					}
+				}
 				totalTokens++;
 				if (trueOutput.get(j).equals(predOutput.get(j)))
 					numCorrectTokens++;
@@ -76,9 +90,16 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 			//System.err.println ("TokenAccuracyEvaluator "+i+" numCorrectTokens="+numCorrectTokens+" totalTokens="+totalTokens+" accuracy="+((double)numCorrectTokens)/totalTokens);
 		}
 		double acc = ((double)numCorrectTokens)/totalTokens;
+		
 		//System.err.println ("TokenAccuracyEvaluator accuracy="+acc);
-		accuracy.put(description, acc);
+		accuracy.put(description, acc);	
+		
 		logger.info (description +" accuracy="+acc);
+		if (!is_training && totalOOV != 0) {
+			double oovAcc = ((double)numCorrectOOV)/totalOOV;
+			oovAccuracy.put(description, oovAcc);
+			logger.info (description +" OOVAccuracy="+oovAcc);
+		}
 	}
 
 	/**

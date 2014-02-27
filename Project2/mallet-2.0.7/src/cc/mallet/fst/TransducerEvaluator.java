@@ -50,13 +50,21 @@ public abstract class TransducerEvaluator
    *
    * @param tt The TransducerTrainer to evaluate.
    */
-	public void evaluate (TransducerTrainer tt)	{
+	public void evaluate(TransducerTrainer tt) {
+		evaluate(tt, -1);
+	}
+	
+	public void evaluate (TransducerTrainer tt, int iteration)	{
 		if (!precondition(tt))
 			return;
 		this.preamble(tt);
 		for (int k = 0; k < instanceLists.length; k++)
 			if (instanceLists[k] != null)
-				evaluateInstanceList (tt, instanceLists[k], instanceListDescriptions[k]);
+				if (k == 0) {
+					evaluateInstanceList (tt, instanceLists[k], instanceListDescriptions[k], iteration, true);
+				} else {
+					evaluateInstanceList (tt, instanceLists[k], instanceListDescriptions[k], iteration, false);
+				}
 	}
 	
 	protected void preamble (TransducerTrainer tt) {
@@ -78,7 +86,7 @@ public abstract class TransducerEvaluator
 		return true;
 	}
 
-  public abstract void evaluateInstanceList (TransducerTrainer transducer, InstanceList instances, String description);
+    public abstract void evaluateInstanceList (TransducerTrainer transducer, InstanceList instances, String description, int iteration, boolean is_training);
 
 
 }
