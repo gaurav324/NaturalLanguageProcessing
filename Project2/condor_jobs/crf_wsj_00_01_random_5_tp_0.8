@@ -1,0 +1,20 @@
+universe = vanilla
+environment = CLASSPATH=/u/nanda/nlp/repo/Project2/mallet-2.0.7/class:/u/nanda/nlp/repo/Project2/mallet-2.0.7/lib/mallet-deps.jar
+
+Initialdir = /u/nanda/nlp/repo/Project2/
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = /u/nanda/nlp/repo/Project2/output_files/crf_wsj_00_01_random_5_tp_0.8.log
+
+Notification = complete
+Notify_user = nanda@utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_wsj_00_01_random_5_tp_0.8 --training_proportion 1.0 --random-seed 5 --test lab /u/nanda/nlp/repo/Project2/preprocess/wsj_00.mallet /u/nanda/nlp/repo/Project2/preprocess/wsj_01.mallet 
+
+Output = /u/nanda/nlp/repo/Project2/output_files/crf_wsj_00_01_random_5_tp_0.8.out
+Error  = /u/nanda/nlp/repo/Project2/output_files/crf_wsj_00_01_random_5_tp_0.8.err
+Queue 1
