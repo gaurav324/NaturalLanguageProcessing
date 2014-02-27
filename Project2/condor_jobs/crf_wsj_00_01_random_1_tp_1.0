@@ -13,7 +13,7 @@ Log = /u/nanda/nlp/repo/Project2/output_files/crf_wsj_00_01_random_1_tp_1.0.log
 Notification = complete
 Notify_user = nanda@utexas.edu
 
-Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_wsj_00_01_random_1_tp_1.0 --training-proportion 1.0 --random-seed 1 --test lab /u/nanda/nlp/repo/Project2/preprocess/wsj_00.mallet /u/nanda/nlp/repo/Project2/preprocess/wsj_01.mallet 
+Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_wsj_00_01_random_1_tp_1.0 --training-proportion 1.0 --random-seed 1 --test lab /u/nanda/nlp/repo/Project2/preprocess/mallet_files/wsj_00.mallet /u/nanda/nlp/repo/Project2/preprocess/mallet_files/wsj_01.mallet 
 
 Output = /u/nanda/nlp/repo/Project2/output_files/crf_wsj_00_01_random_1_tp_1.0.out
 Error  = /u/nanda/nlp/repo/Project2/output_files/crf_wsj_00_01_random_1_tp_1.0.err
