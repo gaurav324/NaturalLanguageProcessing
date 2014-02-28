@@ -1,0 +1,20 @@
+universe = vanilla
+environment = CLASSPATH=/u/nanda/nlp/repo/Project2/mallet-2.0.7/class:/u/nanda/nlp/repo/Project2/mallet-2.0.7/lib/mallet-deps.jar
+
+Initialdir = /u/nanda/nlp/repo/Project2/
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = /u/nanda/nlp/repo/Project2/output_files/hmm_atis_random_2_tp_0.8.log
+
+Notification = complete
+Notify_user = nanda@utexas.edu
+
+Arguments = cc.mallet.fst.HMMSimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/hmm_atis_random_2_tp_0.8 --training-proportion 0.8 --random-seed 2 --test lab /u/nanda/nlp/repo/Project2/preprocess/mallet_files/atis3.mallet
+
+Output = /u/nanda/nlp/repo/Project2/output_files/hmm_atis_random_2_tp_0.8.out
+Error  = /u/nanda/nlp/repo/Project2/output_files/hmm_atis_random_2_tp_0.8.err
+Queue 1
