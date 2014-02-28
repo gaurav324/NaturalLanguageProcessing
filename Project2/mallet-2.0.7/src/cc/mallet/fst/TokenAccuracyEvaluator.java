@@ -88,7 +88,7 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 				if (iteration == 1 && is_training) {
 					allWords.put(input.get(j).toString(), true);
 				} else {
-					if (!is_training && allWords.get(input.get(j).toString()) != null) {
+					if (!is_training && allWords.get(input.get(j).toString()) == null) {
 						++totalOOV;
 						if (trueOutput.get(j).equals(predOutput.get(j)))
 							++numCorrectOOV;
