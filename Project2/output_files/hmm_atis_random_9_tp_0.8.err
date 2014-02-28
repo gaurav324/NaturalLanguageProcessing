@@ -1,0 +1,145 @@
+Number of features in training data: 343
+Number of predicates: 343
+Labels: O VB DT NNS IN NNP TO WDT VBP VBZ NN PRP VBG VBN CD MD RB CC JJ WRB RP PDT WP EX UH POS JJS VBD RBS SYM RBR
+Preparing O
+Preparing VB
+Preparing DT
+Preparing NNS
+Preparing IN
+Preparing NNP
+Preparing TO
+Preparing WDT
+Preparing VBP
+Preparing VBZ
+Preparing NN
+Preparing PRP
+Preparing VBG
+Preparing VBN
+Preparing CD
+Preparing MD
+Preparing RB
+Preparing CC
+Preparing JJ
+Preparing WRB
+Preparing RP
+Preparing PDT
+Preparing WP
+Preparing EX
+Preparing UH
+Preparing POS
+Preparing JJS
+Preparing VBD
+Preparing RBS
+Preparing SYM
+Preparing RBR
+Training on 382 instances
+Testing on 96 instances
+getValue() (observed log-likelihood) = -24551.50834157207
+getValue() (log-likelihood) = -24551.50834157207
+HMM finished one iteration of maximizer, i=0
+getValue() (observed log-likelihood) = -13070.001864931277
+getValue() (log-likelihood) = -13070.001864931277
+HMM finished one iteration of maximizer, i=1
+getValue() (observed log-likelihood) = -13072.641828841728
+getValue() (log-likelihood) = -13072.641828841728
+HMM finished one iteration of maximizer, i=2
+getValue() (observed log-likelihood) = -13074.310057016242
+getValue() (log-likelihood) = -13074.310057016242
+HMM finished one iteration of maximizer, i=3
+getValue() (observed log-likelihood) = -13075.409900040448
+getValue() (log-likelihood) = -13075.409900040448
+HMM finished one iteration of maximizer, i=4
+getValue() (observed log-likelihood) = -13076.155619731835
+getValue() (log-likelihood) = -13076.155619731835
+HMM finished one iteration of maximizer, i=5
+getValue() (observed log-likelihood) = -13076.671473305605
+getValue() (log-likelihood) = -13076.671473305605
+HMM finished one iteration of maximizer, i=6
+getValue() (observed log-likelihood) = -13077.033963295025
+getValue() (log-likelihood) = -13077.033963295025
+HMM finished one iteration of maximizer, i=7
+getValue() (observed log-likelihood) = -13077.292141901751
+getValue() (log-likelihood) = -13077.292141901751
+HMM finished one iteration of maximizer, i=8
+getValue() (observed log-likelihood) = -13077.478328076199
+getValue() (log-likelihood) = -13077.478328076199
+HMM finished one iteration of maximizer, i=9
+getValue() (observed log-likelihood) = -13077.614213983074
+getValue() (log-likelihood) = -13077.614213983074
+HMM finished one iteration of maximizer, i=10
+getValue() (observed log-likelihood) = -13077.714556693398
+getValue() (log-likelihood) = -13077.714556693398
+HMM finished one iteration of maximizer, i=11
+getValue() (observed log-likelihood) = -13077.789505655523
+getValue() (log-likelihood) = -13077.789505655523
+HMM finished one iteration of maximizer, i=12
+getValue() (observed log-likelihood) = -13077.846110973174
+getValue() (log-likelihood) = -13077.846110973174
+HMM finished one iteration of maximizer, i=13
+getValue() (observed log-likelihood) = -13077.889317923693
+getValue() (log-likelihood) = -13077.889317923693
+HMM finished one iteration of maximizer, i=14
+getValue() (observed log-likelihood) = -13077.922630160323
+getValue() (log-likelihood) = -13077.922630160323
+HMM finished one iteration of maximizer, i=15
+getValue() (observed log-likelihood) = -13077.948555629791
+getValue() (log-likelihood) = -13077.948555629791
+HMM finished one iteration of maximizer, i=16
+getValue() (observed log-likelihood) = -13077.968908524988
+getValue() (log-likelihood) = -13077.968908524988
+HMM finished one iteration of maximizer, i=17
+getValue() (observed log-likelihood) = -13077.985015186749
+getValue() (log-likelihood) = -13077.985015186749
+HMM finished one iteration of maximizer, i=18
+getValue() (observed log-likelihood) = -13077.99785555483
+getValue() (log-likelihood) = -13077.99785555483
+HMM finished one iteration of maximizer, i=19
+getValue() (observed log-likelihood) = -13078.008161126878
+getValue() (log-likelihood) = -13078.008161126878
+HMM finished one iteration of maximizer, i=20
+getValue() (observed log-likelihood) = -13078.01648338807
+getValue() (log-likelihood) = -13078.01648338807
+HMM finished one iteration of maximizer, i=21
+getValue() (observed log-likelihood) = -13078.023242054538
+getValue() (log-likelihood) = -13078.023242054538
+HMM finished one iteration of maximizer, i=22
+getValue() (observed log-likelihood) = -13078.028759412156
+getValue() (log-likelihood) = -13078.028759412156
+HMM finished one iteration of maximizer, i=23
+getValue() (observed log-likelihood) = -13078.033284999252
+getValue() (log-likelihood) = -13078.033284999252
+HMM finished one iteration of maximizer, i=24
+getValue() (observed log-likelihood) = -13078.037013524548
+getValue() (log-likelihood) = -13078.037013524548
+HMM finished one iteration of maximizer, i=25
+getValue() (observed log-likelihood) = -13078.040098002219
+getValue() (log-likelihood) = -13078.040098002219
+HMM finished one iteration of maximizer, i=26
+getValue() (observed log-likelihood) = -13078.042659473556
+getValue() (log-likelihood) = -13078.042659473556
+HMM finished one iteration of maximizer, i=27
+getValue() (observed log-likelihood) = -13078.04479426924
+getValue() (log-likelihood) = -13078.04479426924
+HMM finished one iteration of maximizer, i=28
+getValue() (observed log-likelihood) = -13078.046579482698
+getValue() (log-likelihood) = -13078.046579482698
+HMM finished one iteration of maximizer, i=29
+getValue() (observed log-likelihood) = -13078.048077130006
+getValue() (log-likelihood) = -13078.048077130006
+HMM finished one iteration of maximizer, i=30
+getValue() (observed log-likelihood) = -13078.049337336613
+getValue() (log-likelihood) = -13078.049337336613
+HMM finished one iteration of maximizer, i=31
+getValue() (observed log-likelihood) = -13078.050400796654
+getValue() (log-likelihood) = -13078.050400796654
+HMM finished one iteration of maximizer, i=32
+getValue() (observed log-likelihood) = -13078.051300683925
+getValue() (log-likelihood) = -13078.051300683925
+HMM finished one iteration of maximizer, i=33
+HMM training has converged, i=33
+Evaluator iteration=34 cost=NA (not Optimizable.ByValue)
+Training accuracy=0.888595166163142
+Testing accuracy=0.8677165354330708
+Testing OOVAccuracy=0.8859934853420195
+Trainer by likelihood done
+
