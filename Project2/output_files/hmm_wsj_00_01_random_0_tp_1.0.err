@@ -338,6 +338,6 @@ HMM training has converged, i=89
 Evaluator iteration=90 cost=NA (not Optimizable.ByValue)
 Training accuracy=0.8626734236105342
 Testing accuracy=0.7859335379687709
-Testing OOVAccuracy=0.8589662779703751
+Testing OOVAccuracy=0.3818657367044464
 Trainer by likelihood done
 

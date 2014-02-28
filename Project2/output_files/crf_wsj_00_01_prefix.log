@@ -1,0 +1,203 @@
+000 (2464543.000.000) 02/28 04:17:31 Job submitted from host: <128.83.130.186:46357>
+...
+001 (2464543.000.000) 02/28 04:17:50 Job executing on host: <128.83.120.229:48168>
+...
+006 (2464543.000.000) 02/28 04:17:59 Image size of job updated: 35263040
+	26  -  MemoryUsage of job (MB)
+	26096  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 04:23:00 Image size of job updated: 35263056
+	498  -  MemoryUsage of job (MB)
+	509128  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 05:28:07 Image size of job updated: 35263056
+	524  -  MemoryUsage of job (MB)
+	536080  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 05:33:07 Image size of job updated: 35263056
+	538  -  MemoryUsage of job (MB)
+	550188  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 05:38:08 Image size of job updated: 35263056
+	550  -  MemoryUsage of job (MB)
+	562716  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 05:48:09 Image size of job updated: 35263056
+	620  -  MemoryUsage of job (MB)
+	633920  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:03:10 Image size of job updated: 35263056
+	641  -  MemoryUsage of job (MB)
+	655908  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:08:10 Image size of job updated: 35263056
+	819  -  MemoryUsage of job (MB)
+	838384  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:33:14 Image size of job updated: 35263056
+	857  -  MemoryUsage of job (MB)
+	877156  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:38:14 Image size of job updated: 35263056
+	927  -  MemoryUsage of job (MB)
+	949064  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:43:14 Image size of job updated: 35263056
+	929  -  MemoryUsage of job (MB)
+	950908  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:48:15 Image size of job updated: 35263056
+	989  -  MemoryUsage of job (MB)
+	1012464  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:53:16 Image size of job updated: 35263056
+	1076  -  MemoryUsage of job (MB)
+	1101160  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 06:58:16 Image size of job updated: 35263056
+	1082  -  MemoryUsage of job (MB)
+	1107004  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 07:03:16 Image size of job updated: 35263056
+	1402  -  MemoryUsage of job (MB)
+	1434884  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 07:08:17 Image size of job updated: 35263056
+	1402  -  MemoryUsage of job (MB)
+	1435488  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 07:13:17 Image size of job updated: 35263056
+	1404  -  MemoryUsage of job (MB)
+	1437612  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 07:18:17 Image size of job updated: 35263056
+	1408  -  MemoryUsage of job (MB)
+	1441028  -  ResidentSetSize of job (KB)
+...
+006 (2464543.000.000) 02/28 07:28:19 Image size of job updated: 35263056
+	1529  -  MemoryUsage of job (MB)
+	1565504  -  ResidentSetSize of job (KB)
+...
+004 (2464543.000.000) 02/28 07:53:15 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 03:37:50, Sys 0 00:00:13  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10    835470
+	   Memory (MB)          :     1529        1     12899
+...
+001 (2464543.000.000) 02/28 07:53:43 Job executing on host: <128.83.144.69:34450>
+...
+010 (2464543.000.000) 02/28 07:57:46 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 08:00:08 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 08:02:20 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 08:03:00 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 08:18:03 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 08:22:49 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 08:37:36 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 08:38:31 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 08:47:02 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 08:47:38 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 08:56:44 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 08:58:09 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:01:17 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:02:43 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:08:15 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:10:45 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:12:51 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:15:44 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:20:46 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:21:12 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:28:24 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:28:45 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:42:51 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:43:21 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:46:19 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:48:34 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:51:23 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 09:52:47 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 09:59:59 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 10:03:55 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 10:09:01 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 10:11:36 Job was unsuspended.
+...
+010 (2464543.000.000) 02/28 10:14:14 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464543.000.000) 02/28 10:14:39 Job was unsuspended.
+...
+022 (2464543.000.000) 02/28 10:15:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot20@angrist-2.cs.utexas.edu <128.83.144.69:34450>
+...
+024 (2464543.000.000) 02/28 10:35:16 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (1200 seconds) expired
+    Can not reconnect to slot20@angrist-2.cs.utexas.edu, rescheduling job
+...
+001 (2464543.000.000) 02/28 10:37:54 Job executing on host: <128.83.130.35:45620>
+...
+005 (2464543.000.000) 02/28 16:10:11 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 05:32:46, Sys 0 00:00:33  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 05:32:46, Sys 0 00:00:33  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   1862885
+	   Memory (MB)          :     1709     1709      2010
+...

@@ -1,0 +1,129 @@
+000 (2464541.000.000) 02/28 04:17:25 Job submitted from host: <128.83.130.186:46357>
+...
+001 (2464541.000.000) 02/28 04:17:50 Job executing on host: <128.83.120.229:48168>
+...
+006 (2464541.000.000) 02/28 04:17:59 Image size of job updated: 35263040
+	27  -  MemoryUsage of job (MB)
+	26868  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 04:23:00 Image size of job updated: 35263056
+	495  -  MemoryUsage of job (MB)
+	505912  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 05:33:07 Image size of job updated: 35263056
+	519  -  MemoryUsage of job (MB)
+	531232  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 05:38:08 Image size of job updated: 35263056
+	568  -  MemoryUsage of job (MB)
+	581256  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:03:11 Image size of job updated: 35263056
+	596  -  MemoryUsage of job (MB)
+	610100  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:13:13 Image size of job updated: 35263056
+	668  -  MemoryUsage of job (MB)
+	683716  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:18:13 Image size of job updated: 35263056
+	861  -  MemoryUsage of job (MB)
+	880664  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:28:14 Image size of job updated: 35263056
+	953  -  MemoryUsage of job (MB)
+	975276  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:33:15 Image size of job updated: 35263056
+	1061  -  MemoryUsage of job (MB)
+	1085664  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:38:15 Image size of job updated: 35263056
+	1064  -  MemoryUsage of job (MB)
+	1088552  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 06:43:16 Image size of job updated: 35263056
+	1064  -  MemoryUsage of job (MB)
+	1089060  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 07:08:19 Image size of job updated: 35263056
+	1154  -  MemoryUsage of job (MB)
+	1181304  -  ResidentSetSize of job (KB)
+...
+006 (2464541.000.000) 02/28 07:52:17 Image size of job updated: 35396184
+	1154  -  MemoryUsage of job (MB)
+	1181304  -  ResidentSetSize of job (KB)
+...
+004 (2464541.000.000) 02/28 07:52:17 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 03:36:57, Sys 0 00:00:13  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10    835467
+	   Memory (MB)          :     1154        1     12899
+...
+001 (2464541.000.000) 02/28 07:53:43 Job executing on host: <128.83.144.69:34450>
+...
+010 (2464541.000.000) 02/28 07:58:01 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 07:59:43 Job was unsuspended.
+...
+010 (2464541.000.000) 02/28 08:18:13 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 08:22:39 Job was unsuspended.
+...
+010 (2464541.000.000) 02/28 09:28:34 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 09:28:49 Job was unsuspended.
+...
+010 (2464541.000.000) 02/28 09:46:44 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 09:48:19 Job was unsuspended.
+...
+010 (2464541.000.000) 02/28 09:51:35 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 09:52:06 Job was unsuspended.
+...
+010 (2464541.000.000) 02/28 10:02:10 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 10:03:20 Job was unsuspended.
+...
+010 (2464541.000.000) 02/28 10:09:31 Job was suspended.
+	Number of processes actually suspended: 1
+...
+011 (2464541.000.000) 02/28 10:10:16 Job was unsuspended.
+...
+022 (2464541.000.000) 02/28 10:15:07 Job disconnected, attempting to reconnect
+    Socket between submit and execute hosts closed unexpectedly
+    Trying to reconnect to slot15@angrist-2.cs.utexas.edu <128.83.144.69:34450>
+...
+024 (2464541.000.000) 02/28 10:35:16 Job reconnection failed
+    Job disconnected too long: JobLeaseDuration (1200 seconds) expired
+    Can not reconnect to slot15@angrist-2.cs.utexas.edu, rescheduling job
+...
+001 (2464541.000.000) 02/28 10:37:54 Job executing on host: <128.83.130.35:45620>
+...
+005 (2464541.000.000) 02/28 15:35:51 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 04:58:30, Sys 0 00:00:26  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 04:58:30, Sys 0 00:00:26  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   1862885
+	   Memory (MB)          :     1221     1221      2010
+...

@@ -1,0 +1,2376 @@
+State #0 "O"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #1 "VB"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #0 "O"State #2 "DT"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #1 "VB"State #3 "NNS"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+-> EXState #2 "DT"
+
+-> UHinitialWeight=0.0, finalWeight=0.0
+
+-> POS#destinations=33
+
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #4 "IN"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #3 "NNS"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #5 "NNP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #4 "IN"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #6 "TO"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #5 "NNP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+State #7 "WDT"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #8 "VBP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #6 "TO"
+State #9 "VBZ"initialWeight=0.0, finalWeight=0.0
+
+initialWeight=0.0, finalWeight=0.0#destinations=33
+
+#destinations=33-> O
+
+-> O-> VB
+
+-> VB-> DT
+
+-> DT-> NNS
+
+-> NNS-> IN
+
+-> IN-> NNP
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #10 "NN"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #7 "WDT"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #8 "VBP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #11 "PRP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #9 "VBZ"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+State #12 "VBG"-> WP
+
+initialWeight=0.0, finalWeight=0.0-> EX
+
+#destinations=33-> UH
+
+-> O-> POS
+
+-> VB-> JJS
+
+-> DT-> VBD
+
+-> NNS-> RBS
+
+-> IN-> SYM
+
+-> NNP-> RBR
+
+-> TO-> JJR
+
+-> WDT-> NNPS
+
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #13 "VBN"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+State #10 "NN"-> RBS
+
+initialWeight=0.0, finalWeight=0.0-> SYM
+
+#destinations=33-> RBR
+
+-> O-> JJR
+
+-> VB-> NNPS
+
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #14 "CD"State #11 "PRP"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN
+-> NNP-> IN
+
+-> TO-> NNP
+
+-> WDT-> TO
+
+-> VBP-> WDT
+
+-> VBZ-> VBP
+
+-> NN-> VBZ
+
+-> PRP
+-> NN-> VBG
+
+-> PRP-> VBN
+
+-> VBG-> CD
+
+-> VBN-> MD
+
+-> CD-> RB
+
+-> MD-> CC
+-> RB
+
+-> CC-> JJ
+
+-> JJ-> WRB
+-> WRB
+-> RP
+
+-> PDT
+-> WP-> RP
+
+-> EX-> PDT
+
+-> UH-> WP
+
+-> POS-> EX
+
+-> JJS-> UH
+
+-> VBD-> POS
+
+-> RBS-> JJS
+
+-> SYM-> VBD
+
+-> RBR-> RBS
+
+-> JJR-> SYM
+
+-> NNPS-> RBR
+
+-> JJR
+-> NNPS
+State #15 "MD"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RBState #12 "VBG"
+
+-> CCinitialWeight=0.0, finalWeight=0.0
+
+-> JJ#destinations=33
+
+-> WRB-> O
+
+-> RP-> VB
+
+-> PDT-> DT
+
+-> WP-> NNS
+
+-> EX-> IN
+
+-> UH-> NNP
+
+-> POS-> TO
+
+-> JJS-> WDT
+
+-> VBD-> VBP
+
+-> RBS-> VBZ
+
+-> SYM-> NN
+
+-> RBR-> PRP
+
+-> JJR-> VBG
+
+-> NNPS-> VBN
+
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #16 "RB"State #13 "VBN"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+
+-> UH-> UH
+
+-> POS-> POS
+
+-> JJS-> JJS
+
+-> VBD-> VBD
+
+-> RBS-> RBS
+
+-> SYM-> SYM
+
+-> RBR-> RBR
+
+-> JJR-> JJR
+
+-> NNPS-> NNPS
+
+State #17 "CC"State #14 "CD"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+
+-> UH
+-> POS-> UH
+
+-> JJS-> POS
+
+-> VBD-> JJS
+
+-> RBS-> VBD
+
+-> SYM-> RBS
+
+-> RBR-> SYM
+
+-> JJR-> RBR
+
+-> NNPS-> JJR
+
+-> NNPS
+State #15 "MD"State #18 "JJ"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+
+-> UH-> UH
+
+-> POS-> POS
+
+-> JJS-> JJS
+
+-> VBD-> VBD
+
+-> RBS-> RBS
+
+-> SYM-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #16 "RB"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+
+-> RBR
+-> JJR
+-> NNPS
+State #17 "CC"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #19 "WRB"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+State #18 "JJ"-> RP
+
+initialWeight=0.0, finalWeight=0.0-> PDT
+
+#destinations=33-> WP
+
+-> O-> EX
+
+-> VB-> UH
+
+-> DT-> POS
+
+-> NNS-> JJS
+-> VBD
+-> RBS
+
+-> SYM-> IN
+
+-> RBR-> NNP
+
+-> JJR-> TO
+
+-> NNPS-> WDT
+
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #20 "RP"State #19 "WRB"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+-> UH
+
+-> UH-> POS
+
+-> POS-> JJS
+
+-> JJS-> VBD
+
+-> VBD-> RBS
+
+-> RBS-> SYM
+
+-> SYM-> RBR
+-> JJR
+
+-> NNPS-> RBR
+
+-> JJR
+-> NNPS
+State #21 "PDT"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRBState #20 "RP"
+
+-> RPinitialWeight=0.0, finalWeight=0.0
+
+-> PDT#destinations=33
+
+-> WP-> O
+
+-> EX-> VB
+
+-> UH-> DT
+
+-> POS-> NNS
+
+-> JJS-> IN
+
+-> VBD-> NNP
+
+-> RBS-> TO
+
+-> SYM-> WDT
+
+-> RBR-> VBP
+
+-> JJR-> VBZ
+
+-> NNPS-> NN
+
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #22 "WP"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+State #21 "PDT"-> NN
+
+initialWeight=0.0, finalWeight=0.0-> PRP
+
+#destinations=33-> VBG
+
+-> O-> VBN
+
+-> VB-> CD
+
+-> DT-> MD
+
+-> NNS-> RB
+
+-> IN-> CC
+
+-> NNP-> JJ
+
+-> TO-> WRB
+
+-> WDT-> RP
+
+-> VBP-> PDT
+
+-> VBZ-> WP
+
+-> NN-> EX
+
+-> PRP-> UH
+
+-> VBG-> POS
+
+-> VBN-> JJS
+
+-> CD-> VBD
+
+-> MD-> RBS
+
+-> RB-> SYM
+
+-> CC-> RBR
+
+-> JJ-> JJR
+
+-> WRB-> NNPS
+
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #23 "EX"State #22 "WP"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+
+-> UH-> UH
+
+-> POS-> POS
+
+-> JJS-> JJS
+
+-> VBD-> VBD
+
+-> RBS-> RBS
+
+-> SYM-> SYM
+
+-> RBR-> RBR
+
+-> JJR-> JJR
+
+-> NNPS-> NNPS
+
+State #24 "UH"
+initialWeight=0.0, finalWeight=0.0State #23 "EX"
+
+#destinations=33initialWeight=0.0, finalWeight=0.0
+
+-> O#destinations=33
+
+-> VB-> O
+
+-> DT-> VB
+
+-> NNS-> DT
+
+-> IN-> NNS
+
+-> NNP-> IN
+
+-> TO-> NNP
+
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #24 "UH"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> WDT-> NNPS
+
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #25 "POS"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CDState #25 "POS"
+
+-> MDinitialWeight=0.0, finalWeight=0.0
+
+-> RB#destinations=33
+
+-> CC-> O
+
+-> JJ-> VB
+
+-> WRB-> DT
+
+-> RP-> NNS
+
+-> PDT-> IN
+
+-> WP-> NNP
+
+-> EX-> TO
+
+-> UH-> WDT
+
+-> POS-> VBP
+
+-> JJS-> VBZ
+
+-> VBD-> NN
+
+-> RBS-> PRP
+
+-> SYM-> VBG
+
+-> RBR-> VBN
+
+-> JJR-> CD
+
+-> NNPS-> MD
+
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #26 "JJS"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNPState #26 "JJS"
+
+-> TOinitialWeight=0.0, finalWeight=0.0
+
+-> WDT#destinations=33
+
+-> VBP-> O
+
+-> VBZ-> VB
+
+-> NN-> DT
+
+-> PRP-> NNS
+
+-> VBG-> IN
+
+-> VBN-> NNP
+
+-> CD-> TO
+
+-> MD-> WDT
+
+-> RB-> VBP
+
+-> CC-> VBZ
+
+-> JJ-> NN
+
+-> WRB-> PRP
+
+-> RP-> VBG
+
+-> PDT-> VBN
+
+-> WP-> CD
+
+-> EX-> MD
+
+-> UH-> RB
+
+-> POS-> CC
+
+-> JJS-> JJ
+
+-> VBD-> WRB
+
+-> RBS-> RP
+
+-> SYM-> PDT
+
+-> RBR-> WP
+
+-> JJR-> EX
+
+-> NNPS-> UH
+
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #27 "VBD"State #27 "VBD"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+
+-> UH-> UH
+
+-> POS-> POS
+
+-> JJS-> JJS
+
+-> VBD-> VBD
+
+-> RBS-> RBS
+
+-> SYM-> SYM
+
+-> RBR-> RBR
+
+-> JJR-> JJR
+
+-> NNPS-> NNPS
+
+State #28 "RBS"
+initialWeight=0.0, finalWeight=0.0State #28 "RBS"
+
+#destinations=33initialWeight=0.0, finalWeight=0.0
+
+-> O#destinations=33
+
+-> VB-> O
+
+-> DT-> VB
+
+-> NNS-> DT
+
+-> IN-> NNS
+
+-> NNP-> IN
+
+-> TO-> NNP
+
+-> WDT-> TO
+
+-> VBP-> WDT
+
+-> VBZ-> VBP
+
+-> NN-> VBZ
+
+-> PRP-> NN
+
+-> VBG-> PRP
+
+-> VBN-> VBG
+
+-> CD-> VBN
+
+-> MD-> CD
+
+-> RB-> MD
+
+-> CC-> RB
+
+-> JJ-> CC
+
+-> WRB-> JJ
+
+-> RP-> WRB
+
+-> PDT-> RP
+
+-> WP-> PDT
+
+-> EX-> WP
+
+-> UH-> EX
+
+-> POS-> UH
+
+-> JJS-> POS
+
+-> VBD-> JJS
+
+-> RBS-> VBD
+
+-> SYM-> RBS
+
+-> RBR-> SYM
+
+-> JJR-> RBR
+
+-> NNPS-> JJR
+
+-> NNPS
+State #29 "SYM"State #29 "SYM"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+-> MD
+
+-> RB-> MD
+
+-> CC-> RB
+
+-> JJ-> CC
+
+-> WRB-> JJ
+
+-> RP-> WRB
+
+-> PDT-> RP
+
+-> WP-> PDT
+
+-> EX-> WP
+
+-> UH-> EX
+
+-> POS-> UH
+
+-> JJS-> POS
+
+-> VBD-> JJS
+
+-> RBS-> VBD
+
+-> SYM-> RBS
+
+-> RBR-> SYM
+
+-> JJR-> RBR
+
+-> NNPS-> JJR
+
+-> NNPS
+State #30 "RBR"State #30 "RBR"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O
+-> VB
+-> DT
+-> NNS-> O
+
+-> IN-> VB
+
+-> NNP-> DT
+
+-> TO-> NNS
+
+-> WDT-> IN
+
+-> VBP-> NNP
+
+-> VBZ-> TO
+
+-> NN-> WDT
+
+-> PRP-> VBP
+
+-> VBG-> VBZ
+
+-> VBN-> NN
+
+-> CD-> PRP
+
+-> MD-> VBG
+
+-> RB-> VBN
+
+-> CC-> CD
+
+-> JJ-> MD
+
+-> WRB-> RB
+
+-> RP-> CC
+
+-> PDT-> JJ
+
+-> WP-> WRB
+
+-> EX-> RP
+
+-> UH-> PDT
+
+-> POS-> WP
+
+-> JJS-> EX
+
+-> VBD-> UH
+
+-> RBS-> POS
+
+-> SYM-> JJS
+
+-> RBR-> VBD
+
+-> JJR-> RBS
+
+-> NNPS-> SYM
+
+-> RBR
+-> JJR
+-> NNPS
+State #31 "JJR"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #31 "JJR"
+initialWeight=0.0, finalWeight=0.0
+#destinations=33
+-> O
+-> VB
+-> DT
+-> NNS
+-> IN
+-> NNP
+-> TO
+-> WDT
+-> VBP
+-> VBZ
+-> NN
+-> PRP
+-> VBG
+-> VBN
+-> CD
+-> MD
+-> RB
+-> CC
+-> JJ
+-> WRB
+-> RP
+-> PDT
+-> WP
+-> EX
+-> UH
+-> POS
+-> JJS
+-> VBD
+-> RBS
+-> SYM
+-> RBR
+-> JJR
+-> NNPS
+State #32 "NNPS"State #32 "NNPS"
+
+initialWeight=0.0, finalWeight=0.0initialWeight=0.0, finalWeight=0.0
+
+#destinations=33#destinations=33
+
+-> O-> O
+
+-> VB-> VB
+
+-> DT-> DT
+
+-> NNS-> NNS
+
+-> IN-> IN
+
+-> NNP-> NNP
+
+-> TO-> TO
+
+-> WDT-> WDT
+
+-> VBP-> VBP
+
+-> VBZ-> VBZ
+
+-> NN-> NN
+
+-> PRP-> PRP
+
+-> VBG-> VBG
+
+-> VBN-> VBN
+
+-> CD-> CD
+
+-> MD-> MD
+
+-> RB-> RB
+
+-> CC-> CC
+
+-> JJ-> JJ
+
+-> WRB-> WRB
+
+-> RP-> RP
+
+-> PDT-> PDT
+
+-> WP-> WP
+
+-> EX-> EX
+
+-> UH-> UH
+
+-> POS-> POS
+
+-> JJS-> JJS
+
+-> VBD-> VBD
+
+-> RBS-> RBS
+
+-> SYM-> SYM
+
+-> RBR-> RBR
+-> JJR
+
+-> NNPS-> JJR
+
+-> NNPS
