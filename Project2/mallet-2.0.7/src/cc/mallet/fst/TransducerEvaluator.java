@@ -51,10 +51,6 @@ public abstract class TransducerEvaluator
    * @param tt The TransducerTrainer to evaluate.
    */
 	public void evaluate(TransducerTrainer tt) {
-		evaluate(tt, -1);
-	}
-	
-	public void evaluate (TransducerTrainer tt, int iteration)	{
 		if (!precondition(tt))
 			return;
 		this.preamble(tt);

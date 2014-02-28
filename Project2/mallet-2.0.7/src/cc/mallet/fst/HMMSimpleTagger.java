@@ -326,12 +326,12 @@ public class HMMSimpleTagger
 //		so we just have to check if eval is null or not
 //		if (i % 1 == 0 && eval != null) // Change the 1 to higher integer to evaluate less often
 		if (eval != null)
-			eval.evaluate(hmmt, 1);
+			eval.evaluate(hmmt);
 //		We don't have an i because we dont have a for loop, 
 //		so we just have to check if viterbi output option is null or not
 //		if (viterbiOutputOption.value && i % 10 == 0)
 		if (viterbiOutputOption.value)
-			new ViterbiWriter("", new InstanceList[] {training, testing}, new String[] {"training", "testing"}).evaluate(hmmt, 1);
+			new ViterbiWriter("", new InstanceList[] {training, testing}, new String[] {"training", "testing"}).evaluate(hmmt);
 //		We don't need to check for convergence because ideally, the
 //		likelihood trainer should be doing that
 //		if (converged)
