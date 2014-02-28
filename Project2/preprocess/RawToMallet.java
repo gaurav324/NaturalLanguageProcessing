@@ -5,8 +5,16 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.HashMap;
+import java.util.*;
 
 public class RawToMallet {
+	
+	public static final ArrayList<String> SUFFIXES = new ArrayList<String>(Arrays.asList("s", "ed", "ing", "ly", "er", "or", "ion", "ble"));
+
+	public static final ArrayList<String> PREFIXES =  new ArrayList<String>(Arrays.asList("un", "re", "in", "im", "dis", "en", "non", "over", "mis", "sub"));
+	
+	public static HashMap<String, Boolean> featureMap = new HashMap<String, Boolean>();
 	
 	// This is where we parse a line from pos file 
 	// and return the tags found in the line.
@@ -31,8 +39,51 @@ public class RawToMallet {
 			} else {
 				String[] taggedWords = line.split("\\s+");
 				for (String tWord : taggedWords) {
-					output.append(tWord.substring(0, tWord.indexOf("/")));
+					String actualWord = tWord.substring(0, tWord.indexOf("/"));
+					output.append(actualWord);
 					output.append(" ");
+					for (String feature : featureMap.keySet()) {
+						// If first charcter is CAPS, then add CAPS feature.
+						if (feature.equals("CAPS") && Character.isUpperCase(actualWord.charAt(0))) {
+							output.append("CAPS");
+							output.append(" ");
+						}
+						
+						// IF word contains HYPHEN, add hypen feature.
+						if (feature.equals("HYPHEN") && actualWord.contains("-")) {
+							output.append("HYPHEN");
+							output.append(" ");
+						}
+						
+						// IF word starts with a number.
+						if (feature.equals("START_NUMBER") && Character.isDigit(actualWord.charAt(0))) {
+							output.append("START_NUMBER");
+							output.append(" ");
+						}
+						
+						// If we have any of these suffixes, lets append that.
+						if (feature.equals("SUFFIX")) {
+							for (String suffix : SUFFIXES) {
+								if (actualWord.endsWith(suffix)) {
+									output.append(suffix);
+									output.append(" ");
+									break;
+								}
+							}
+						}
+						
+						// If we have any of these prefixes, lets append that.
+						if (feature.equals("PREFIX")) {
+							for (String prefix : PREFIXES) {
+								if (actualWord.startsWith(prefix)) {
+									output.append(prefix);
+									output.append(" ");
+									break;
+								}
+							}
+						}
+						
+					}
 					output.append(tWord.substring(tWord.indexOf("/") + 1));
 					output.append(eol);
 				}
@@ -42,15 +93,58 @@ public class RawToMallet {
 		} else {
 			String[] taggedWords = line.split("\\s+");
 			for (String tWord : taggedWords) {
-				output.append(tWord.substring(0, tWord.indexOf("/")));
+                String actualWord = tWord.substring(0, tWord.indexOf("/"));
+			    output.append(actualWord);
 				output.append(" ");
+				for (String feature : featureMap.keySet()) {
+					// If first charcter is CAPS, then add CAPS feature.
+					if (feature.equals("CAPS") && Character.isUpperCase(actualWord.charAt(0))) {
+						output.append("CAPS");
+						output.append(" ");
+					}
+					
+					// IF word contains HYPHEN, add hypen feature.
+					if (feature.equals("HYPHEN") && actualWord.contains("-")) {
+						output.append("HYPHEN");
+						output.append(" ");
+					}
+					
+					// IF word starts with a number.
+					if (feature.equals("START_NUMBER") && Character.isDigit(actualWord.charAt(0))) {
+						output.append("START_NUMBER");
+						output.append(" ");
+					}
+					
+					// If we have any of these suffixes, lets append that.
+					if (feature.equals("SUFFIX")) {
+						for (String suffix : SUFFIXES) {
+							if (actualWord.endsWith(suffix) && !actualWord.equals(suffix)) {
+								output.append(suffix);
+								output.append(" ");
+								break;
+							}
+						}
+					}
+					
+					// If we have any of these prefixes, lets append that.
+					if (feature.equals("PREFIX")) {
+						for (String prefix : PREFIXES) {
+							if (actualWord.startsWith(prefix) && !actualWord.equals(prefix)) {
+								output.append(prefix);
+								output.append(" ");
+								break;
+							}
+						}
+					}
+					
+				}
 				output.append(tWord.substring(tWord.indexOf("/") + 1));
 				output.append(eol);
 			}
 		}
 		return output.toString();
-	}
-	
+	}	
+
 	// This function would parse a file and write tagged
 	// data using printWriter handle.
 	public static void parseFileAndWrite(String filename, PrintWriter pw) {
@@ -97,9 +191,35 @@ public class RawToMallet {
 		// Create printWriter object.
 		PrintWriter pw = null;
 		String outputFile = "output";
-		if (args.length == 2) {
+		String featureFile = null;
+		if (args.length >= 2) {
 			outputFile = args[1];
-		}
+		} 
+        
+        if(args.length == 3) {
+			featureFile = args[2];
+			
+            try {
+    			FileReader fileReader = new FileReader(featureFile);
+	    		BufferedReader br = new BufferedReader(fileReader);
+		    	
+                String currentLine = "";
+			    while ((currentLine = br.readLine()) != null) {
+				    String[] feature_switch = currentLine.split(" ");
+    				boolean is_true = Boolean.parseBoolean(feature_switch[1]);
+                    //System.out.println(is_true);
+	    			if (is_true) {
+		    			featureMap.put(feature_switch[0], true);
+			    	}
+			    }
+                for (String feature : featureMap.keySet()) {
+                    //System.out.println(feature);
+                }
+            } catch (Exception ex) {
+                ex.printStackTrace();
+            }
+		}	
+		
 		try {
 			pw = new PrintWriter(new FileWriter(outputFile));
 		} catch (IOException e) {
