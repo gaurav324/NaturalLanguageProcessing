@@ -864,7 +864,7 @@ public class TestCRF extends TestCase {
 
 		TokenAccuracyEvaluator eval = new TokenAccuracyEvaluator(lists,
 				new String[] { "Train", "Test" });
-		eval.evaluateInstanceList(crft, lists[1], "Test", -1, false);
+		eval.evaluateInstanceList(crft, lists[1], "Test");
 
 		assertEquals(0.9409, eval.getAccuracy("Test"), 0.001);
 

@@ -34,7 +34,7 @@ public class LabelDistributionEvaluator extends TransducerEvaluator {
   
   @Override
   public void evaluateInstanceList(TransducerTrainer transducer,
-      InstanceList instances, String description, int iteration, boolean is_training) {
+      InstanceList instances, String description) {
     double[] predCounts = new double[instances.getTargetAlphabet().size()];
     double[] trueCounts = new double[instances.getTargetAlphabet().size()];
 

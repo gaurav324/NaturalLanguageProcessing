@@ -288,7 +288,7 @@ public class SimpleTaggerWithConstraints
   public static void test(TransducerTrainer tt, TransducerEvaluator eval,
       InstanceList testing)
   {
-    eval.evaluateInstanceList(tt, testing, "Testing", -1, false);
+    eval.evaluateInstanceList(tt, testing, "Testing");
   }
 
   /**

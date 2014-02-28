@@ -34,6 +34,8 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 
 	private HashMap<String,Double> accuracy = new HashMap<String,Double>();
 	private HashMap<String,Double> oovAccuracy = new HashMap<String,Double>();
+    
+    private int iteration = 0;
 
 	public TokenAccuracyEvaluator (InstanceList[] instanceLists, String[] descriptions) {
 		super (instanceLists, descriptions);
@@ -54,14 +56,23 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 		this (new InstanceList[] {instanceList1, instanceList2, instanceList3}, new String[] {description1, description2, description3});
 	}
 
-	public void evaluateInstanceList (TransducerTrainer trainer, InstanceList instances, String description, int iteration, boolean is_training) 
-  {
+	public void evaluateInstanceList (TransducerTrainer trainer, InstanceList instances, String description) 
+    {
 		int numCorrectTokens;
 		int totalTokens;
 
 		int numCorrectOOV;
 		int totalOOV;
 		
+        // lets not use this, because for HMMs this does not work.
+        //int iteration = trainer.getIteration();
+        ++iteration;
+
+        boolean is_training = false;
+        if (description.contains("Training")) {
+            is_training = true;
+        }
+
 		Transducer transducer = trainer.getTransducer();
 		totalTokens = numCorrectTokens = totalOOV = numCorrectOOV = 0;
 		for (int i = 0; i < instances.size(); i++) {
