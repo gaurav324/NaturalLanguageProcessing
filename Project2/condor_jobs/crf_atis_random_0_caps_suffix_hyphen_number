@@ -8,13 +8,13 @@ Executable = /usr/bin/java
 +Project = "INSTRUCTIONAL"
 +ProjectDescription = "CS388 Homework 2"
 
-Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_caps_suffix_hyphen_number.log
+Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_0_caps_suffix_hyphen_number.log
 
 Notification = complete
 Notify_user = nanda@utexas.edu
 
-Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_caps_suffix_hyphen_number --training-proportion 0.8 --random-seed 0 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_caps_suffix_hyphen_number.mallet
+Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_random_0_caps_suffix_hyphen_number --training-proportion 0.8 --random-seed 0 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_caps_suffix_hyphen_number.mallet
 
-Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_caps_suffix_hyphen_number.out
-Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_caps_suffix_hyphen_number.err
+Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_0_caps_suffix_hyphen_number.out
+Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_0_caps_suffix_hyphen_number.err
 Queue 1

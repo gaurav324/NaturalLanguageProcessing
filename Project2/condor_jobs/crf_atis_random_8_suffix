@@ -8,13 +8,13 @@ Executable = /usr/bin/java
 +Project = "INSTRUCTIONAL"
 +ProjectDescription = "CS388 Homework 2"
 
-Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_suffix.log
+Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_8_suffix.log
 
 Notification = complete
 Notify_user = nanda@utexas.edu
 
-Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_suffix --training-proportion 0.8 --random-seed 8 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_suffix.mallet
+Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_random_8_suffix --training-proportion 0.8 --random-seed 8 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_suffix.mallet
 
-Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_suffix.out
-Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_suffix.err
+Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_8_suffix.out
+Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_8_suffix.err
 Queue 1

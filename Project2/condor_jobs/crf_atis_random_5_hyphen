@@ -8,13 +8,13 @@ Executable = /usr/bin/java
 +Project = "INSTRUCTIONAL"
 +ProjectDescription = "CS388 Homework 2"
 
-Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_hyphen.log
+Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_5_hyphen.log
 
 Notification = complete
 Notify_user = nanda@utexas.edu
 
-Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_hyphen --training-proportion 0.8 --random-seed 5 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_hyphen.mallet
+Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_random_5_hyphen --training-proportion 0.8 --random-seed 5 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_hyphen.mallet
 
-Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_hyphen.out
-Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_hyphen.err
+Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_5_hyphen.out
+Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_5_hyphen.err
 Queue 1
