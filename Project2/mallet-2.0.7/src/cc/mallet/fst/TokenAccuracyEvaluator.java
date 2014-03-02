@@ -110,6 +110,8 @@ public class TokenAccuracyEvaluator extends TransducerEvaluator
 			double oovAcc = ((double)numCorrectOOV)/totalOOV;
 			oovAccuracy.put(description, oovAcc);
 			logger.info (description +" OOVAccuracy="+oovAcc);
+            logger.info("Total OOV tokens: " + totalOOV);
+            logger.info("Total tokens: " + totalTokens);
 		}
 	}
 

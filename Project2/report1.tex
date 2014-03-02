@@ -156,16 +156,16 @@ I have introduced 5 different types of orthographic features. Words that start w
   	\centering
    	\begin{tabular}{| l | l | l | l | l | l | l |}
     	\hline
-        Features & TrA & TsA & OOV-TsA & OOV-TsA & RunTime \\ \hline
-	CAPS & & & & & \\ \hline
-	Hyphen & & & & & \\ \hline
-	Start Number & & & & & \\ \hline
-	Prefix & & & & & \\ \hline
-	Suffix & & & & & \\ \hline
-	All Except Suffix & & & & & \\ \hline
-	All & & & & & \\ \hline
+        Features & Training Accuracy & Testin Accuracy & OOV-Accuracy & RunTime (sec) \\ \hline
+	CAPS & 0.9988	 & 0.9377 & 0.3209 &  96 \\ \hline
+	Hyphen & 0.9987 & 0.9301 & 0.2519 & 106 \\ \hline
+	Start Number & 0.9987 & 0.9301 & 0.2519 & 98 \\ \hline
+	Prefix & 0.9988 & 0.9311 & 0.2726 & 106 \\ \hline
+	Suffix & 0.9988 & 0.9345 & 0.3198 & 109 \\ \hline
+	All Except Suffix & 0.9991 & 0.9452 & 0.4074 & 102 \\ \hline
+	All & 0.9988 & 0.9433 & 0.4164 & 92 \\ \hline
     	\end{tabular}
-    	\caption{[ATIS] Effects of orthographic features on Overall Training Accuracy (TrA), Overall Testing Accuracy (TsA), OOV Training Accuracy(OOV-TrA), OOV Testing Accuracy(OOV-TsA)}
+    	\caption{[ATIS] Effects of orthographic features on Overall Training Accuracy, Overall Testing Accuracy, OOV Accuracy and Runtime.}
     	\end{table}%
 \end{center}
 
@@ -174,7 +174,7 @@ I have introduced 5 different types of orthographic features. Words that start w
   	\centering
    	\begin{tabular}{| l | l | l | l | l | l | l |}
     	\hline
-        Features & TrA & TsA & OOV-TsA & OOV-TsA & RunTime \\ \hline
+        Features & TrA & TsA OOV-A & RunTime \\ \hline
 	CAPS & & & & & \\ \hline
 	Hyphen & & & & & \\ \hline
 	Start Number & & & & & \\ \hline
@@ -183,7 +183,7 @@ I have introduced 5 different types of orthographic features. Words that start w
 	All Except Suffix & & & & & \\ \hline
 	All & & & & & \\ \hline
     	\end{tabular}
-    	\caption{[WSJ] Effects of orthographic features on Overall Training Accuracy (TrA), Overall Testing Accuracy (TsA), OOV Training Accuracy(OOV-TrA), OOV Testing Accuracy(OOV-TsA)}
+    	\caption{[WSJ] Effects of orthographic features on Overall Training Accuracy (TrA), Overall Testing Accuracy (TsA), OOV Testing Accuracy(OOV-A)}
     	\end{table}%
 \end{center}
 
