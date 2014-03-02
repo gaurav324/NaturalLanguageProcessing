@@ -15,6 +15,7 @@
 \usepackage{algpseudocode}
 \usepackage{hyperref}
 \usepackage{footnote}
+\usepackage{graphicx}
 
 \setlength{\parindent}{0in}
 \setlength{\parskip}{2mm}
@@ -92,7 +93,7 @@ Therefore, because of these assumptions, HMM does not perform as good as CRF mod
   	\centering
    	\begin{tabular}{| l | l | l | l | l | l | l |}
     	\hline
-        Model & HMM & CRF & OOV TC & Testing TC \\ \hline
+        Model & HMM & CRF & OOV Count & Testing Count \\ \hline
         ATIS & 0.2680 & 0.3058 &  25 & 641 \\ \hline
         WSJ (00 and 01) & 0.3819 & 0.4760 & 5735 & 37465 \\ \hline
 	WSJ (00, 01, 02 and 03) & 0.3938 & 0.5017 & 9340 & 81939 \\ \hline
@@ -121,6 +122,82 @@ As expected, test accuracy for OOV is very less in comparison to the seen tokens
     	\end{table}%
 \end{center}
 
+{\bfseries Analysis}
+
 Training accuracy for CRF is much higher than HMM models. This is expected because CRF model uses L-BFGS optimization procedure to maximize the conditional log likelihood of the supervised training data. At the same time, CRF is more likely to overfit the training data also. This is the reason that training accuracy for ATIS is very high.
 
+\subsection {RunTime}
+
+There is no restriction on the number of iterations for these results. However, CRF generally convegerd between 120-160 iterations.
+
+\begin{center}	
+	\begin{table}[ht]
+  	\centering
+   	\begin{tabular}{| l | l | l | l | l |}
+    	\hline
+        Model & HMM (sec) & CRF (sec) & Training Tokens \\ \hline
+        ATIS & 5 & 57 & 2642\\ \hline
+        WSJ (00 and 01) & 167 & 13100 & 36111 \\ \hline
+	WSJ (00, 01, 02 and 03) & 609 & 41150 & 73574 \\ \hline
+    	\end{tabular}
+    	\caption{RunTime HMM vs CRF. }
+    	\end{table}%
+\end{center}
+{\bfseries Analysis}
+
+CRF models has to perform complex optimizations to calculate its parameters. Therefore, it takes a very large of time to train CRF models. As the data keeps on growing , CRF model does not scale well. As we doubled the size of WSJ training data, run time increased four times.
+
+\subsection {Adding Orthographic features}
+
+I have introduced 5 different types of orthographic features. Words that start with CAPS, List of top 80\% Suffixes and Prefixis (http://www.darke.k12.oh.us/curriculum/la/prefixes.pdf), words having hypen and tokens that start with a number.  
+
+\begin{center}	
+	\begin{table}[ht]
+  	\centering
+   	\begin{tabular}{| l | l | l | l | l | l | l |}
+    	\hline
+        Features & TrA & TsA & OOV-TsA & OOV-TsA & RunTime \\ \hline
+	CAPS & & & & & \\ \hline
+	Hyphen & & & & & \\ \hline
+	Start Number & & & & & \\ \hline
+	Prefix & & & & & \\ \hline
+	Suffix & & & & & \\ \hline
+	All Except Suffix & & & & & \\ \hline
+	All & & & & & \\ \hline
+    	\end{tabular}
+    	\caption{[ATIS] Effects of orthographic features on Overall Training Accuracy (TrA), Overall Testing Accuracy (TsA), OOV Training Accuracy(OOV-TrA), OOV Testing Accuracy(OOV-TsA)}
+    	\end{table}%
+\end{center}
+
+\begin{center}	
+	\begin{table}[ht]
+  	\centering
+   	\begin{tabular}{| l | l | l | l | l | l | l |}
+    	\hline
+        Features & TrA & TsA & OOV-TsA & OOV-TsA & RunTime \\ \hline
+	CAPS & & & & & \\ \hline
+	Hyphen & & & & & \\ \hline
+	Start Number & & & & & \\ \hline
+	Prefix & & & & & \\ \hline
+	Suffix & & & & & \\ \hline
+	All Except Suffix & & & & & \\ \hline
+	All & & & & & \\ \hline
+    	\end{tabular}
+    	\caption{[WSJ] Effects of orthographic features on Overall Training Accuracy (TrA), Overall Testing Accuracy (TsA), OOV Training Accuracy(OOV-TrA), OOV Testing Accuracy(OOV-TsA)}
+    	\end{table}%
+\end{center}
+
+{\bfseries Analysis}
+
+\subsection {Accuracy with Iterations}
+
+\begin{figure}[ht!]
+\centering
+\includegraphics[width=150mm]{accuracy.png}
+\caption{Accuracy with Iterations. [CRF with WSJ (00 and 01)]}
+\label{accuracy}
+\end{figure}
+
+
 \end{document}
+
