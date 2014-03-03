@@ -148,7 +148,7 @@ CRF models has to perform complex optimizations to calculate its parameters. The
 
 \subsection {Adding Orthographic features}
 
-I have introduced 5 different types of orthographic features. Words that start with CAPS, List of top 80\% Suffixes and Prefixis (http://www.darke.k12.oh.us/curriculum/la/prefixes.pdf), words having hypen and words that start with a number.  
+I have introduced 5 different types of orthographic features. Words that start with CAPS, list of top 80\% Suffixes $["s", "ed", "ing", "ly", "er", "or", "ion", "ble"]$ and Prefixis $["un", "re", "in", "im", "dis",$ $ "en", "non", "over", "mis", "sub"]$ (http://www.darke.k12.oh.us/curriculum/la/prefixes.pdf), words having hypen and words that start with a number.  
 
 \begin{center}	
 	\begin{table}[ht]
@@ -215,7 +215,7 @@ We have set iteration count to 500 by default. With additional features, CRF see
 
 \begin{figure}[ht!]
 \centering
-\includegraphics[width=120mm]{accuracy.png}
+\includegraphics[width=140mm]{accuracy.png}
 \caption{Accuracy with Iterations. [CRF with WSJ (00 and 01)]}
 \label{accuracy}
 \end{figure}

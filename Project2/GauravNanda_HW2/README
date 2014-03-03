@@ -1,0 +1,58 @@
+> Dir Hierarchy.
+ - RawToMallet.java (Converts raw data to mallet format)
+ - sampleFeaturesFile (A file used to control what orthographic features to include)
+ - TokenAccuracyEvaluator.java (Changes for OOV tokens)
+ - report1.tex and report1.pdf (Latex and pdf file of the final report)
+ - accuracy.png (Image added to file, showing effect of iterations on accuracy)
+ - parser.py (A small helper python script to parse output files produced by condor.)
+ - results.xlsx (Excel file where data from parsed output files is stored)
+
+===================================================
+
+1) Commands for converting raw format files to mallet format.
+
+// This would read all the files in wsj/01 folder and create one consolidated mallet file for all of them. 
+// Last argumen features if the name of file, which tells what all orthographic features to include.
+
+java RawToMallet wsj/01 feature_mallet_files/wsj_01_caps.mallet ./features
+
+> cat ./sampleFeaturesFile 
+CAPS false
+SUFFIX true
+PREFIX true
+HYPHEN true
+START_NUMBER true
+
+2) To build mallet, simply ran "ant" inside the parent folder.
+
+3) Then created a list of jobs to submit to condor. Because it was a huge list of experiments, so I created 
+   few templates and filled rest of the data using IPython terminal. One of the sample condor jobs look like:
+
+====
+/Users/gnanda/nlp/repo/Project2/condor_jobs➜ git:(master) ✗cat crf_atis_random_1_caps_prefix_suffix_hyphen_number
+universe = vanilla
+environment = CLASSPATH=/u/nanda/nlp/repo/Project2/mallet-2.0.7/class:/u/nanda/nlp/repo/Project2/mallet-2.0.7/lib/mallet-deps.jar
+
+Initialdir = /u/nanda/nlp/repo/Project2/
+Executable = /usr/bin/java
+
++Group   = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 2"
+
+Log = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_1_caps_prefix_suffix_hyphen_number.log
+
+Notification = complete
+Notify_user = nanda@utexas.edu
+
+Arguments = cc.mallet.fst.SimpleTagger --train true --model-file /u/nanda/nlp/repo/Project2/trained_models/crf_atis_random_1_caps_prefix_suffix_hyphen_number --training-proportion 0.8 --random-seed 1 --test lab /u/nanda/nlp/repo/Project2/preprocess/feature_mallet_files/atis3_caps_prefix_suffix_hyphen_number.mallet
+
+Output = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_1_caps_prefix_suffix_hyphen_number.out
+Error  = /u/nanda/nlp/repo/Project2/output_files/crf_atis_random_1_caps_prefix_suffix_hyphen_number.err
+Queue 1
+====
+
+4) Once all the jobs ran successfully, to get the data in meaningful format, I copied over data to excel sheet. To parse the output files, 
+I again took help of either IPython terminal or python scripts.
+
+One of the sample script to print accuracy numbers "parser.py" has also been included in the folder.

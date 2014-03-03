@@ -8,6 +8,7 @@ import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.*;
 
+// Converts Raw data to Mallet input format.
 public class RawToMallet {
 	
 	public static final ArrayList<String> SUFFIXES = new ArrayList<String>(Arrays.asList("s", "ed", "ing", "ly", "er", "or", "ion", "ble"));
