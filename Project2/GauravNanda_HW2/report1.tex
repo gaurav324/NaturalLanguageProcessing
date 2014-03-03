@@ -90,12 +90,12 @@ Therefore, because of these assumptions, HMM does not perform as good as CRF mod
 \begin{center}	
 	\begin{table}[ht]
   	\centering
-   	\begin{tabular}{| l | l | l | l | l | l | l |}
+   	\begin{tabular}{| l | l | l | l | l | l | l | l |}
     	\hline
-        Model & HMM & CRF & OOV Count & Testing Token Count \\ \hline
-        ATIS & 0.2680 & 0.3058 &  25 & 641 \\ \hline
-        WSJ (00 and 01) & 0.3819 & 0.4760 & 5735 & 37465 \\ \hline
-	WSJ (00, 01, 02 and 03) & 0.3938 & 0.5017 & 9340 & 81939 \\ \hline
+        Model & HMM & CRF & OOV Count & Testing Token Count & Percentage OOV \\ \hline
+        ATIS & 0.2680 & 0.3058 &  25 & 641 & 3.9\%\\ \hline
+        WSJ (00 and 01) & 0.3819 & 0.4760 & 5735 & 37465 & 15.3\% \\ \hline
+	WSJ (00, 01, 02 and 03) & 0.3938 & 0.5017 & 9340 & 81939 & 11.3\% \\ \hline
     	\end{tabular}
     	\caption{OOV Test Accuracy HMM vs CRF. }
     	\end{table}%
