@@ -77,7 +77,7 @@ class DomainAdapterParser {
 			sentences.add(sentence);
 		}	
 		
-		int threads = args.length > 3 ? Integer.parseInt(args[4]) : 1;
+		int threads = args.length > 3 ? Integer.parseInt(args[3]) : 1;
 		List<Tree> new_trees = lp.parseMultiple(sentences, threads);
 		
 		for (Tree new_tree : new_trees) {
