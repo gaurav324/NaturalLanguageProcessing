@@ -22,9 +22,9 @@ import edu.stanford.nlp.util.Timing;
 
 class DomainAdapterParser {
 	
-	private static Treebank makeTreebank(String treebankPath, Options op) {
+	public static Treebank makeTreebank(String treebankPath, Options op) {
 	    System.err.println("Training a parser from treebank dir: " + treebankPath);
-	    Treebank trainTreebank = op.tlpParams.testMemoryTreebank();
+	    Treebank trainTreebank = op.tlpParams.memoryTreebank();
 	    System.err.print("Reading trees...");
 	    
 	    trainTreebank.loadPath(treebankPath);
@@ -63,7 +63,7 @@ class DomainAdapterParser {
 		System.out.println("Size of original Tree Bank: " + trainTreeBank.size());
 		
 		// Create memory tree bank for the self-training data.
-		Treebank selfTrainTreebank = op.tlpParams.testMemoryTreebank();
+		Treebank selfTrainTreebank = op.tlpParams.memoryTreebank();
 		selfTrainTreebank.loadPath(args[1], null);
 		//selfTrainTreebank.loadPath("/Users/gnanda/nlp/repo/Project3/brown/cf/cf01.mrg", null);
 		System.out.println("Size of selfTrain Tree Bank: " + selfTrainTreebank.size());
@@ -82,6 +82,7 @@ class DomainAdapterParser {
 		
 		for (Tree new_tree : new_trees) {
 			if (new_tree.children()[0].label().toString().equals("X")) {
+				//System.out.println("New Tree: " + new_tree.toString());
 				continue;
 			}
 			//System.out.println("New Tree: " + new_tree.toString());
