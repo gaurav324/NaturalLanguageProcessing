@@ -39,6 +39,8 @@ class DomainAdapterParser {
 	 * args[1] is expected to the data to be self-trained.
 	 * 
 	 * args[2] is expected to be the date to be tested.
+	 * 
+	 * args[3] is expected to be the number of threads. Defaults to 1.
 	 * @param args
 	 */
 	public static void main(String[] args) {
@@ -47,7 +49,7 @@ class DomainAdapterParser {
 		op.doPCFG = true;
 		op.setOptions("-goodPCFG", "-evals", "tsv");
 		
-		if (args.length != 3) {
+		if (args.length < 3) {
 			System.out.println("Please specify three arguments.");
 			return;
 		}
@@ -75,7 +77,8 @@ class DomainAdapterParser {
 			sentences.add(sentence);
 		}	
 		
-		List<Tree> new_trees = lp.parseMultiple(sentences, 8);
+		int threads = args.length > 3 ? Integer.parseInt(args[4]) : 1;
+		List<Tree> new_trees = lp.parseMultiple(sentences, threads);
 		
 		for (Tree new_tree : new_trees) {
 			if (new_tree.children()[0].label().toString().equals("X")) {
