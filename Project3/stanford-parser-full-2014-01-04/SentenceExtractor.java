@@ -36,9 +36,14 @@ public class SentenceExtractor {
 			}
 			trees.add(tree);
 			++count;
+			if (count % 1000 == 0) {
+				SentenceExtractor.writeFile(trees, args[1] + "_" + count);
+			}
 		}
-		
-		File writeLocation = new File(args[1]);
+	}
+	
+	public static void writeFile(List<Tree> trees, String location) {
+		File writeLocation = new File(location);
 		try {
 			FileWriter fw = new FileWriter(writeLocation);
 			
