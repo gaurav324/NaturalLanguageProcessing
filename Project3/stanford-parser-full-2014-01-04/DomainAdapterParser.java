@@ -82,7 +82,7 @@ class DomainAdapterParser {
 		
 		for (Tree new_tree : new_trees) {
 			if (new_tree.children()[0].label().toString().equals("X")) {
-				//System.out.println("New Tree: " + new_tree.toString());
+				System.out.println("New Tree: " + new_tree.toString());
 				continue;
 			}
 			//System.out.println("New Tree: " + new_tree.toString());
