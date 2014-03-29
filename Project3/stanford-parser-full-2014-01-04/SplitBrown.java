@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import edu.stanford.nlp.parser.lexparser.Options;
+import edu.stanford.nlp.trees.MemoryTreebank;
 import edu.stanford.nlp.trees.Tree;
 import edu.stanford.nlp.trees.Treebank;
 
@@ -25,7 +26,9 @@ public class SplitBrown {
 		List<Tree> train_trees = new ArrayList<Tree>();
 		List<Tree> test_trees = new ArrayList<Tree>();
 		for (File folder : f.listFiles()) {
-			Treebank trainTreeBank = DomainAdapterParser.makeTreebank(folder.getAbsolutePath(), op);
+			//Treebank trainTreeBank = DomainAdapterParser.makeTreebank(folder.getAbsolutePath(), op);
+			MemoryTreebank trainTreeBank = new MemoryTreebank();
+			trainTreeBank.loadPath(folder.getAbsolutePath());
 			
 			int count = 0;
 			int total_trees = (int)(.9 * trainTreeBank.size());
