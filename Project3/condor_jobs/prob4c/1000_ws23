@@ -1,0 +1,20 @@
+universe = vanilla
+environment = CLASSPATH=/u/nanda/nlp/repo/Project3/stanford-parser-full-2014-01-04:/u/nanda/nlp/repo/Project3/stanford-parser-full-2014-01-04/stanford-parser.jar
+
+Initialdir = /u/nanda/nlp/repo/Project3/condor_jobs/prob4c
+Executable = /usr/bin/java
+
++Group = "GRAD"
++Project = "INSTRUCTIONAL"
++ProjectDescription = "CS388 Homework 3"
+
+Log = /u/nanda/nlp/repo/Project3/condor_jobs/prob4c/output/1000_ws23.log
+
+Notification = complete
+Notify_user = nanda@cs.utexas.edu
+
+Arguments = DomainAdapterParser /u/nanda/nlp/repo/Project3/wsj_preprocessed/split_1000 NOADAPTION /u/nanda/nlp/repo/Project3/wsj_not_wanted/23 4
+
+Output = /u/nanda/nlp/repo/Project3/condor_jobs/prob4c/output/1000_ws23.out
+Error = /u/nanda/nlp/repo/Project3/condor_jobs/prob4c/output/1000_ws23.err
+Queue 1

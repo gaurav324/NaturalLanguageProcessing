@@ -1,0 +1,66 @@
+000 (2909019.000.000) 03/28 23:07:37 Job submitted from host: <128.83.130.186:46357>
+...
+001 (2909019.000.000) 03/28 23:08:01 Job executing on host: <128.83.144.151:38237>
+...
+006 (2909019.000.000) 03/28 23:08:10 Image size of job updated: 27700032
+	925  -  MemoryUsage of job (MB)
+	946264  -  ResidentSetSize of job (KB)
+...
+010 (2909019.000.000) 03/28 23:11:16 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (2909019.000.000) 03/28 23:11:16 Image size of job updated: 27700032
+	2085  -  MemoryUsage of job (MB)
+	2134644  -  ResidentSetSize of job (KB)
+...
+011 (2909019.000.000) 03/28 23:21:15 Job was unsuspended.
+...
+004 (2909019.000.000) 03/28 23:21:24 Job was evicted.
+	(0) Job was not checkpointed.
+		Usr 0 00:02:41, Sys 0 00:00:01  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   8864039
+	   Memory (MB)          :     2085        1      4028
+...
+001 (2909019.000.000) 03/28 23:22:29 Job executing on host: <128.83.144.151:38237>
+...
+006 (2909019.000.000) 03/28 23:32:40 Image size of job updated: 30000000
+	3125  -  MemoryUsage of job (MB)
+	3199628  -  ResidentSetSize of job (KB)
+...
+006 (2909019.000.000) 03/28 23:37:40 Image size of job updated: 30000000
+	3283  -  MemoryUsage of job (MB)
+	3361472  -  ResidentSetSize of job (KB)
+...
+010 (2909019.000.000) 03/28 23:37:55 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (2909019.000.000) 03/28 23:37:55 Image size of job updated: 30000000
+	3299  -  MemoryUsage of job (MB)
+	3378104  -  ResidentSetSize of job (KB)
+...
+011 (2909019.000.000) 03/28 23:39:31 Job was unsuspended.
+...
+006 (2909019.000.000) 03/28 23:42:41 Image size of job updated: 30000000
+	3909  -  MemoryUsage of job (MB)
+	4002184  -  ResidentSetSize of job (KB)
+...
+005 (2909019.000.000) 03/28 23:46:53 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:20:24, Sys 0 00:00:04  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:20:24, Sys 0 00:00:04  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   8864039
+	   Memory (MB)          :     3909     2198      4028
+...

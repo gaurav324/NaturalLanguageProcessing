@@ -1,0 +1,55 @@
+000 (174.000.000) 03/29 03:55:53 Job submitted from host: <128.83.120.32:34358>
+...
+001 (174.000.000) 03/29 03:56:09 Job executing on host: <128.83.139.15:45953>
+...
+006 (174.000.000) 03/29 03:56:17 Image size of job updated: 35263040
+	527  -  MemoryUsage of job (MB)
+	539456  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:01:17 Image size of job updated: 35529296
+	4994  -  MemoryUsage of job (MB)
+	5113056  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:06:17 Image size of job updated: 35529296
+	5078  -  MemoryUsage of job (MB)
+	5198988  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:11:18 Image size of job updated: 35529296
+	8941  -  MemoryUsage of job (MB)
+	9154900  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:16:19 Image size of job updated: 35529296
+	9252  -  MemoryUsage of job (MB)
+	9473244  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:21:19 Image size of job updated: 35529296
+	9288  -  MemoryUsage of job (MB)
+	9510456  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:26:20 Image size of job updated: 35529296
+	10131  -  MemoryUsage of job (MB)
+	10373908  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:31:21 Image size of job updated: 35529296
+	10198  -  MemoryUsage of job (MB)
+	10442276  -  ResidentSetSize of job (KB)
+...
+006 (174.000.000) 03/29 04:46:22 Image size of job updated: 35529296
+	10347  -  MemoryUsage of job (MB)
+	10594884  -  ResidentSetSize of job (KB)
+...
+005 (174.000.000) 03/29 07:10:20 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 03:55:30, Sys 0 00:00:17  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 03:55:30, Sys 0 00:00:17  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   1703332
+	   Memory (MB)          :    10347        1     12899
+...

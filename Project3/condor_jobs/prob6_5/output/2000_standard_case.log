@@ -1,0 +1,51 @@
+000 (168.000.000) 03/29 03:55:32 Job submitted from host: <128.83.120.32:34358>
+...
+001 (168.000.000) 03/29 03:55:41 Job executing on host: <128.83.139.15:45953>
+...
+006 (168.000.000) 03/29 03:55:50 Image size of job updated: 35263040
+	28  -  MemoryUsage of job (MB)
+	28208  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:00:51 Image size of job updated: 35529296
+	4781  -  MemoryUsage of job (MB)
+	4895012  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:05:51 Image size of job updated: 35529296
+	5101  -  MemoryUsage of job (MB)
+	5223276  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:10:51 Image size of job updated: 35529296
+	9157  -  MemoryUsage of job (MB)
+	9375788  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:15:52 Image size of job updated: 35529296
+	9364  -  MemoryUsage of job (MB)
+	9588048  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:20:53 Image size of job updated: 35529296
+	9637  -  MemoryUsage of job (MB)
+	9868136  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:25:53 Image size of job updated: 35529296
+	10305  -  MemoryUsage of job (MB)
+	10551380  -  ResidentSetSize of job (KB)
+...
+006 (168.000.000) 03/29 04:30:54 Image size of job updated: 35529296
+	10357  -  MemoryUsage of job (MB)
+	10604628  -  ResidentSetSize of job (KB)
+...
+005 (168.000.000) 03/29 06:01:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 02:22:52, Sys 0 00:00:14  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:22:52, Sys 0 00:00:14  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   1703332
+	   Memory (MB)          :    10357        1     12899
+...

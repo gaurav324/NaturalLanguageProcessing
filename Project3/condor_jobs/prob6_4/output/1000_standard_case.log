@@ -1,0 +1,51 @@
+000 (124.000.000) 03/29 02:55:11 Job submitted from host: <128.83.120.32:34358>
+...
+001 (124.000.000) 03/29 02:55:23 Job executing on host: <128.83.144.29:38842>
+...
+006 (124.000.000) 03/29 02:55:31 Image size of job updated: 104392
+	3  -  MemoryUsage of job (MB)
+	2176  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:00:31 Image size of job updated: 34831496
+	4692  -  MemoryUsage of job (MB)
+	4804196  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:05:32 Image size of job updated: 34831496
+	8791  -  MemoryUsage of job (MB)
+	9001316  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:10:32 Image size of job updated: 34831496
+	10228  -  MemoryUsage of job (MB)
+	10473136  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:15:32 Image size of job updated: 34831496
+	10243  -  MemoryUsage of job (MB)
+	10488436  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:20:33 Image size of job updated: 34831496
+	10330  -  MemoryUsage of job (MB)
+	10577592  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:25:34 Image size of job updated: 34831496
+	10377  -  MemoryUsage of job (MB)
+	10625560  -  ResidentSetSize of job (KB)
+...
+006 (124.000.000) 03/29 03:35:34 Image size of job updated: 34831496
+	10427  -  MemoryUsage of job (MB)
+	10676276  -  ResidentSetSize of job (KB)
+...
+005 (124.000.000) 03/29 05:12:50 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 02:50:49, Sys 0 00:00:16  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 02:50:49, Sys 0 00:00:16  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   1253040
+	   Memory (MB)          :    10427        1     10751
+...

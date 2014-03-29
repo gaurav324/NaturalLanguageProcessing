@@ -1,0 +1,45 @@
+000 (089.000.000) 03/28 23:34:59 Job submitted from host: <128.83.120.32:34358>
+...
+001 (089.000.000) 03/28 23:35:03 Job executing on host: <128.83.144.151:38237>
+...
+006 (089.000.000) 03/28 23:35:11 Image size of job updated: 27367024
+	18  -  MemoryUsage of job (MB)
+	17944  -  ResidentSetSize of job (KB)
+...
+010 (089.000.000) 03/28 23:37:14 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (089.000.000) 03/28 23:37:14 Image size of job updated: 27700032
+	315  -  MemoryUsage of job (MB)
+	321916  -  ResidentSetSize of job (KB)
+...
+011 (089.000.000) 03/28 23:40:36 Job was unsuspended.
+...
+010 (089.000.000) 03/28 23:43:55 Job was suspended.
+	Number of processes actually suspended: 1
+...
+006 (089.000.000) 03/28 23:43:55 Image size of job updated: 27700032
+	691  -  MemoryUsage of job (MB)
+	706568  -  ResidentSetSize of job (KB)
+...
+011 (089.000.000) 03/28 23:48:24 Job was unsuspended.
+...
+006 (089.000.000) 03/28 23:50:12 Image size of job updated: 27700032
+	999  -  MemoryUsage of job (MB)
+	1022580  -  ResidentSetSize of job (KB)
+...
+005 (089.000.000) 03/28 23:52:12 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:06:25, Sys 0 00:00:02  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:06:25, Sys 0 00:00:02  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated
+	   Cpus                 :                 1         1
+	   Disk (KB)            :       10       10   8864036
+	   Memory (MB)          :      999        1      4028
+...
