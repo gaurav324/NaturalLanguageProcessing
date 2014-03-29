@@ -96,10 +96,10 @@ class DomainAdapterParser {
 		LexicalizedParser retrained_lp = LexicalizedParser.trainFromTreebank(trainTreeBank, null, op);
 		System.out.println("Retraining done.");
 		
-		Treebank testTreeBank = op.tlpParams.testMemoryTreebank();
+		Treebank testTreeBank = op.tlpParams.memoryTreebank();
 		testTreeBank.loadPath(args[2], null);
 		
-		System.out.println("Evaluate tree bank.");
+		System.out.println("Evaluate tree bank of the size: " + testTreeBank.size());
 		EvaluateTreebank evaluator = new EvaluateTreebank(retrained_lp);
 	    evaluator.testOnTreebank(testTreeBank);	
 	}
