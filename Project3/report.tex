@@ -65,11 +65,11 @@ Here we performed three different tests while varying the nunber of sentences in
 
 \textbf {In-domain testing Vs. out-of-domain testing}
 
-Without any domain adaptation, on average, there is 7.57\% drop in F1 score from in-domain testing to out-domain testing.
+Without any domain adaptation, on average, there is 7.57\% drop in F1 score from in-domain testing to out-of-domain testing. However, for 35,000 sentence we still see roughly 80 F1 score in out-of-domain testing. This reflects that domain of Brown and WSJ corpus, are distant, but not distant enough.
 
 \textbf {Impact of unsupervised domain adaptation on out-of-domain testing}
 
-On average there is an increase of 2.16\% when we do unsupervised domain adaptation. However, percentage increase decreases, as we keep on increasing the seed-data. For instance, for 1000 seed sentences, percentage increase is 3.67\% and for 35000 percentage increase is only 0.96\%. This signifies the impact of domain adaptation is less when we have large amount of seed data.
+On average there is an increase of 2.16\% when we do unsupervised domain adaptation. However, percentage increase decreases, as we keep on increasing the seed-data. For instance, for 1000 seed sentences, percentage increase is 3.67\% and for 35000 percentage increase is only 0.96\%. This signifies the impact of domain adaptation is lesser when we have large amount of seed data.
 
 \textbf {Impact of seed size.}
 
@@ -84,13 +84,24 @@ Here is the table having all the values for this experiment:
 \label{accuracy}
 \end{figure}
 
-Column-1 shows the seed size. Column-2 shows F1 score, where, normal training on WSJ, self-training on Brown, and then testing on Brown. Column-3 shows F1 score, with normal training on WSJ and testing on Brown. Column-4 shows F1 score, where, normal training and testing on WSJ. Column-5 represents percentage drop in F1 score from in-domain to out-domain testing. Column-6 shows percentage increase in F1 score with unsupervised domain adaptation on baseline out-of-domain testing.
+
+\underline{OI Brown}: F1 score, where, normal training on WSJ, self-training on Brown, and then testing on Brown.
+
+\underline{No Self-Training/Brown}: F1 score, with normal training on WSJ and testing on Brown. 
+
+\underline{No Self-Training/WSJ}: F1 score, where, normal training and testing on WSJ. 
+
+\underline{\% Drop I-O testing}: Percentage drop in F1 score from in-domain to out-domain testing. 
+
+\underline{\% Adaption Increase}: Percentage increase in F1 score with unsupervised domain adaptation on baseline out-of-domain testing.
 
 \newpage
 
 \subsection {Varying size of self-supervised Brown training sets.}
 
 Here, we fixed the WSJ seed size to 10,000 sentences and varied the size of self-supervised training data. Increasing size of self-supervised training data hardly increases F1 score. For 1000 sentences, F1 score is 76.91 and for 21,000 sentences, F1 score is 78.01. There is very little increase with increase in count of training data size.
+
+These numbers come as no surprise and were totally expected. If we observe the previous experiment, F1 score with 10000 WSJ seed sentences, for baseline case is 76.75 and score with self-learning over entire Brown training set is 78.11. Therefore, in this experiment F1 score had to move between these two numbers only and that is exactly what is happening.
 
 \begin{figure}[ht!]
 \centering
@@ -113,7 +124,7 @@ Here we perform the same three tests, as we had performed while varying the WSJ 
 
 \textbf {Impact of inverting the "source" and "target"}
 
-Most of the observations are similar to our previous test for WSJ. However, if we observe the graph carefully, gap between blue and red lines have increased. This tells us that percentage increase of F1 values with self-trained data is higher in comparison to previous WSJ test. 
+Most of the observations are similar to our previous test for WSJ. However, if we observe the graph carefully, gap between blue and red lines has increased. This tells us that percentage increase of F1 values with self-trained data is higher in comparison to previous WSJ test. 
 
 This means that, domain adaptation is more helpful for WSJ data set in comparison to Brown data set. I surmise this happens because WSJ is not a diverse dataset and has data only pertaining to the financial world. Therefore, as the term "domain adaptation" suggests, when addition of self-trained WSJ data, F1 score on test data increases. Moreover, this increase is higher in comparison to self-adaptation on Brown data as that is a diverse data set.
 
@@ -140,7 +151,15 @@ Here is the table having all the values for this experiment:
 \label{accuracy}
 \end{figure}
 
-Column-1 shows the seed size. Column-2 shows F1 score, where, normal training on Brown, self-training on WSJ, and then testing on WSJ. Column-3 shows F1 score, with normal training on Brown and testing on WSJ. Column-4 shows F1 score, where, normal training and testing on Brown. Column-5 represents percentage drop in F1 score from in-domain to out-domain testing. Column-6 shows percentage increase in F1 score with unsupervised domain adaptation on baseline out-of-domain testing.
+\underline{OI WSJ}: F1 score, where, normal training on Brown, self-training on WSJ, and then testing on WSJ. 
+
+\underline{No Self-Training/WSJ}:  F1 score, with normal training on Brown and testing on WSJ. 
+
+\underline{No Self-Training/Brown}:  F1 score, where, normal training and testing on Brown. 
+
+\underline{\% Drop I-O testing}: Percentage drop in F1 score from in-domain to out-domain testing.
+
+\underline{\% Adaption Increase}:  Percentage increase in F1 score with unsupervised domain adaptation on baseline out-of-domain testing.
 
 \newpage
 
@@ -148,6 +167,7 @@ Column-1 shows the seed size. Column-2 shows F1 score, where, normal training on
 
 Here, we fixed the Brown seed size to 10,000 sentences and varied the size of self-supervised WSJ training data. Increasing size of self-supervised training data hardly increases F1 score. For 1000 sentences, F1 score is 75.82 and for 35,000 sentences, F1 score is 77.86. There is very little increase with increase in count of training data size.
 
+As we discussed earlier, these numbers also range between Baseline and self-training over entire training set.
 \begin{figure}[ht!]
 \centering
 \includegraphics[width=140mm]{exp4.png}
@@ -157,7 +177,9 @@ Here, we fixed the Brown seed size to 10,000 sentences and varied the size of se
 
 \section{Comparison with Reichart and Rappoport paper for OI setting}
 
-Our results corroborate with the results of paper. As discussed in the paper, there is consistent increase in the F1 score with self-training data for the OI setting. As we also observed, percentage increase in F1 number is higher for smaller seed data. This implies that, if we have less manually annotated data, we can self-train using un-annotated data from test domain, which would help increase the F1 score.
+Our results corroborate with the results of paper. As discussed in the paper, there is consistent increase in the F1 score with self-training data for the OI setting. As we also observed, percentage increase in F1 number is higher for smaller seed data. This implies that, if we have less manually annotated data, we can self-train using un-annotated data from test domain, which would help to increase the F1 score.
+
+Also, as the paper suggested, F1 score for self-training data would always be better than the baseline case and upper bounded by In-domain testing numbers. This is what we also observed in Figure 1 and Figure 4.
 
 \end{document}
 
