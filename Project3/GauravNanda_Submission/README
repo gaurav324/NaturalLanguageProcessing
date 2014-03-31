@@ -1,0 +1,24 @@
+Files included:
+    - SentenceExtractor.java (Pre-Preprocessing)
+    - SplitBrown.java (Pre-Processing)
+    - DomainAdapterParser.java (Wrapper over lexicalized parser.)
+    - report.pdf (Pdf report)
+    - result.xlsx (File having all the results. Just in case, if want to verify)
+    - condor_templates ( I had created templates for each test we wanted to run. So, one just had to pass the number of seed sentences as argument and submit the job. Submitting these templates, as they demonstrate what commands I exactly executed)
+
+Some of the sample commands:
+
+# Splits Brown into two components, train and test.
+$ java -cp "./stanford-parser-full-2014-01-04:./stanford-parser-full-2014-01-04/stanford-parser.jar:" SplitBrown ./brown ./brown_preprocessed/
+
+# Reads in 90% brown training file and produces split from 1 to 21,000 in the range of 1000.
+$ java -cp "stanford-parser-full-2014-01-04/:stanford-parser-full-2014-01-04/stanford-parser.jar" SentenceExtractor ./brown_preprocessed/train_file ./brown_preprocessed/split 21002
+
+# Self-Adaptive training and testing, for 1000 WSJ seed sentences. This command would have been executed by the condor_job. 4 in the end represents the number of threads.
+$ java -cp "stanford-parser-full-2014-01-04/:stanford-parser-full-2014-01-04/stanford-parser.jar" DomainAdapterParser /u/nanda/nlp/repo/Project3/wsj_preprocessed/split_1000 /u/nanda/nlp/repo/Project3/brown_preprocessed/train_file /u/nanda/nlp/repo/Project3/brown_preprocessed/test_file 4 
+
+# BaseLine case for 1000 WSJ seed sentences. "NO ADAPTATION" tells that no self-training has to be done. Last multi-threading argument is useless here, we can even leave that.
+$ java -cp "stanford-parser-full-2014-01-04/:stanford-parser-full-2014-01-04/stanford-parser.jar" DomainAdapterParser /u/nanda/nlp/repo/Project3/wsj_preprocessed/split_1000 NOADAPTION /u/nanda/nlp/repo/Project3/brown_preprocessed/test_file 4 
+
+# In-domain testing for 1000 WSJ sentences.
+$ java -cp "stanford-parser-full-2014-01-04/:stanford-parser-full-2014-01-04/stanford-parser.jar" DomainAdapterParser /u/nanda/nlp/repo/Project3/wsj_preprocessed/split_1000 NOADAPTION /u/nanda/nlp/repo/Project3/wsj_not_wanted/23
